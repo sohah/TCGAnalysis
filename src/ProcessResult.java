@@ -12,6 +12,6 @@ public class ProcessResult {
 
         CollectExecutionStats.execute(CoverageStatsType.ExecStat, benchmark, dir);
         CollectExecutionStats.execute(CoverageStatsType.ThreadStat, benchmark, dir);
-        CollectPerfStats.execute(benchmark);
+        CollectPerfStats.execute(benchmark, dir);
     }
 }
