@@ -1,0 +1,2 @@
+ThreadNum , NewOblgCount
+1,65

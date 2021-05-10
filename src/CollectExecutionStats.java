@@ -6,12 +6,13 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.stream.Collectors;
 
 public class CollectExecutionStats {
 
     static HashMap<String, ArrayList<String>> execStatsHashMap = new HashMap<>();
 
-    public CollectExecutionStats(String filename, String benchmark, String jrOrSpf, String mode, String batchOrSingle, String steps) throws IOException {
+        public CollectExecutionStats(String filename, String benchmark, String jrOrSpf, String mode, String batchOrSingle, String steps) throws IOException {
         String entryName = benchmark + "_" + jrOrSpf + "_" + mode + "_" + batchOrSingle + "_" + steps;
         ArrayList timeList = new ArrayList<>();
         String[] lines = Files.lines(Paths.get(filename)).toArray(String[]::new);
@@ -50,14 +51,15 @@ public class CollectExecutionStats {
                 resultFile.createNewFile();
             FileWriter fileWriter = new FileWriter(outFile);
             int maxLength = oblgOrThreadStats == CoverageStatsType.ExecStat ? findMaxTimeLength(execStatsHashMap) : 100; // it is a fixed size of hundred rows for the thread collection
-            for (HashMap.Entry entry : execStatsHashMap.entrySet()) //writes the header
+            fileWriter.write("serial,");
+            for (HashMap.Entry entry : execStatsHashMap.entrySet().stream().sorted((x,y)->x.getKey().compareTo(y.toString())).collect(Collectors.toList())) //writes the header
                 fileWriter.write((String) (entry.getKey()) + ',');
 
             fileWriter.write("\n");
 
             for (int i = 0; i < maxLength; i++) { //writes the entries.
                 fileWriter.write(i + ","); //writing the index of each entry
-                for (HashMap.Entry entry : execStatsHashMap.entrySet()) {
+                for (HashMap.Entry entry : execStatsHashMap.entrySet().stream().sorted((x,y)->x.getKey().compareTo(y.toString())).collect(Collectors.toList())) {
                     ArrayList<String> entryTimeList = (ArrayList<String>) entry.getValue();
                     fileWriter.write(i < entryTimeList.size() ? entryTimeList.get(i) + "," : ","); //ensuring no out of bout exception
                 }
