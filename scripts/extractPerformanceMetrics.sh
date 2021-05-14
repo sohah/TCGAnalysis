@@ -7,9 +7,9 @@ LOGFILE=$1
 OUTPUTFILE=$2
 PUREFILENAME=$3
 
-METRICVECTOR=$(grep -A 1 'Metrics Vector:' ${LOGFILE} | grep -v 'Metrics Vector')
+METRICVECTOR=$(grep -A 1 --binary-files=text 'Metrics Vector:' ${LOGFILE} | grep -v 'Metrics Vector')
 
-TESTCASESNUM=$(grep 'void test' ${LOGFILE} | wc -l)
+TESTCASESNUM=$(grep --binary-files=text 'void test' ${LOGFILE} | wc -l)
 
 echo ${PUREFILENAME},${METRICVECTOR},${TESTCASESNUM} >> ${OUTPUTFILE}
 echo

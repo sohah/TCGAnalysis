@@ -7,7 +7,7 @@ import java.nio.file.Paths;
  * grep -A 1 'Metrics Vector:' WBS_JR_Collect.mode3_steps7.log | grep -v 'Metrics Vector' | cat grep 'void test' WBS_JR_Collect.mode3_steps7.log
  */
 public class CollectPerfStats {
-    static String header = ("time,staticAnalysisTime,dynTime, paths, solverCount, solverTime, parseTime, cleanupTime, distinctRegion#, distinctSpfRegion#, concreteRegion#, fileDerefFail#, spfFail#, missingMethodSummFail#, otherFail#, highOrdInst#, region#,successfulInst#, concreteIns#,  InstfileDerefFail#, InstSpfFail#, InstMissingMethodSummFail#, InstOtherFail#, interestingRegionCount,numMethodSummaries ,maxBranchDepth ,maxExecPathCount, avgExecPathCount ,staticPhaseEx,instPhaseExc,unknownPhaseEx, unitTests#\n");
+    static String header = ("bench, time,staticAnalysisTime,dynTime,npaths,solverCount,totalSolverTime,parseTime,cleanupTime,DistinctVeriRegionNum,DistinctSpfRegionNum,ConcreteRegionNum,FIELDREFERNCEINSTRUCTION,SPFCASEINSTRUCTION,MISSINGMETHODSUMMARY,OTHER,hgOrdRegionInstance,regionCount,SuccInstantiations,FailedInstantiations,ConcreteInstNum,FIELDREFERNCEINSTRUCTION,SPFCASEINSTRUCTION,MISSINGMETHODSUMMARY,OTHER,interestingRegionCount,numMethodSummaries,maxBranchDepth,maxExecPathCount,avgExecPathCount,staticPhaseEx,instPhaseEx,unknownPhaseEx, unitTests\n");
 
     public CollectPerfStats(String logFileName, String resultFile) throws IOException { //runs the shell
         String scriptName = "./scripts/extractPerformanceMetrics.sh";
