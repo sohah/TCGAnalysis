@@ -12,7 +12,7 @@ public class CollectExecutionStats {
 
     static HashMap<String, ArrayList<String>> execStatsHashMap = new HashMap<>();
 
-        public CollectExecutionStats(String filename, String benchmark, String jrOrSpf, String mode, String batchOrSingle, String steps) throws IOException {
+    public CollectExecutionStats(String filename, String benchmark, String jrOrSpf, String mode, String batchOrSingle, String steps) throws IOException {
         String entryName = benchmark + "_" + jrOrSpf + "_" + mode + "_" + batchOrSingle + "_" + steps;
         ArrayList timeList = new ArrayList<>();
         String[] lines = Files.lines(Paths.get(filename)).toArray(String[]::new);
@@ -26,7 +26,9 @@ public class CollectExecutionStats {
 
     public static void execute(CoverageStatsType oblgOrThreadStats, String benchmark, String dir) throws IOException {
 
-        String resultsDir = dir + benchmark;
+//        String resultsDir = isPartialProblem ? dir + "logs/" + benchmark : dir + benchmark;
+
+        String resultsDir = dir + "logs/" + benchmark;
 
         Path[] coverageStates = Files.list(Paths.get(resultsDir)).toArray(Path[]::new);
         for (Path file : coverageStates) {
@@ -52,14 +54,14 @@ public class CollectExecutionStats {
             FileWriter fileWriter = new FileWriter(outFile);
             int maxLength = oblgOrThreadStats == CoverageStatsType.ExecStat ? findMaxTimeLength(execStatsHashMap) : 100; // it is a fixed size of hundred rows for the thread collection
             fileWriter.write("serial,");
-            for (HashMap.Entry entry : execStatsHashMap.entrySet().stream().sorted((x,y)->x.getKey().compareTo(y.toString())).collect(Collectors.toList())) //writes the header
+            for (HashMap.Entry entry : execStatsHashMap.entrySet().stream().sorted((x, y) -> x.getKey().compareTo(y.toString())).collect(Collectors.toList())) //writes the header
                 fileWriter.write((String) (entry.getKey()) + ',');
 
             fileWriter.write("\n");
 
             for (int i = 0; i < maxLength; i++) { //writes the entries.
                 fileWriter.write(i + ","); //writing the index of each entry
-                for (HashMap.Entry entry : execStatsHashMap.entrySet().stream().sorted((x,y)->x.getKey().compareTo(y.toString())).collect(Collectors.toList())) {
+                for (HashMap.Entry entry : execStatsHashMap.entrySet().stream().sorted((x, y) -> x.getKey().compareTo(y.toString())).collect(Collectors.toList())) {
                     ArrayList<String> entryTimeList = (ArrayList<String>) entry.getValue();
                     fileWriter.write(i < entryTimeList.size() ? entryTimeList.get(i) + "," : ","); //ensuring no out of bout exception
                 }

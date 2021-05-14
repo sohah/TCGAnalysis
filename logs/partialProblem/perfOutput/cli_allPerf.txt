@@ -1,0 +1,6 @@
+time,staticAnalysisTime,dynTime, paths, solverCount, solverTime, parseTime, cleanupTime, distinctRegion#, distinctSpfRegion#, concreteRegion#, fileDerefFail#, spfFail#, missingMethodSummFail#, otherFail#, highOrdInst#, region#,successfulInst#, concreteIns#,  InstfileDerefFail#, InstSpfFail#, InstMissingMethodSummFail#, InstOtherFail#, interestingRegionCount,numMethodSummaries ,maxBranchDepth ,maxExecPathCount, avgExecPathCount ,staticPhaseEx,instPhaseExc,unknownPhaseEx, unitTests#
+apacheCollect_steps1,30830,0,30830,43,3091,875,397,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0.0,0,0,0,43
+apacheJRCollect.mode2_steps1,22220,5407,16813,43,131,454,34,0,4,5,0,0,0,4,1,0,9,76,5,0,0,0,4,1,3332,269,6,10,3.444444444444444,15,4,0,43
+apacheJRCollect.mode3_steps1,26029,5740,20289,43,131,437,51,0,4,5,0,0,0,1,4,0,9,76,14,0,0,0,1,13,13002,5481,6,10,2.2222222222222223,49,49,12,43
+apacheJRCollect.mode4_steps1,20697,4763,15934,43,131,416,32,0,4,5,0,0,0,1,4,0,9,76,6,0,0,0,1,5,13002,5481,6,10,2.2222222222222223,49,17,4,43
+apacheJRCollect.mode5_steps1,22768,5160,17608,43,131,435,44,0,4,5,0,0,0,1,4,0,9,76,6,0,0,0,1,5,13002,5481,6,10,2.2222222222222223,49,17,4,43

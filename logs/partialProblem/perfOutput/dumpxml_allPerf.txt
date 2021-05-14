@@ -1,0 +1,6 @@
+time,staticAnalysisTime,dynTime, paths, solverCount, solverTime, parseTime, cleanupTime, distinctRegion#, distinctSpfRegion#, concreteRegion#, fileDerefFail#, spfFail#, missingMethodSummFail#, otherFail#, highOrdInst#, region#,successfulInst#, concreteIns#,  InstfileDerefFail#, InstSpfFail#, InstMissingMethodSummFail#, InstOtherFail#, interestingRegionCount,numMethodSummaries ,maxBranchDepth ,maxExecPathCount, avgExecPathCount ,staticPhaseEx,instPhaseExc,unknownPhaseEx, unitTests#
+nanoXMLCollect_steps1,Binary file /media/soha/DATA/git/ProcessTCG/logs/partialProblem/logs/log_dumpxml/partialproblem/nanoXMLCollect_steps1.log matches,1
+nanoXMLJRCollect.mode2_steps1,Binary file /media/soha/DATA/git/ProcessTCG/logs/partialProblem/logs/log_dumpxml/partialproblem/nanoXMLJRCollect.mode2_steps1.log matches,1
+nanoXMLJRCollect.mode3_steps1,Binary file /media/soha/DATA/git/ProcessTCG/logs/partialProblem/logs/log_dumpxml/partialproblem/nanoXMLJRCollect.mode3_steps1.log matches,1
+nanoXMLJRCollect.mode4_steps1,Binary file /media/soha/DATA/git/ProcessTCG/logs/partialProblem/logs/log_dumpxml/partialproblem/nanoXMLJRCollect.mode4_steps1.log matches,1
+nanoXMLJRCollect.mode5_steps1,Binary file /media/soha/DATA/git/ProcessTCG/logs/partialProblem/logs/log_dumpxml/partialproblem/nanoXMLJRCollect.mode5_steps1.log matches,1

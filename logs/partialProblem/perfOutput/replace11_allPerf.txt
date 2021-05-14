@@ -1,0 +1,6 @@
+time,staticAnalysisTime,dynTime, paths, solverCount, solverTime, parseTime, cleanupTime, distinctRegion#, distinctSpfRegion#, concreteRegion#, fileDerefFail#, spfFail#, missingMethodSummFail#, otherFail#, highOrdInst#, region#,successfulInst#, concreteIns#,  InstfileDerefFail#, InstSpfFail#, InstMissingMethodSummFail#, InstOtherFail#, interestingRegionCount,numMethodSummaries ,maxBranchDepth ,maxExecPathCount, avgExecPathCount ,staticPhaseEx,instPhaseExc,unknownPhaseEx, unitTests#
+replaceCollect_steps1,5006,0,5006,90,650,202,116,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0.0,0,0,0,90
+replaceJR_Collect.mode2_steps1,Binary file /media/soha/DATA/git/ProcessTCG/logs/partialProblem/logs/log_replace11/partialproblem/replaceJR_Collect.mode2_steps1.log matches,1
+replaceJR_Collect.mode3_steps1,Binary file /media/soha/DATA/git/ProcessTCG/logs/partialProblem/logs/log_replace11/partialproblem/replaceJR_Collect.mode3_steps1.log matches,1
+replaceJR_Collect.mode4_steps1,Binary file /media/soha/DATA/git/ProcessTCG/logs/partialProblem/logs/log_replace11/partialproblem/replaceJR_Collect.mode4_steps1.log matches,1
+replaceJR_Collect.mode5_steps1,Binary file /media/soha/DATA/git/ProcessTCG/logs/partialProblem/logs/log_replace11/partialproblem/replaceJR_Collect.mode5_steps1.log matches,1

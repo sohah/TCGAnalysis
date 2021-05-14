@@ -9,8 +9,8 @@ import java.nio.file.Paths;
 public class CollectPerfStats {
     static String header = ("time,staticAnalysisTime,dynTime, paths, solverCount, solverTime, parseTime, cleanupTime, distinctRegion#, distinctSpfRegion#, concreteRegion#, fileDerefFail#, spfFail#, missingMethodSummFail#, otherFail#, highOrdInst#, region#,successfulInst#, concreteIns#,  InstfileDerefFail#, InstSpfFail#, InstMissingMethodSummFail#, InstOtherFail#, interestingRegionCount,numMethodSummaries ,maxBranchDepth ,maxExecPathCount, avgExecPathCount ,staticPhaseEx,instPhaseExc,unknownPhaseEx, unitTests#\n");
 
-    public CollectPerfStats(String logFileName, String resultFile, String parentLogDir) throws IOException { //runs the shell
-        String scriptName = parentLogDir + "../scripts/extractPerformanceMetrics.sh";
+    public CollectPerfStats(String logFileName, String resultFile) throws IOException { //runs the shell
+        String scriptName = "./scripts/extractPerformanceMetrics.sh";
         String commands[] = new String[]{scriptName, logFileName, resultFile, (logFileName.substring(logFileName.lastIndexOf("/") + 1)).replace(".log", "")};
 
         Runtime rt = Runtime.getRuntime();
@@ -23,16 +23,18 @@ public class CollectPerfStats {
         }
     }
 
-    public static void execute(String benchmark, String parentLogDir) throws IOException {
+    public static void execute(String benchmark, String parentLogDir, boolean isPartialProblem) throws IOException {
         String resultsDir = parentLogDir + "perfOutput";
 
+        if (!Files.exists(Paths.get(resultsDir)))
+            Files.createDirectory(Paths.get(resultsDir));
         String resultFile = preparePerfLogFile(resultsDir, benchmark);
-        String logFile = parentLogDir + "/log_"+benchmark;
+        String logFile = isPartialProblem ? parentLogDir + "logs/log_" + benchmark + "/partialproblem" : parentLogDir + "logs/log_" + benchmark;
         Path[] coverageStates = Files.list(Paths.get(logFile)).toArray(Path[]::new);
         for (Path file : coverageStates) {
             String logFileName = file.toString();
 //            if (!logFileName.contains("Perf"))
-                new CollectPerfStats(logFileName, resultFile, parentLogDir);
+            new CollectPerfStats(logFileName, resultFile);
 
         }
     }

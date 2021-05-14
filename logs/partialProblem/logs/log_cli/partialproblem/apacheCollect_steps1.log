@@ -1,0 +1,2167 @@
+symbolic.min_int=-2147483648
+symbolic.min_long=-9223372036854775808
+symbolic.min_short=-32768
+symbolic.min_byte=-128
+symbolic.min_char=0
+symbolic.max_int=2147483647
+symbolic.max_long=9223372036854775807
+symbolic.max_short=32767
+symbolic.max_byte=127
+symbolic.max_char=65535
+symbolic.min_double=4.9E-324
+symbolic.max_double=1.7976931348623157E308
+* Warning: either invalid or no veritestingMode specified.
+* Warning: set veritestingMode to 1 to use vanilla SPF with VeritestingListener
+* Warning: set veritestingMode to 2 to use veritesting
+* Warning: set veritestingMode to 3 to use veritesting with higher order regions
+* Warning: set veritestingMode to 4 to use veritesting with higher order regions and SPFCases
+* Warning: resetting veritestingMode to 0 (aka use vanilla SPF)
+JavaPathfinder core system v8.0 (rev e734381a6e606354034111dc855be9a8e454ce71) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+tcgbenchmarks.apachecli.CLI.main()
+
+====================================================== search started: 5/13/21 6:07 PM
+---- CoverageMode = SPF, solver = z3bitvectorinc, benchmark= CLI, STEPS 1
+invokespecial < Application, Ltcgbenchmarks/apachecli/UnrecognizedOptionException, <init>(Ljava/lang/String;C)V > 10,19,2 @41 exception:20 is not defined in the class hierarchy, thus not a user code, ignoring
+invokespecial < Application, Ltcgbenchmarks/apachecli/AlreadySelectedException, <init>(Ltcgbenchmarks/apachecli/OptionGroup;Ltcgbenchmarks/apachecli/Option;)V > 34,1,2 @89 exception:35 is not defined in the class hierarchy, thus not a user code, ignoring
+invokespecial < Application, Ltcgbenchmarks/apachecli/MissingArgumentException, <init>(Ltcgbenchmarks/apachecli/Option;)V > 31,2 @131 exception:32 is not defined in the class hierarchy, thus not a user code, ignoring
+invokespecial < Application, Ltcgbenchmarks/apachecli/MissingOptionException, <init>(Ljava/util/List;)V > 8,10 @24 exception:11 is not defined in the class hierarchy, thus not a user code, ignoring
+invokevirtual < Application, Ljava/text/ParseException, printStackTrace()V > 35 @112 exception:36 is not defined in the class hierarchy, thus not a user code, ignoring
+|-|-|-|-|-|-|-|-|-|-|-|-finished obligation collection|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+tcgbenchmarks.apachecli.UnrecognizedOptionException: Unrecognized option: a
+	at tcgbenchmarks.apachecli.Parser.processOption(Parser.java:456)
+	at tcgbenchmarks.apachecli.Parser.parse(Parser.java:209)
+	at tcgbenchmarks.apachecli.Parser.parse(Parser.java:110)
+	at tcgbenchmarks.apachecli.CLI.execute(CLI.java:75)
+	at tcgbenchmarks.apachecli.CLI.mainProcess(CLI.java:66)
+	at tcgbenchmarks.apachecli.CLI.main(CLI.java:14)
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+A	
+B	
+C	
+D	
+E	
+F	
+G	
+H	
+I	
+J	
+K	
+L	
+
+====================================================== VeritestingListener report:
+Encountered Veritesting Regions in veriRegions (i.e., VeriTestingMain.veriRegions size) = 0
+
+/************************ Printing Exception Statistics *****************
+Static Analysis exceptions count = 0
+Instantiation Time exceptions count = 0
+Unknown phases exception count = 0
+
+
+/************************ Printing Time Decomposition Statistics *****************
+static analysis time = 0 msec
+Veritesting Dyn Time = 30830 msec
+Veritesting fix-point Time = 0 msec
+GoTo rewrite instances = 0
+
+/************************ Printing Solver Statistics *****************
+Total Solver Queries Count = 3091
+Total Solver Time = 875 msec
+Total Solver Parse Time = 397 msec
+Region Summary Parse Time = 0 msec
+Total Solver Clean up Time = 2 msec
+PCSatSolverCount = 0
+PCSatSolverTime = 0 msec
+Constant Propagation Time for PC sat. checks = 0
+Array SPF Case count = 0
+If-removed count = 0
+
+/************************ Printing Region Statistics *****************
+Number of Distinct Veritested Regions = 0
+Number of Distinct Un-Veritested Symbolic Regions = 0
+Number of Distinct Failed Regions for Field Reference = 0
+Number of Distinct Failed Regions for SPFCases = 0
+Number of Distinct Failed Regions for missing method summaries = 0
+Number of Distinct Failed Regions for Other Reasons = 0
+Number of High Order Regions Used = 0
+
+/************************ Printing Instantiation Statistics *****************
+Number of successful instantiations = 0
+Total Number of unsuccessful instantiations = 0
+Number of failed instantiations due to Field Reference = 0
+Number of failed instantiations due to SPFCases = 0
+Number of failed instantiations due to missing method summaries = 0
+Number of failed instantiations due to Other Reasons = 0
+
+
+Number of Veritested Regions Instances = 0
+Printing keys of regions that were instantiated at least once
+Finished printing keys of regions that were instantiated at least once
+
+Metrics Vector:
+30830,0,30830,43,3091,875,397,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0.0,0,0,0
+
+====================================================== Branch Coverage report:
+Obligation -----> Coverage:
+tcgbenchmarks.apachecli.Parser.processArgs(Ltcgbenchmarks/apachecli/Option;Ljava/util/ListIterator;)V.35.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.337.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.addOption(Ltcgbenchmarks/apachecli/Option;)V.70.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.addOption(Ltcgbenchmarks/apachecli/Option;)V.13.TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.145.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.helpOptions()Ljava/util/List;.15.TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.processArgs(Ltcgbenchmarks/apachecli/Option;Ljava/util/ListIterator;)V.65.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.shortOptsGet(C)Ltcgbenchmarks/apachecli/Option;.30.TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.processArgs(Ltcgbenchmarks/apachecli/Option;Ljava/util/ListIterator;)V.123.TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.shortOptsContain_get(C)Z.6.TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processOption(CLjava/util/ListIterator;)V.71.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.283.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.CommandLine.resolveOption(C)Ltcgbenchmarks/apachecli/Option;.20.TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.optionGroupsContain(C)Z.30.TAKEN -----> false 
+tcgbenchmarks.apachecli.Option.hasArg()Z.20.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.315.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.longOptsGet(C)Ltcgbenchmarks/apachecli/Option;.6.TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.shortOptsContain_get(C)Z.16.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.optionGroupsGet(C)Ltcgbenchmarks/apachecli/OptionGroup;.30.TAKEN -----> false 
+tcgbenchmarks.apachecli.OptionValidator.isValidChar(C)Z.15.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.200.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.processArgs(Ltcgbenchmarks/apachecli/Option;Ljava/util/ListIterator;)V.81.TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.longOptsContain(C)Z.30.TAKEN -----> false 
+tcgbenchmarks.apachecli.OptionValidator.isValidOpt(C)Z.24.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.longOptsContain(C)Z.16.TAKEN -----> false 
+tcgbenchmarks.apachecli.CommandLine.resolveOption(C)Ltcgbenchmarks/apachecli/Option;.20.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.longOptsGet(C)Ltcgbenchmarks/apachecli/Option;.16.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processProperties(Ljava/util/Properties;)V.57.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.OptionValidator.isValidChar(C)Z.33.TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processProperties(Ljava/util/Properties;)V.22.TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.addOption(Ltcgbenchmarks/apachecli/Option;)V.107.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.optionGroupsGet(C)Ltcgbenchmarks/apachecli/OptionGroup;.30.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Option.hasArg()Z.20.TAKEN -----> true 
+tcgbenchmarks.apachecli.Option.add(C)Z.4.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Option.add(C)Z.32.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.OptionValidator.isValidOpt(C)Z.18.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.CommandLine.resolveOption(C)Ltcgbenchmarks/apachecli/Option;.60.TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.145.TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.200.TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.shortOptsGet(C)Ltcgbenchmarks/apachecli/Option;.16.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.processArgs(Ltcgbenchmarks/apachecli/Option;Ljava/util/ListIterator;)V.8.TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processProperties(Ljava/util/Properties;)V.152.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.shortOptsGet(C)Ltcgbenchmarks/apachecli/Option;.6.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.processProperties(Ljava/util/Properties;)V.184.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Option.hasArg()Z.6.TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.283.TAKEN -----> false 
+tcgbenchmarks.apachecli.OptionValidator.isValidOpt(C)Z.18.TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processArgs(Ltcgbenchmarks/apachecli/Option;Ljava/util/ListIterator;)V.112.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.longOptsGet(C)Ltcgbenchmarks/apachecli/Option;.6.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.OptionGroup.setSelected(Ltcgbenchmarks/apachecli/Option;)V.54.TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processProperties(Ljava/util/Properties;)V.196.TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.shortOptsContain(C)Z.28.TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.checkRequiredOptions()V.13.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.OptionValidator.isValidChar(C)Z.33.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Option.hasArg()Z.6.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.optionGroupsGet(C)Ltcgbenchmarks/apachecli/OptionGroup;.16.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.hasOption(C)Z.21.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processProperties(Ljava/util/Properties;)V.208.TAKEN -----> false 
+tcgbenchmarks.apachecli.Option.add(C)Z.32.TAKEN -----> false 
+tcgbenchmarks.apachecli.CLI.execute(Ltcgbenchmarks/apachecli/Options;[[CZ)V.45.TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.optionGroupsContain(C)Z.16.TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processProperties(Ljava/util/Properties;)V.3.TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.shortOptsContain(C)Z.34.TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.longOptsContain(C)Z.30.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.337.TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.187.TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.processProperties(Ljava/util/Properties;)V.196.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processProperties(Ljava/util/Properties;)V.142.TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.longOptsGet(C)Ltcgbenchmarks/apachecli/Option;.30.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.OptionValidator.isValidChar(C)Z.9.TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.processProperties(Ljava/util/Properties;)V.208.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.205.TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.29.TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.longOptsGet(C)Ltcgbenchmarks/apachecli/Option;.30.TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processProperties(Ljava/util/Properties;)V.90.TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processProperties(Ljava/util/Properties;)V.102.TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.shortOptsGet(C)Ltcgbenchmarks/apachecli/Option;.16.TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processOption(CLjava/util/ListIterator;)V.103.TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.addOption(Ltcgbenchmarks/apachecli/Option;)V.70.TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.shortOptsContain(C)Z.28.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.processProperties(Ljava/util/Properties;)V.112.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.315.TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.addOption(Ltcgbenchmarks/apachecli/Option;)V.30.TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.optionGroupsContain(C)Z.30.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.CommandLine.resolveOption(C)Ltcgbenchmarks/apachecli/Option;.60.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.shortOptsGet(C)Ltcgbenchmarks/apachecli/Option;.30.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.shortOptsContain_get(C)Z.28.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.365.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.addOption(Ltcgbenchmarks/apachecli/Option;)V.155.TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processOption(CLjava/util/ListIterator;)V.126.TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processArgs(Ltcgbenchmarks/apachecli/Option;Ljava/util/ListIterator;)V.112.TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processProperties(Ljava/util/Properties;)V.102.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.getOption(C)Ltcgbenchmarks/apachecli/Option;.9.TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.optionGroupsContain(C)Z.6.TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.228.TAKEN -----> true 
+tcgbenchmarks.apachecli.OptionValidator.isValidChar(C)Z.3.TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.getOption(C)Ltcgbenchmarks/apachecli/Option;.9.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.optionGroupsGet(C)Ltcgbenchmarks/apachecli/OptionGroup;.6.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.hasOption(C)Z.21.TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.processArgs(Ltcgbenchmarks/apachecli/Option;Ljava/util/ListIterator;)V.8.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.114.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Option.add(C)Z.4.TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processOption(CLjava/util/ListIterator;)V.126.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.159.TAKEN -----> false 
+tcgbenchmarks.apachecli.OptionValidator.isValidChar(C)Z.27.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.helpOptions()Ljava/util/List;.15.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.hasOption(C)Z.9.TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.addOption(Ltcgbenchmarks/apachecli/Option;)V.13.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.longOptsContain(C)Z.16.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processOption(CLjava/util/ListIterator;)V.71.TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.shortOptsContain(C)Z.6.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.shortOptsContain(C)Z.16.TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.shortOptsContain(C)Z.16.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.optionGroupsContain(C)Z.16.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processProperties(Ljava/util/Properties;)V.22.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.29.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.processProperties(Ljava/util/Properties;)V.184.TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processOption(CLjava/util/ListIterator;)V.103.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.365.TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.addOption(Ltcgbenchmarks/apachecli/Option;)V.155.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.OptionValidator.isValidChar(C)Z.3.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.processProperties(Ljava/util/Properties;)V.90.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Option.hasLongOpt()Z.8.TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.shortOptsContain_get(C)Z.16.TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.187.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Option.add(C)Z.22.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.longOptsGet(C)Ltcgbenchmarks/apachecli/Option;.16.TAKEN -----> false 
+tcgbenchmarks.apachecli.OptionValidator.isValidOpt(C)Z.24.TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.longOptsContain(C)Z.6.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.OptionValidator.validateOption(C)V.6.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processProperties(Ljava/util/Properties;)V.57.TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.shortOptsGet(C)Ltcgbenchmarks/apachecli/Option;.6.TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processArgs(Ltcgbenchmarks/apachecli/Option;Ljava/util/ListIterator;)V.65.TAKEN -----> false 
+tcgbenchmarks.apachecli.CommandLine.resolveOption(C)Ltcgbenchmarks/apachecli/Option;.44.TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processOption(CLjava/util/ListIterator;)V.157.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.checkRequiredOptions()V.13.TAKEN -----> true 
+tcgbenchmarks.apachecli.Option.getValues()[Ljava/lang/String;.6.TAKEN -----> false 
+tcgbenchmarks.apachecli.Option.getValues()[Ljava/lang/String;.6.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.shortOptsContain(C)Z.6.TAKEN -----> false 
+tcgbenchmarks.apachecli.OptionValidator.isValidChar(C)Z.9.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.241.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processProperties(Ljava/util/Properties;)V.142.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.OptionGroup.setSelected(Ltcgbenchmarks/apachecli/Option;)V.4.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Option.add(C)Z.22.TAKEN -----> false 
+tcgbenchmarks.apachecli.OptionValidator.isValidOpt(C)Z.12.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.114.TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.205.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.shortOptsContain_get(C)Z.6.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.shortOptsContain_get(C)Z.34.TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.hasOption(C)Z.9.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.OptionValidator.isValidOpt(C)Z.12.TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.optionGroupsContain(C)Z.6.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processOption(CLjava/util/ListIterator;)V.157.TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.processProperties(Ljava/util/Properties;)V.3.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.OptionValidator.isValidChar(C)Z.21.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.228.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.OptionValidator.isValidOpt(C)Z.6.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.addOption(Ltcgbenchmarks/apachecli/Option;)V.30.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processProperties(Ljava/util/Properties;)V.112.TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processProperties(Ljava/util/Properties;)V.152.TAKEN -----> false 
+tcgbenchmarks.apachecli.CommandLine.resolveOption(C)Ltcgbenchmarks/apachecli/Option;.44.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.CLI.execute(Ltcgbenchmarks/apachecli/Options;[[CZ)V.45.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.OptionValidator.isValidOpt(C)Z.6.TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.processOption(CLjava/util/ListIterator;)V.14.TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.323.TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.323.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.OptionGroup.setSelected(Ltcgbenchmarks/apachecli/Option;)V.4.TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processArgs(Ltcgbenchmarks/apachecli/Option;Ljava/util/ListIterator;)V.35.TAKEN -----> true 
+tcgbenchmarks.apachecli.OptionValidator.isValidChar(C)Z.21.TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.shortOptsContain_get(C)Z.28.TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.longOptsContain(C)Z.6.TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.processArgs(Ltcgbenchmarks/apachecli/Option;Ljava/util/ListIterator;)V.123.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.OptionValidator.validateOption(C)V.6.TAKEN -----> true 
+tcgbenchmarks.apachecli.Option.hasLongOpt()Z.8.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.processArgs(Ltcgbenchmarks/apachecli/Option;Ljava/util/ListIterator;)V.81.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.addOption(Ltcgbenchmarks/apachecli/Option;)V.107.TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.optionGroupsGet(C)Ltcgbenchmarks/apachecli/OptionGroup;.6.TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.241.TAKEN -----> false 
+tcgbenchmarks.apachecli.OptionValidator.isValidChar(C)Z.15.TAKEN -----> false 
+tcgbenchmarks.apachecli.OptionGroup.setSelected(Ltcgbenchmarks/apachecli/Option;)V.54.NOT_TAKEN -----> false 
+tcgbenchmarks.apachecli.Parser.parse(Ltcgbenchmarks/apachecli/Options;[[CLjava/util/Properties;Z)Ltcgbenchmarks/apachecli/CommandLine;.159.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Parser.processOption(CLjava/util/ListIterator;)V.14.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.OptionValidator.isValidChar(C)Z.27.TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.shortOptsContain_get(C)Z.34.NOT_TAKEN -----> true 
+tcgbenchmarks.apachecli.Options.optionGroupsGet(C)Ltcgbenchmarks/apachecli/OptionGroup;.16.TAKEN -----> false 
+tcgbenchmarks.apachecli.Options.shortOptsContain(C)Z.34.NOT_TAKEN -----> true 
+
+
+====================================================== Method Sequences
+[mainProcess('-','-','-','m','-','h','y','m',false)]
+[mainProcess('-',' ','-','m','-','h','y','m',false)]
+[mainProcess('-','a','-','m','-','h','y','m',false)]
+[mainProcess('-','b','-','m','-','h','y','m',false)]
+[mainProcess('-','c','-','m','-','h','y','m',false)]
+[mainProcess('-','d','-','m','-','h','y','m',false)]
+[mainProcess('-','e','-','m','-','h','y','m',false)]
+[mainProcess('-','f','-','m','-','h','y','m',false)]
+[mainProcess('-','g','-','m','-','h','y','m',false)]
+[mainProcess('-','h','-','m','-','h','y','m',false)]
+[mainProcess('-','i','-','m','-','h','y','m',false)]
+[mainProcess('-','j','-','m','-','h','y','m',false)]
+[mainProcess('-','k','-','m','-','h','y','m',false)]
+[mainProcess('-','l','-','m','-','h','y','m',false)]
+[mainProcess('-','m','-','m','-','h','y','m',false)]
+[mainProcess('-','n','-','m','-','h','y','m',false)]
+[mainProcess('-','o','-','m','-','h','y','m',false)]
+[mainProcess('-','p','-','m','-','h','y','m',false)]
+[mainProcess('-','q','-','m','-','h','y','m',false)]
+[mainProcess('-','r','-','m','-','h','y','m',false)]
+[mainProcess('-','s','-','m','-','h','y','m',false)]
+[mainProcess('-','t','-','m','-','h','y','m',false)]
+[mainProcess('-','u','-','m','-','h','y','m',false)]
+[mainProcess('-','v','-','m','-','h','y','m',false)]
+[mainProcess('-','w','-','m','-','h','y','m',false)]
+[mainProcess('-','x','-','m','-','h','y','m',false)]
+[mainProcess('-','y','-','m','-','h','y','m',false)]
+[mainProcess('-','z','-','m','-','h','y','m',false)]
+[mainProcess('-','A','-','m','-','h','y','m',false)]
+[mainProcess('-','B','-','m','-','h','y','m',false)]
+[mainProcess('-','C','-','m','-','h','y','m',false)]
+[mainProcess('-','D','-','m','-','h','y','m',false)]
+[mainProcess('-','E','-','m','-','h','y','m',false)]
+[mainProcess('-','F','-','m','-','h','y','m',false)]
+[mainProcess('-','G','-','m','-','h','y','m',false)]
+[mainProcess('-','H','-','m','-','h','y','m',false)]
+[mainProcess('-','I','-','m','-','h','y','m',false)]
+[mainProcess('-','J','-','m','-','h','y','m',false)]
+[mainProcess('-','K','-','m','-','h','y','m',false)]
+[mainProcess('-','L','-','m','-','h','y','m',false)]
+[mainProcess('-','䁌','-','m','-','h','y','m',false)]
+[mainProcess('\n','-','-','m','-','h','y','m',false)]
+[mainProcess('\n','\n','-','m','-','h','y','m',false)]
+
+====================================================== JUnit 4.0 test class
+import static org.junit.Assert.*;
+import org.junit.Before;
+import org.junit.Test;
+
+public class tcgbenchmarks_apachecli_CLITest {
+
+	private tcgbenchmarks.apachecli.CLI tcgbenchmarks_apachecli_cli;
+
+	@Before
+	public void setUp() throws Exception {
+		tcgbenchmarks_apachecli_cli = new tcgbenchmarks.apachecli.CLI();
+	}
+
+	@Test
+	public void test0() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','-','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test1() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-',' ','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test2() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','a','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test3() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','b','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test4() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','c','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test5() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','d','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test6() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','e','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test7() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','f','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test8() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','g','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test9() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','h','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test10() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','i','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test11() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','j','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test12() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','k','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test13() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','l','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test14() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','m','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test15() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','n','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test16() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','o','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test17() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','p','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test18() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','q','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test19() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','r','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test20() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','s','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test21() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','t','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test22() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','u','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test23() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','v','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test24() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','w','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test25() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','x','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test26() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','y','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test27() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','z','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test28() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','A','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test29() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','B','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test30() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','C','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test31() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','D','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test32() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','E','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test33() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','F','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test34() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','G','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test35() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','H','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test36() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','I','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test37() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','J','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test38() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','K','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test39() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','L','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test40() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','䁌','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test41() {
+		tcgbenchmarks_apachecli_cli.mainProcess('\n','-','-','m','-','h','y','m',false);
+	}
+
+	@Test
+	public void test42() {
+		tcgbenchmarks_apachecli_cli.mainProcess('\n','\n','-','m','-','h','y','m',false);
+	}
+}
+
+====================================================== results
+no errors detected
+
+====================================================== statistics
+elapsed time:       00:00:30
+states:             new=3050,visited=0,backtracked=3050,end=43
+search:             maxDepth=119,constraints=0
+choice generators:  thread=1 (signal=0,lock=1,sharedRef=0,threadApi=0,reschedule=0), data=1525
+heap:               new=8202,released=11954,maxLive=585,gcCycles=1567
+instructions:       534775
+max memory:         607MB
+loaded code:        classes=96,methods=2052
+
+====================================================== search finished: 5/13/21 6:08 PM
