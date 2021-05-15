@@ -1,0 +1,9 @@
+bench, time,staticAnalysisTime,dynTime,npaths,solverCount,totalSolverTime,parseTime,cleanupTime,DistinctVeriRegionNum,DistinctSpfRegionNum,ConcreteRegionNum,FIELDREFERNCEINSTRUCTION,SPFCASEINSTRUCTION,MISSINGMETHODSUMMARY,OTHER,hgOrdRegionInstance,regionCount,SuccInstantiations,FailedInstantiations,ConcreteInstNum,FIELDREFERNCEINSTRUCTION,SPFCASEINSTRUCTION,MISSINGMETHODSUMMARY,OTHER,interestingRegionCount,numMethodSummaries,maxBranchDepth,maxExecPathCount,avgExecPathCount,staticPhaseEx,instPhaseEx,unknownPhaseEx, unitTests
+partialproblem,,0
+WBSCollect_steps7,3599595,0,3599595,335608,1006840,208027,42979,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0.0,0,0,0,335608
+WBSJR_Collect.mode3NoBatch_steps7,110631,3260,107371,1,77,2658,33,0,16,1,0,0,1,0,0,0,17,65,1,0,0,1,0,0,3043,67,5,6,3.2721174004192872,1,1,0,15
+WBSJR_Collect.mode3PlainJR_steps7,6588,3761,2827,1,2,523,0,0,16,1,0,0,1,0,0,0,17,65,1,0,0,1,0,0,3043,67,5,6,3.2721174004192872,1,1,0,0
+WBS_JR_Collect.mode2_steps7,55171,3311,51860,1,8,2518,33,0,16,1,0,0,1,0,0,0,17,65,1,0,0,1,0,0,3043,67,5,6,3.2721174004192872,1,1,0,5
+WBS_JR_Collect.mode3_steps7,55641,3593,52048,1,8,2208,31,0,16,1,0,0,1,0,0,0,17,65,1,0,0,1,0,0,3043,67,5,6,3.2721174004192872,1,1,0,5
+WBS_JR_Collect.mode4_steps7,54031,2977,51054,1,8,2274,45,0,16,1,0,0,0,0,1,0,17,65,1,0,0,0,0,1,3043,67,5,6,3.2721174004192872,1,1,0,5
+WBS_JR_Collect.mode5_steps7,55284,2917,52367,1,8,2943,32,0,16,1,0,0,0,0,1,0,17,65,1,0,0,0,0,1,3043,67,5,6,3.2721174004192872,1,1,0,5
