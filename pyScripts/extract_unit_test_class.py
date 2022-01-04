@@ -15,7 +15,7 @@ for benchmark_log_dir in os.listdir(execution_log_dir):
             if 'class' not in f.name and 'mode3NoBatch' not in f.name and 'mode3PlainJR' not in f.name:
                 unit_test_class = content[content.index('import static org.junit.Assert.*;'):content.index(
                     "====================================================== results")]
-                with open(os.path.join(execution_log_dir, benchmark_log_dir, benchmark_log_file[:-4] + "_Test.java"),
+                with open(os.path.join(execution_log_dir, benchmark_log_dir, benchmark_log_file[:-4].replace('.','_') + "_Test.java"),
                           'w') as unit_test_class_file:
                     unit_test_class_file.write(unit_test_class)
 
