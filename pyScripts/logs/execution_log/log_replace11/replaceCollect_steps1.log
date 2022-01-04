@@ -1,0 +1,1203 @@
+symbolic.min_int=-2147483648
+symbolic.min_long=-9223372036854775808
+symbolic.min_short=-32768
+symbolic.min_byte=-128
+symbolic.min_char=0
+symbolic.max_int=2147483647
+symbolic.max_long=9223372036854775807
+symbolic.max_short=32767
+symbolic.max_byte=127
+symbolic.max_char=65535
+symbolic.min_double=4.9E-324
+symbolic.max_double=1.7976931348623157E308
+* Warning: either invalid or no veritestingMode specified.
+* Warning: set veritestingMode to 1 to use vanilla SPF with VeritestingListener
+* Warning: set veritestingMode to 2 to use veritesting
+* Warning: set veritestingMode to 3 to use veritesting with higher order regions
+* Warning: set veritestingMode to 4 to use veritesting with higher order regions and SPFCases
+* Warning: resetting veritestingMode to 0 (aka use vanilla SPF)
+JavaPathfinder core system v8.0 (rev e734381a6e606354034111dc855be9a8e454ce71) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+tcgbenchmarks.replace.replace11.main()
+
+====================================================== search started: 1/3/22 2:08 PM
+---- CoverageMode = SPF, solver = z3bitvector, benchmark= replace11, STEPS 1
+|-|-|-|-|-|-|-|-|-|-|-|-finished obligation collection|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
+Query #1 is = true, singleSolveTimeMs for Query = 36.444
+Query #2 is = true, singleSolveTimeMs for Query = 16.415
+Query #3 is = true, singleSolveTimeMs for Query = 15.491
+Query #4 is = true, singleSolveTimeMs for Query = 12.837
+caa2caa2athreadTerminated: 1
+Query #5 is = true, singleSolveTimeMs for Query = 20.178
+Query #6 is = true, singleSolveTimeMs for Query = 13.272
+Query #7 is = true, singleSolveTimeMs for Query = 14.330
+Challege: illegal pattern!
+threadTerminated: 2
+Query #8 is = true, singleSolveTimeMs for Query = 12.754
+Query #9 is = true, singleSolveTimeMs for Query = 17.083
+Query #10 is = true, singleSolveTimeMs for Query = 14.517
+Query #11 is = true, singleSolveTimeMs for Query = 14.240
+Query #12 is = false, singleSolveTimeMs for Query = 12.288
+Query #13 is = true, singleSolveTimeMs for Query = 11.941
+cQuery #14 is = false, singleSolveTimeMs for Query = 12.976
+Query #15 is = true, singleSolveTimeMs for Query = 14.208
+2Query #16 is = false, singleSolveTimeMs for Query = 12.852
+Query #17 is = true, singleSolveTimeMs for Query = 12.064
+aQuery #18 is = false, singleSolveTimeMs for Query = 13.706
+Query #19 is = true, singleSolveTimeMs for Query = 13.743
+&athreadTerminated: 3
+Query #20 is = true, singleSolveTimeMs for Query = 14.498
+Query #21 is = false, singleSolveTimeMs for Query = 14.648
+Query #22 is = true, singleSolveTimeMs for Query = 12.106
+Query #23 is = true, singleSolveTimeMs for Query = 11.683
+caa2threadTerminated: 4
+Query #24 is = true, singleSolveTimeMs for Query = 16.079
+Query #25 is = true, singleSolveTimeMs for Query = 16.834
+Query #26 is = true, singleSolveTimeMs for Query = 14.194
+c2a&athreadTerminated: 5
+Query #27 is = true, singleSolveTimeMs for Query = 17.669
+Query #28 is = true, singleSolveTimeMs for Query = 19.027
+Query #29 is = true, singleSolveTimeMs for Query = 13.868
+Query #30 is = true, singleSolveTimeMs for Query = 18.548
+caa2Query #31 is = false, singleSolveTimeMs for Query = 17.920
+Query #32 is = true, singleSolveTimeMs for Query = 18.751
+aQuery #33 is = false, singleSolveTimeMs for Query = 15.607
+Query #34 is = true, singleSolveTimeMs for Query = 13.154
+&athreadTerminated: 6
+Query #35 is = true, singleSolveTimeMs for Query = 14.070
+Query #36 is = true, singleSolveTimeMs for Query = 16.945
+cQuery #37 is = true, singleSolveTimeMs for Query = 14.199
+caa2Query #38 is = true, singleSolveTimeMs for Query = 16.367
+caa2threadTerminated: 7
+Query #39 is = false, singleSolveTimeMs for Query = 18.058
+Query #40 is = true, singleSolveTimeMs for Query = 15.887
+2Query #41 is = true, singleSolveTimeMs for Query = 17.937
+caa2athreadTerminated: 8
+Query #42 is = true, singleSolveTimeMs for Query = 12.230
+aQuery #43 is = false, singleSolveTimeMs for Query = 11.836
+Query #44 is = true, singleSolveTimeMs for Query = 13.213
+&athreadTerminated: 9
+Query #45 is = true, singleSolveTimeMs for Query = 13.682
+c2a&athreadTerminated: 10
+Query #46 is = true, singleSolveTimeMs for Query = 17.434
+Query #47 is = true, singleSolveTimeMs for Query = 13.514
+Query #48 is = false, singleSolveTimeMs for Query = 11.849
+Query #49 is = true, singleSolveTimeMs for Query = 18.225
+caa2caa2caa2caa2caa2threadTerminated: 11
+Query #50 is = true, singleSolveTimeMs for Query = 11.796
+Query #51 is = true, singleSolveTimeMs for Query = 13.899
+Query #52 is = true, singleSolveTimeMs for Query = 13.062
+Challege: illegal pattern!
+threadTerminated: 12
+Query #53 is = true, singleSolveTimeMs for Query = 12.455
+Query #54 is = true, singleSolveTimeMs for Query = 12.174
+Query #55 is = true, singleSolveTimeMs for Query = 12.726
+Query #56 is = true, singleSolveTimeMs for Query = 13.089
+Query #57 is = true, singleSolveTimeMs for Query = 18.534
+Challege: illegal pattern!
+threadTerminated: 13
+Query #58 is = true, singleSolveTimeMs for Query = 16.082
+Query #59 is = true, singleSolveTimeMs for Query = 11.456
+Challege: illegal pattern!
+threadTerminated: 14
+Query #60 is = true, singleSolveTimeMs for Query = 12.264
+Query #61 is = true, singleSolveTimeMs for Query = 13.907
+Query #62 is = false, singleSolveTimeMs for Query = 17.285
+Query #63 is = true, singleSolveTimeMs for Query = 18.286
+Challege: illegal pattern!
+threadTerminated: 15
+Query #64 is = true, singleSolveTimeMs for Query = 13.150
+Query #65 is = true, singleSolveTimeMs for Query = 13.680
+c2a&athreadTerminated: 16
+Query #66 is = true, singleSolveTimeMs for Query = 15.672
+Query #67 is = false, singleSolveTimeMs for Query = 17.927
+Query #68 is = true, singleSolveTimeMs for Query = 12.266
+Query #69 is = true, singleSolveTimeMs for Query = 12.540
+Query #70 is = true, singleSolveTimeMs for Query = 12.332
+Query #71 is = true, singleSolveTimeMs for Query = 17.320
+caa22a&athreadTerminated: 17
+Query #72 is = true, singleSolveTimeMs for Query = 18.618
+Query #73 is = true, singleSolveTimeMs for Query = 15.654
+Query #74 is = true, singleSolveTimeMs for Query = 11.834
+Challege: illegal pattern!
+threadTerminated: 18
+Query #75 is = true, singleSolveTimeMs for Query = 15.753
+Query #76 is = true, singleSolveTimeMs for Query = 16.672
+Query #77 is = true, singleSolveTimeMs for Query = 12.313
+Query #78 is = false, singleSolveTimeMs for Query = 19.306
+Query #79 is = true, singleSolveTimeMs for Query = 12.756
+c2a&athreadTerminated: 19
+Query #80 is = false, singleSolveTimeMs for Query = 12.598
+Query #81 is = true, singleSolveTimeMs for Query = 19.841
+Query #82 is = true, singleSolveTimeMs for Query = 15.451
+Challege: illegal pattern!
+threadTerminated: 20
+Query #83 is = true, singleSolveTimeMs for Query = 14.049
+Query #84 is = true, singleSolveTimeMs for Query = 19.437
+Query #85 is = true, singleSolveTimeMs for Query = 12.828
+c2a&athreadTerminated: 21
+Query #86 is = true, singleSolveTimeMs for Query = 14.427
+Query #87 is = true, singleSolveTimeMs for Query = 13.089
+Query #88 is = true, singleSolveTimeMs for Query = 14.099
+caa22a&athreadTerminated: 22
+Query #89 is = true, singleSolveTimeMs for Query = 14.237
+c2a&athreadTerminated: 23
+Query #90 is = true, singleSolveTimeMs for Query = 18.928
+c2a&athreadTerminated: 24
+Query #91 is = true, singleSolveTimeMs for Query = 19.418
+Query #92 is = false, singleSolveTimeMs for Query = 17.778
+Query #93 is = true, singleSolveTimeMs for Query = 11.984
+caa2c2a&athreadTerminated: 25
+Query #94 is = true, singleSolveTimeMs for Query = 19.156
+Query #95 is = true, singleSolveTimeMs for Query = 13.005
+Query #96 is = true, singleSolveTimeMs for Query = 13.414
+Query #97 is = true, singleSolveTimeMs for Query = 18.960
+Query #98 is = true, singleSolveTimeMs for Query = 13.485
+Query #99 is = true, singleSolveTimeMs for Query = 16.595
+Query #100 is = false, singleSolveTimeMs for Query = 17.751
+Query #101 is = true, singleSolveTimeMs for Query = 17.802
+cQuery #102 is = false, singleSolveTimeMs for Query = 19.489
+Query #103 is = true, singleSolveTimeMs for Query = 18.515
+2Query #104 is = false, singleSolveTimeMs for Query = 16.461
+Query #105 is = true, singleSolveTimeMs for Query = 13.435
+aQuery #106 is = false, singleSolveTimeMs for Query = 11.317
+Query #107 is = true, singleSolveTimeMs for Query = 12.850
+&Query #108 is = false, singleSolveTimeMs for Query = 11.984
+Query #109 is = true, singleSolveTimeMs for Query = 12.558
+athreadTerminated: 26
+Query #110 is = true, singleSolveTimeMs for Query = 12.584
+Query #111 is = true, singleSolveTimeMs for Query = 16.599
+Query #112 is = true, singleSolveTimeMs for Query = 11.867
+Challege: illegal pattern!
+threadTerminated: 27
+Query #113 is = true, singleSolveTimeMs for Query = 13.728
+Query #114 is = true, singleSolveTimeMs for Query = 12.215
+Query #115 is = true, singleSolveTimeMs for Query = 19.034
+Query #116 is = false, singleSolveTimeMs for Query = 18.062
+Query #117 is = true, singleSolveTimeMs for Query = 13.510
+cQuery #118 is = false, singleSolveTimeMs for Query = 18.371
+Query #119 is = true, singleSolveTimeMs for Query = 12.758
+2Query #120 is = false, singleSolveTimeMs for Query = 12.689
+Query #121 is = true, singleSolveTimeMs for Query = 12.913
+aQuery #122 is = false, singleSolveTimeMs for Query = 18.567
+Query #123 is = true, singleSolveTimeMs for Query = 18.323
+&Query #124 is = false, singleSolveTimeMs for Query = 13.665
+Query #125 is = true, singleSolveTimeMs for Query = 16.492
+athreadTerminated: 28
+Query #126 is = false, singleSolveTimeMs for Query = 17.747
+Query #127 is = true, singleSolveTimeMs for Query = 15.841
+Query #128 is = true, singleSolveTimeMs for Query = 13.126
+Query #129 is = false, singleSolveTimeMs for Query = 17.082
+Query #130 is = true, singleSolveTimeMs for Query = 16.590
+caa2cQuery #131 is = false, singleSolveTimeMs for Query = 15.334
+Query #132 is = true, singleSolveTimeMs for Query = 13.311
+caa22Query #133 is = false, singleSolveTimeMs for Query = 19.311
+Query #134 is = true, singleSolveTimeMs for Query = 18.707
+caa2aQuery #135 is = false, singleSolveTimeMs for Query = 13.267
+Query #136 is = true, singleSolveTimeMs for Query = 13.484
+caa2&Query #137 is = false, singleSolveTimeMs for Query = 13.101
+Query #138 is = true, singleSolveTimeMs for Query = 12.090
+caa2athreadTerminated: 29
+Query #139 is = true, singleSolveTimeMs for Query = 18.530
+Query #140 is = true, singleSolveTimeMs for Query = 14.839
+Query #141 is = true, singleSolveTimeMs for Query = 17.457
+Query #142 is = false, singleSolveTimeMs for Query = 19.198
+Query #143 is = true, singleSolveTimeMs for Query = 13.390
+cQuery #144 is = false, singleSolveTimeMs for Query = 15.951
+Query #145 is = true, singleSolveTimeMs for Query = 13.902
+2Query #146 is = false, singleSolveTimeMs for Query = 12.415
+Query #147 is = true, singleSolveTimeMs for Query = 14.829
+aQuery #148 is = false, singleSolveTimeMs for Query = 13.734
+Query #149 is = true, singleSolveTimeMs for Query = 19.346
+&Query #150 is = false, singleSolveTimeMs for Query = 13.149
+Query #151 is = true, singleSolveTimeMs for Query = 11.450
+athreadTerminated: 30
+Query #152 is = true, singleSolveTimeMs for Query = 13.361
+Query #153 is = true, singleSolveTimeMs for Query = 14.368
+Query #154 is = false, singleSolveTimeMs for Query = 16.848
+Query #155 is = true, singleSolveTimeMs for Query = 12.626
+cQuery #156 is = false, singleSolveTimeMs for Query = 13.122
+Query #157 is = true, singleSolveTimeMs for Query = 14.829
+2Query #158 is = false, singleSolveTimeMs for Query = 12.144
+Query #159 is = true, singleSolveTimeMs for Query = 23.926
+aQuery #160 is = false, singleSolveTimeMs for Query = 13.890
+Query #161 is = true, singleSolveTimeMs for Query = 15.334
+&Query #162 is = false, singleSolveTimeMs for Query = 14.943
+Query #163 is = true, singleSolveTimeMs for Query = 14.601
+athreadTerminated: 31
+Query #164 is = true, singleSolveTimeMs for Query = 11.636
+Query #165 is = false, singleSolveTimeMs for Query = 12.970
+Query #166 is = true, singleSolveTimeMs for Query = 11.794
+cQuery #167 is = false, singleSolveTimeMs for Query = 18.823
+Query #168 is = true, singleSolveTimeMs for Query = 19.911
+2Query #169 is = false, singleSolveTimeMs for Query = 19.766
+Query #170 is = true, singleSolveTimeMs for Query = 19.440
+aQuery #171 is = false, singleSolveTimeMs for Query = 14.390
+Query #172 is = true, singleSolveTimeMs for Query = 12.759
+&Query #173 is = false, singleSolveTimeMs for Query = 16.971
+Query #174 is = true, singleSolveTimeMs for Query = 12.163
+athreadTerminated: 32
+Query #175 is = true, singleSolveTimeMs for Query = 18.484
+Query #176 is = false, singleSolveTimeMs for Query = 18.519
+Query #177 is = true, singleSolveTimeMs for Query = 17.667
+Query #178 is = false, singleSolveTimeMs for Query = 16.231
+Query #179 is = true, singleSolveTimeMs for Query = 12.265
+cQuery #180 is = false, singleSolveTimeMs for Query = 12.659
+Query #181 is = true, singleSolveTimeMs for Query = 12.403
+2Query #182 is = false, singleSolveTimeMs for Query = 13.776
+Query #183 is = true, singleSolveTimeMs for Query = 17.586
+aQuery #184 is = false, singleSolveTimeMs for Query = 20.910
+Query #185 is = true, singleSolveTimeMs for Query = 13.234
+&Query #186 is = false, singleSolveTimeMs for Query = 17.773
+Query #187 is = true, singleSolveTimeMs for Query = 12.396
+athreadTerminated: 33
+Query #188 is = false, singleSolveTimeMs for Query = 15.321
+Query #189 is = true, singleSolveTimeMs for Query = 12.793
+Query #190 is = true, singleSolveTimeMs for Query = 17.979
+Query #191 is = true, singleSolveTimeMs for Query = 17.320
+Query #192 is = false, singleSolveTimeMs for Query = 15.513
+Query #193 is = true, singleSolveTimeMs for Query = 16.768
+Query #194 is = false, singleSolveTimeMs for Query = 18.623
+Query #195 is = true, singleSolveTimeMs for Query = 12.531
+c2a&athreadTerminated: 34
+Query #196 is = true, singleSolveTimeMs for Query = 14.406
+Query #197 is = true, singleSolveTimeMs for Query = 19.906
+Query #198 is = true, singleSolveTimeMs for Query = 13.355
+Query #199 is = true, singleSolveTimeMs for Query = 26.532
+Query #200 is = false, singleSolveTimeMs for Query = 12.635
+Query #201 is = true, singleSolveTimeMs for Query = 21.216
+cQuery #202 is = false, singleSolveTimeMs for Query = 19.272
+Query #203 is = true, singleSolveTimeMs for Query = 13.238
+2Query #204 is = false, singleSolveTimeMs for Query = 13.327
+Query #205 is = true, singleSolveTimeMs for Query = 18.489
+aQuery #206 is = false, singleSolveTimeMs for Query = 13.680
+Query #207 is = true, singleSolveTimeMs for Query = 12.471
+&Query #208 is = false, singleSolveTimeMs for Query = 12.763
+Query #209 is = true, singleSolveTimeMs for Query = 16.820
+athreadTerminated: 35
+Query #210 is = true, singleSolveTimeMs for Query = 17.257
+Query #211 is = true, singleSolveTimeMs for Query = 14.254
+Query #212 is = true, singleSolveTimeMs for Query = 14.313
+Challege: illegal pattern!
+threadTerminated: 36
+Query #213 is = true, singleSolveTimeMs for Query = 19.626
+Query #214 is = true, singleSolveTimeMs for Query = 12.050
+Query #215 is = true, singleSolveTimeMs for Query = 14.720
+Query #216 is = false, singleSolveTimeMs for Query = 18.309
+Query #217 is = true, singleSolveTimeMs for Query = 12.438
+cQuery #218 is = false, singleSolveTimeMs for Query = 12.479
+Query #219 is = true, singleSolveTimeMs for Query = 12.551
+2Query #220 is = false, singleSolveTimeMs for Query = 13.675
+Query #221 is = true, singleSolveTimeMs for Query = 14.740
+aQuery #222 is = false, singleSolveTimeMs for Query = 18.567
+Query #223 is = true, singleSolveTimeMs for Query = 12.252
+&Query #224 is = false, singleSolveTimeMs for Query = 12.319
+Query #225 is = true, singleSolveTimeMs for Query = 18.787
+athreadTerminated: 37
+Query #226 is = false, singleSolveTimeMs for Query = 18.015
+Query #227 is = true, singleSolveTimeMs for Query = 13.994
+Query #228 is = true, singleSolveTimeMs for Query = 16.016
+Query #229 is = false, singleSolveTimeMs for Query = 12.124
+Query #230 is = true, singleSolveTimeMs for Query = 12.366
+caa2cQuery #231 is = false, singleSolveTimeMs for Query = 12.241
+Query #232 is = true, singleSolveTimeMs for Query = 12.489
+caa22Query #233 is = false, singleSolveTimeMs for Query = 12.577
+Query #234 is = true, singleSolveTimeMs for Query = 12.427
+caa2aQuery #235 is = false, singleSolveTimeMs for Query = 14.139
+Query #236 is = true, singleSolveTimeMs for Query = 13.364
+caa2&Query #237 is = false, singleSolveTimeMs for Query = 18.527
+Query #238 is = true, singleSolveTimeMs for Query = 13.357
+caa2athreadTerminated: 38
+Query #239 is = true, singleSolveTimeMs for Query = 27.404
+Query #240 is = true, singleSolveTimeMs for Query = 16.580
+Query #241 is = false, singleSolveTimeMs for Query = 17.009
+Query #242 is = true, singleSolveTimeMs for Query = 12.749
+cQuery #243 is = false, singleSolveTimeMs for Query = 13.231
+Query #244 is = true, singleSolveTimeMs for Query = 13.083
+2Query #245 is = false, singleSolveTimeMs for Query = 13.351
+Query #246 is = true, singleSolveTimeMs for Query = 18.543
+aQuery #247 is = false, singleSolveTimeMs for Query = 13.593
+Query #248 is = true, singleSolveTimeMs for Query = 12.944
+&Query #249 is = false, singleSolveTimeMs for Query = 18.423
+Query #250 is = true, singleSolveTimeMs for Query = 13.870
+athreadTerminated: 39
+Query #251 is = true, singleSolveTimeMs for Query = 16.236
+Query #252 is = true, singleSolveTimeMs for Query = 16.409
+Query #253 is = false, singleSolveTimeMs for Query = 19.542
+Query #254 is = true, singleSolveTimeMs for Query = 21.134
+cQuery #255 is = false, singleSolveTimeMs for Query = 34.166
+Query #256 is = true, singleSolveTimeMs for Query = 25.609
+2Query #257 is = false, singleSolveTimeMs for Query = 20.898
+Query #258 is = true, singleSolveTimeMs for Query = 16.314
+aQuery #259 is = false, singleSolveTimeMs for Query = 19.210
+Query #260 is = true, singleSolveTimeMs for Query = 16.213
+&Query #261 is = false, singleSolveTimeMs for Query = 19.438
+Query #262 is = true, singleSolveTimeMs for Query = 25.319
+athreadTerminated: 40
+Query #263 is = true, singleSolveTimeMs for Query = 18.703
+Query #264 is = false, singleSolveTimeMs for Query = 13.997
+Query #265 is = true, singleSolveTimeMs for Query = 19.319
+cQuery #266 is = false, singleSolveTimeMs for Query = 18.706
+Query #267 is = true, singleSolveTimeMs for Query = 20.316
+2Query #268 is = false, singleSolveTimeMs for Query = 18.566
+Query #269 is = true, singleSolveTimeMs for Query = 17.145
+aQuery #270 is = false, singleSolveTimeMs for Query = 15.142
+Query #271 is = true, singleSolveTimeMs for Query = 12.887
+&Query #272 is = false, singleSolveTimeMs for Query = 14.684
+Query #273 is = true, singleSolveTimeMs for Query = 13.307
+athreadTerminated: 41
+Query #274 is = false, singleSolveTimeMs for Query = 17.996
+Query #275 is = false, singleSolveTimeMs for Query = 17.977
+Query #276 is = true, singleSolveTimeMs for Query = 25.271
+Query #277 is = true, singleSolveTimeMs for Query = 19.831
+Query #278 is = true, singleSolveTimeMs for Query = 19.354
+Query #279 is = true, singleSolveTimeMs for Query = 25.512
+Query #280 is = true, singleSolveTimeMs for Query = 19.532
+caa2Query #281 is = false, singleSolveTimeMs for Query = 12.582
+Query #282 is = true, singleSolveTimeMs for Query = 18.109
+aQuery #283 is = false, singleSolveTimeMs for Query = 14.122
+Query #284 is = true, singleSolveTimeMs for Query = 11.943
+&Query #285 is = false, singleSolveTimeMs for Query = 13.912
+Query #286 is = true, singleSolveTimeMs for Query = 13.906
+athreadTerminated: 42
+Query #287 is = true, singleSolveTimeMs for Query = 17.268
+cQuery #288 is = true, singleSolveTimeMs for Query = 20.442
+caa2Query #289 is = false, singleSolveTimeMs for Query = 19.497
+Query #290 is = true, singleSolveTimeMs for Query = 18.412
+&Query #291 is = false, singleSolveTimeMs for Query = 17.199
+Query #292 is = true, singleSolveTimeMs for Query = 18.670
+athreadTerminated: 43
+Query #293 is = true, singleSolveTimeMs for Query = 19.442
+2Query #294 is = true, singleSolveTimeMs for Query = 19.349
+caa2Query #295 is = true, singleSolveTimeMs for Query = 19.886
+athreadTerminated: 44
+Query #296 is = false, singleSolveTimeMs for Query = 20.375
+Query #297 is = true, singleSolveTimeMs for Query = 23.341
+aQuery #298 is = true, singleSolveTimeMs for Query = 21.216
+caa2threadTerminated: 45
+Query #299 is = true, singleSolveTimeMs for Query = 22.124
+&Query #300 is = false, singleSolveTimeMs for Query = 20.254
+Query #301 is = true, singleSolveTimeMs for Query = 28.455
+athreadTerminated: 46
+Query #302 is = true, singleSolveTimeMs for Query = 14.270
+Query #303 is = true, singleSolveTimeMs for Query = 16.646
+Challege: illegal pattern!
+threadTerminated: 47
+Query #304 is = true, singleSolveTimeMs for Query = 17.075
+Query #305 is = true, singleSolveTimeMs for Query = 21.363
+Query #306 is = true, singleSolveTimeMs for Query = 21.437
+Query #307 is = true, singleSolveTimeMs for Query = 55.868
+Query #308 is = false, singleSolveTimeMs for Query = 22.673
+Query #309 is = true, singleSolveTimeMs for Query = 20.853
+cQuery #310 is = false, singleSolveTimeMs for Query = 14.634
+Query #311 is = true, singleSolveTimeMs for Query = 20.001
+2Query #312 is = false, singleSolveTimeMs for Query = 17.544
+Query #313 is = true, singleSolveTimeMs for Query = 31.277
+aQuery #314 is = false, singleSolveTimeMs for Query = 26.460
+Query #315 is = true, singleSolveTimeMs for Query = 34.893
+&Query #316 is = false, singleSolveTimeMs for Query = 21.491
+Query #317 is = true, singleSolveTimeMs for Query = 24.960
+athreadTerminated: 48
+Query #318 is = true, singleSolveTimeMs for Query = 19.721
+cQuery #319 is = true, singleSolveTimeMs for Query = 21.293
+Query #320 is = false, singleSolveTimeMs for Query = 21.053
+Query #321 is = true, singleSolveTimeMs for Query = 21.706
+2Query #322 is = false, singleSolveTimeMs for Query = 23.611
+Query #323 is = true, singleSolveTimeMs for Query = 25.345
+aQuery #324 is = false, singleSolveTimeMs for Query = 20.437
+Query #325 is = true, singleSolveTimeMs for Query = 21.014
+&Query #326 is = false, singleSolveTimeMs for Query = 16.648
+Query #327 is = true, singleSolveTimeMs for Query = 13.416
+athreadTerminated: 49
+Query #328 is = true, singleSolveTimeMs for Query = 17.216
+2Query #329 is = true, singleSolveTimeMs for Query = 25.806
+Query #330 is = false, singleSolveTimeMs for Query = 25.123
+Query #331 is = true, singleSolveTimeMs for Query = 21.813
+aQuery #332 is = false, singleSolveTimeMs for Query = 21.179
+Query #333 is = true, singleSolveTimeMs for Query = 25.045
+&Query #334 is = true, singleSolveTimeMs for Query = 22.070
+athreadTerminated: 50
+Query #335 is = false, singleSolveTimeMs for Query = 24.260
+Query #336 is = true, singleSolveTimeMs for Query = 27.344
+aQuery #337 is = true, singleSolveTimeMs for Query = 19.538
+Query #338 is = false, singleSolveTimeMs for Query = 22.178
+Query #339 is = true, singleSolveTimeMs for Query = 39.239
+&Query #340 is = false, singleSolveTimeMs for Query = 32.958
+Query #341 is = true, singleSolveTimeMs for Query = 20.264
+athreadTerminated: 51
+Query #342 is = true, singleSolveTimeMs for Query = 22.844
+&Query #343 is = false, singleSolveTimeMs for Query = 16.847
+Query #344 is = true, singleSolveTimeMs for Query = 14.177
+athreadTerminated: 52
+Query #345 is = false, singleSolveTimeMs for Query = 18.583
+Query #346 is = true, singleSolveTimeMs for Query = 14.570
+Query #347 is = true, singleSolveTimeMs for Query = 18.649
+Query #348 is = true, singleSolveTimeMs for Query = 17.577
+Query #349 is = false, singleSolveTimeMs for Query = 13.068
+Query #350 is = true, singleSolveTimeMs for Query = 14.334
+caa2Query #351 is = false, singleSolveTimeMs for Query = 12.843
+Query #352 is = true, singleSolveTimeMs for Query = 12.970
+2Query #353 is = false, singleSolveTimeMs for Query = 18.316
+Query #354 is = true, singleSolveTimeMs for Query = 15.734
+caa2aQuery #355 is = false, singleSolveTimeMs for Query = 12.273
+Query #356 is = true, singleSolveTimeMs for Query = 14.059
+caa2&Query #357 is = false, singleSolveTimeMs for Query = 17.007
+Query #358 is = true, singleSolveTimeMs for Query = 14.725
+caa2athreadTerminated: 53
+Query #359 is = true, singleSolveTimeMs for Query = 11.845
+Query #360 is = true, singleSolveTimeMs for Query = 14.939
+caa2cQuery #361 is = true, singleSolveTimeMs for Query = 12.593
+Query #362 is = false, singleSolveTimeMs for Query = 13.416
+Query #363 is = true, singleSolveTimeMs for Query = 15.476
+caa2Query #364 is = false, singleSolveTimeMs for Query = 11.670
+Query #365 is = true, singleSolveTimeMs for Query = 11.868
+aQuery #366 is = false, singleSolveTimeMs for Query = 14.428
+Query #367 is = true, singleSolveTimeMs for Query = 12.586
+caa2&Query #368 is = false, singleSolveTimeMs for Query = 13.003
+Query #369 is = true, singleSolveTimeMs for Query = 15.477
+caa2athreadTerminated: 54
+Query #370 is = true, singleSolveTimeMs for Query = 15.655
+caa22Query #371 is = true, singleSolveTimeMs for Query = 17.819
+Query #372 is = false, singleSolveTimeMs for Query = 18.325
+Query #373 is = true, singleSolveTimeMs for Query = 14.542
+caa2Query #374 is = false, singleSolveTimeMs for Query = 13.847
+Query #375 is = true, singleSolveTimeMs for Query = 14.689
+&Query #376 is = true, singleSolveTimeMs for Query = 12.484
+caa2threadTerminated: 55
+Query #377 is = false, singleSolveTimeMs for Query = 13.944
+Query #378 is = true, singleSolveTimeMs for Query = 13.211
+caa2aQuery #379 is = true, singleSolveTimeMs for Query = 18.230
+Query #380 is = false, singleSolveTimeMs for Query = 17.075
+Query #381 is = true, singleSolveTimeMs for Query = 12.748
+caa2Query #382 is = false, singleSolveTimeMs for Query = 18.091
+Query #383 is = true, singleSolveTimeMs for Query = 22.482
+athreadTerminated: 56
+Query #384 is = true, singleSolveTimeMs for Query = 15.548
+caa2&Query #385 is = false, singleSolveTimeMs for Query = 17.103
+Query #386 is = true, singleSolveTimeMs for Query = 13.699
+caa2athreadTerminated: 57
+Query #387 is = true, singleSolveTimeMs for Query = 15.659
+Query #388 is = true, singleSolveTimeMs for Query = 18.914
+Query #389 is = true, singleSolveTimeMs for Query = 18.472
+cQuery #390 is = false, singleSolveTimeMs for Query = 11.751
+Query #391 is = true, singleSolveTimeMs for Query = 17.510
+2Query #392 is = false, singleSolveTimeMs for Query = 17.061
+Query #393 is = true, singleSolveTimeMs for Query = 13.638
+aQuery #394 is = false, singleSolveTimeMs for Query = 41.253
+Query #395 is = true, singleSolveTimeMs for Query = 14.669
+&Query #396 is = false, singleSolveTimeMs for Query = 13.720
+Query #397 is = true, singleSolveTimeMs for Query = 14.871
+athreadTerminated: 58
+Query #398 is = true, singleSolveTimeMs for Query = 14.891
+cQuery #399 is = true, singleSolveTimeMs for Query = 15.597
+2Query #400 is = false, singleSolveTimeMs for Query = 23.606
+Query #401 is = true, singleSolveTimeMs for Query = 24.921
+aQuery #402 is = false, singleSolveTimeMs for Query = 31.826
+Query #403 is = true, singleSolveTimeMs for Query = 25.621
+&Query #404 is = false, singleSolveTimeMs for Query = 32.485
+Query #405 is = true, singleSolveTimeMs for Query = 22.673
+athreadTerminated: 59
+Query #406 is = true, singleSolveTimeMs for Query = 22.546
+2Query #407 is = true, singleSolveTimeMs for Query = 21.104
+aQuery #408 is = false, singleSolveTimeMs for Query = 42.082
+Query #409 is = true, singleSolveTimeMs for Query = 15.714
+&Query #410 is = true, singleSolveTimeMs for Query = 14.867
+athreadTerminated: 60
+Query #411 is = false, singleSolveTimeMs for Query = 19.616
+Query #412 is = true, singleSolveTimeMs for Query = 25.766
+aQuery #413 is = true, singleSolveTimeMs for Query = 19.452
+&Query #414 is = false, singleSolveTimeMs for Query = 16.243
+Query #415 is = true, singleSolveTimeMs for Query = 19.409
+athreadTerminated: 61
+Query #416 is = true, singleSolveTimeMs for Query = 20.808
+&Query #417 is = false, singleSolveTimeMs for Query = 16.931
+Query #418 is = true, singleSolveTimeMs for Query = 21.541
+athreadTerminated: 62
+Query #419 is = true, singleSolveTimeMs for Query = 20.633
+Query #420 is = true, singleSolveTimeMs for Query = 21.282
+Query #421 is = true, singleSolveTimeMs for Query = 22.821
+Query #422 is = true, singleSolveTimeMs for Query = 15.696
+caa2Query #423 is = false, singleSolveTimeMs for Query = 17.285
+Query #424 is = true, singleSolveTimeMs for Query = 17.719
+aQuery #425 is = false, singleSolveTimeMs for Query = 23.236
+Query #426 is = true, singleSolveTimeMs for Query = 15.494
+&Query #427 is = false, singleSolveTimeMs for Query = 19.167
+Query #428 is = true, singleSolveTimeMs for Query = 20.000
+athreadTerminated: 63
+Query #429 is = true, singleSolveTimeMs for Query = 20.138
+cQuery #430 is = false, singleSolveTimeMs for Query = 17.953
+Query #431 is = true, singleSolveTimeMs for Query = 14.024
+2Query #432 is = false, singleSolveTimeMs for Query = 25.086
+Query #433 is = true, singleSolveTimeMs for Query = 21.875
+aQuery #434 is = false, singleSolveTimeMs for Query = 19.317
+Query #435 is = true, singleSolveTimeMs for Query = 29.146
+&Query #436 is = false, singleSolveTimeMs for Query = 29.249
+Query #437 is = true, singleSolveTimeMs for Query = 24.888
+athreadTerminated: 64
+Query #438 is = true, singleSolveTimeMs for Query = 41.258
+cQuery #439 is = true, singleSolveTimeMs for Query = 20.987
+Query #440 is = true, singleSolveTimeMs for Query = 17.148
+caa2Query #441 is = false, singleSolveTimeMs for Query = 12.513
+Query #442 is = true, singleSolveTimeMs for Query = 19.421
+&Query #443 is = false, singleSolveTimeMs for Query = 19.049
+Query #444 is = true, singleSolveTimeMs for Query = 15.412
+athreadTerminated: 65
+Query #445 is = true, singleSolveTimeMs for Query = 19.780
+2Query #446 is = false, singleSolveTimeMs for Query = 12.798
+Query #447 is = true, singleSolveTimeMs for Query = 15.492
+aQuery #448 is = false, singleSolveTimeMs for Query = 14.609
+Query #449 is = true, singleSolveTimeMs for Query = 16.237
+&Query #450 is = false, singleSolveTimeMs for Query = 12.702
+Query #451 is = true, singleSolveTimeMs for Query = 20.811
+athreadTerminated: 66
+Query #452 is = true, singleSolveTimeMs for Query = 19.824
+2Query #453 is = true, singleSolveTimeMs for Query = 22.821
+Query #454 is = true, singleSolveTimeMs for Query = 15.186
+caa2Query #455 is = true, singleSolveTimeMs for Query = 14.606
+athreadTerminated: 67
+Query #456 is = false, singleSolveTimeMs for Query = 13.825
+Query #457 is = true, singleSolveTimeMs for Query = 20.623
+aQuery #458 is = false, singleSolveTimeMs for Query = 12.791
+Query #459 is = true, singleSolveTimeMs for Query = 20.040
+&Query #460 is = true, singleSolveTimeMs for Query = 20.144
+athreadTerminated: 68
+Query #461 is = false, singleSolveTimeMs for Query = 20.377
+Query #462 is = true, singleSolveTimeMs for Query = 25.649
+aQuery #463 is = true, singleSolveTimeMs for Query = 15.090
+Query #464 is = true, singleSolveTimeMs for Query = 19.768
+caa2threadTerminated: 69
+Query #465 is = true, singleSolveTimeMs for Query = 14.969
+&Query #466 is = false, singleSolveTimeMs for Query = 13.868
+Query #467 is = true, singleSolveTimeMs for Query = 17.992
+athreadTerminated: 70
+Query #468 is = true, singleSolveTimeMs for Query = 15.175
+&Query #469 is = false, singleSolveTimeMs for Query = 13.833
+Query #470 is = true, singleSolveTimeMs for Query = 24.905
+athreadTerminated: 71
+Query #471 is = true, singleSolveTimeMs for Query = 15.059
+Query #472 is = true, singleSolveTimeMs for Query = 18.497
+cQuery #473 is = false, singleSolveTimeMs for Query = 20.286
+Query #474 is = true, singleSolveTimeMs for Query = 12.401
+2Query #475 is = false, singleSolveTimeMs for Query = 17.858
+Query #476 is = true, singleSolveTimeMs for Query = 13.307
+aQuery #477 is = false, singleSolveTimeMs for Query = 11.796
+Query #478 is = true, singleSolveTimeMs for Query = 13.307
+&Query #479 is = false, singleSolveTimeMs for Query = 11.846
+Query #480 is = true, singleSolveTimeMs for Query = 14.194
+athreadTerminated: 72
+Query #481 is = true, singleSolveTimeMs for Query = 18.353
+cQuery #482 is = true, singleSolveTimeMs for Query = 16.082
+2Query #483 is = false, singleSolveTimeMs for Query = 11.981
+Query #484 is = true, singleSolveTimeMs for Query = 17.658
+aQuery #485 is = false, singleSolveTimeMs for Query = 49.637
+Query #486 is = true, singleSolveTimeMs for Query = 19.564
+&Query #487 is = false, singleSolveTimeMs for Query = 13.303
+Query #488 is = true, singleSolveTimeMs for Query = 23.664
+athreadTerminated: 73
+Query #489 is = true, singleSolveTimeMs for Query = 44.647
+2Query #490 is = true, singleSolveTimeMs for Query = 57.832
+aQuery #491 is = false, singleSolveTimeMs for Query = 27.433
+Query #492 is = true, singleSolveTimeMs for Query = 13.563
+&Query #493 is = true, singleSolveTimeMs for Query = 22.592
+athreadTerminated: 74
+Query #494 is = false, singleSolveTimeMs for Query = 18.980
+Query #495 is = true, singleSolveTimeMs for Query = 14.302
+aQuery #496 is = true, singleSolveTimeMs for Query = 18.660
+&Query #497 is = false, singleSolveTimeMs for Query = 12.019
+Query #498 is = true, singleSolveTimeMs for Query = 12.817
+athreadTerminated: 75
+Query #499 is = true, singleSolveTimeMs for Query = 13.372
+&Query #500 is = false, singleSolveTimeMs for Query = 11.807
+Query #501 is = true, singleSolveTimeMs for Query = 15.718
+athreadTerminated: 76
+Query #502 is = true, singleSolveTimeMs for Query = 19.496
+Query #503 is = false, singleSolveTimeMs for Query = 12.210
+Query #504 is = true, singleSolveTimeMs for Query = 19.515
+Query #505 is = true, singleSolveTimeMs for Query = 18.921
+caa2Query #506 is = false, singleSolveTimeMs for Query = 18.415
+Query #507 is = true, singleSolveTimeMs for Query = 18.987
+2Query #508 is = false, singleSolveTimeMs for Query = 12.815
+Query #509 is = true, singleSolveTimeMs for Query = 15.012
+aQuery #510 is = false, singleSolveTimeMs for Query = 12.653
+Query #511 is = true, singleSolveTimeMs for Query = 12.286
+&Query #512 is = false, singleSolveTimeMs for Query = 13.076
+Query #513 is = true, singleSolveTimeMs for Query = 14.009
+athreadTerminated: 77
+Query #514 is = true, singleSolveTimeMs for Query = 16.705
+cQuery #515 is = true, singleSolveTimeMs for Query = 11.814
+caa2Query #516 is = false, singleSolveTimeMs for Query = 19.177
+Query #517 is = true, singleSolveTimeMs for Query = 16.338
+aQuery #518 is = false, singleSolveTimeMs for Query = 12.535
+Query #519 is = true, singleSolveTimeMs for Query = 12.355
+&Query #520 is = false, singleSolveTimeMs for Query = 18.219
+Query #521 is = true, singleSolveTimeMs for Query = 12.739
+athreadTerminated: 78
+Query #522 is = true, singleSolveTimeMs for Query = 13.713
+2Query #523 is = true, singleSolveTimeMs for Query = 19.927
+caa2Query #524 is = false, singleSolveTimeMs for Query = 20.039
+Query #525 is = true, singleSolveTimeMs for Query = 15.823
+&Query #526 is = true, singleSolveTimeMs for Query = 12.836
+caa2threadTerminated: 79
+Query #527 is = false, singleSolveTimeMs for Query = 18.203
+Query #528 is = true, singleSolveTimeMs for Query = 20.647
+aQuery #529 is = true, singleSolveTimeMs for Query = 13.407
+caa2Query #530 is = false, singleSolveTimeMs for Query = 14.147
+Query #531 is = true, singleSolveTimeMs for Query = 23.354
+athreadTerminated: 80
+Query #532 is = true, singleSolveTimeMs for Query = 21.934
+&Query #533 is = false, singleSolveTimeMs for Query = 19.179
+Query #534 is = true, singleSolveTimeMs for Query = 26.784
+athreadTerminated: 81
+Query #535 is = true, singleSolveTimeMs for Query = 19.414
+Query #536 is = true, singleSolveTimeMs for Query = 20.905
+Query #537 is = false, singleSolveTimeMs for Query = 12.878
+Query #538 is = true, singleSolveTimeMs for Query = 12.429
+Query #539 is = false, singleSolveTimeMs for Query = 11.472
+Query #540 is = true, singleSolveTimeMs for Query = 12.736
+c2a&athreadTerminated: 82
+Query #541 is = true, singleSolveTimeMs for Query = 12.561
+Query #542 is = true, singleSolveTimeMs for Query = 12.521
+c2a&athreadTerminated: 83
+Query #543 is = true, singleSolveTimeMs for Query = 12.915
+Query #544 is = true, singleSolveTimeMs for Query = 13.593
+Query #545 is = true, singleSolveTimeMs for Query = 17.144
+c2a&athreadTerminated: 84
+Query #546 is = true, singleSolveTimeMs for Query = 12.056
+Query #547 is = true, singleSolveTimeMs for Query = 13.222
+Query #548 is = true, singleSolveTimeMs for Query = 12.265
+caa2Query #549 is = false, singleSolveTimeMs for Query = 19.297
+Query #550 is = true, singleSolveTimeMs for Query = 12.366
+2Query #551 is = false, singleSolveTimeMs for Query = 13.795
+Query #552 is = true, singleSolveTimeMs for Query = 12.254
+aQuery #553 is = false, singleSolveTimeMs for Query = 11.670
+Query #554 is = true, singleSolveTimeMs for Query = 15.783
+&Query #555 is = false, singleSolveTimeMs for Query = 13.578
+Query #556 is = true, singleSolveTimeMs for Query = 13.706
+athreadTerminated: 85
+Query #557 is = true, singleSolveTimeMs for Query = 14.013
+Query #558 is = true, singleSolveTimeMs for Query = 12.419
+cQuery #559 is = true, singleSolveTimeMs for Query = 12.336
+caa2Query #560 is = false, singleSolveTimeMs for Query = 12.250
+Query #561 is = true, singleSolveTimeMs for Query = 12.540
+aQuery #562 is = false, singleSolveTimeMs for Query = 17.478
+Query #563 is = true, singleSolveTimeMs for Query = 12.095
+&Query #564 is = false, singleSolveTimeMs for Query = 12.692
+Query #565 is = true, singleSolveTimeMs for Query = 11.654
+athreadTerminated: 86
+Query #566 is = true, singleSolveTimeMs for Query = 12.802
+2Query #567 is = true, singleSolveTimeMs for Query = 11.780
+caa2Query #568 is = false, singleSolveTimeMs for Query = 18.522
+Query #569 is = true, singleSolveTimeMs for Query = 13.752
+&Query #570 is = true, singleSolveTimeMs for Query = 16.904
+caa2threadTerminated: 87
+Query #571 is = false, singleSolveTimeMs for Query = 11.125
+Query #572 is = true, singleSolveTimeMs for Query = 19.924
+aQuery #573 is = true, singleSolveTimeMs for Query = 15.435
+caa2Query #574 is = false, singleSolveTimeMs for Query = 12.957
+Query #575 is = true, singleSolveTimeMs for Query = 17.570
+athreadTerminated: 88
+Query #576 is = true, singleSolveTimeMs for Query = 13.829
+&Query #577 is = false, singleSolveTimeMs for Query = 16.678
+Query #578 is = true, singleSolveTimeMs for Query = 16.593
+athreadTerminated: 89
+Query #579 is = true, singleSolveTimeMs for Query = 12.043
+Query #580 is = false, singleSolveTimeMs for Query = 18.558
+Query #581 is = true, singleSolveTimeMs for Query = 12.977
+caa2ccaa22caa2acaa2&caa2athreadTerminated: 90
+Query #582 is = true, singleSolveTimeMs for Query = 11.730
+
+====================================================== VeritestingListener report:
+Encountered Veritesting Regions in veriRegions (i.e., VeriTestingMain.veriRegions size) = 0
+
+/************************ Printing Exception Statistics *****************
+Static Analysis exceptions count = 0
+Instantiation Time exceptions count = 0
+Unknown phases exception count = 0
+
+
+/************************ Printing Time Decomposition Statistics *****************
+static analysis time = 0 msec
+Veritesting Dyn Time = 12039 msec
+Veritesting fix-point Time = 0 msec
+GoTo rewrite instances = 0
+
+/************************ Printing Solver Statistics *****************
+Total Solver Queries Count = 582
+Total Solver Time = 9916 msec
+Total Solver Parse Time = 137 msec
+Region Summary Parse Time = 0 msec
+Total Solver Clean up Time = 20 msec
+PCSatSolverCount = 0
+PCSatSolverTime = 0 msec
+Constant Propagation Time for PC sat. checks = 0
+Array SPF Case count = 0
+If-removed count = 0
+
+/************************ Printing Region Statistics *****************
+Number of Distinct Veritested Regions = 0
+Number of Distinct Un-Veritested Symbolic Regions = 0
+Number of Distinct Failed Regions for Field Reference = 0
+Number of Distinct Failed Regions for SPFCases = 0
+Number of Distinct Failed Regions for missing method summaries = 0
+Number of Distinct Failed Regions for Other Reasons = 0
+Number of High Order Regions Used = 0
+
+/************************ Printing Instantiation Statistics *****************
+Number of successful instantiations = 0
+Total Number of unsuccessful instantiations = 0
+Number of failed instantiations due to Field Reference = 0
+Number of failed instantiations due to SPFCases = 0
+Number of failed instantiations due to missing method summaries = 0
+Number of failed instantiations due to Other Reasons = 0
+
+
+Number of Veritested Regions Instances = 0
+Printing keys of regions that were instantiated at least once
+Finished printing keys of regions that were instantiated at least once
+
+Metrics Vector:
+12039,0,12039,90,582,9916,137,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0.0,0,0,0
+
+====================================================== Branch Coverage report:
+Obligation -----> Coverage:
+tcgbenchmarks.replace.replace11.putsub([CII[C)V.20.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.51.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.isalnum(C)Z.37.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.escSub([C)C.66.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.32.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.362.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.227.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.315.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.locate(C[CI)Z.12.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.esc([C)C.50.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.esc([C)C.26.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.143.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.433.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makesub([C[C)I.64.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.mainProcess(CCCCCCCCCCC)V.37.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.84.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.16.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.64.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.stclose([CI)V.18.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.mainProcess(CCCCCCCCCCC)V.37.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.76.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.in_pat_set(C)Z.51.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makesub([C[C)I.13.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.isalnum(C)Z.3.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.35.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.212.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.40.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.40.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.19.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.135.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.in_pat_set(C)Z.11.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.escSub([C)C.26.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.160.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.112.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.277.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.getccl([C[C)Z.15.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.patsize([CI)I.74.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.172.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.433.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.160.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.mainProcess(CCCCCCCCCCC)V.98.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.locate(C[CI)Z.20.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.224.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.261.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.locate(C[CI)Z.12.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.323.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.esc([C)C.26.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.84.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.getccl([C[C)Z.84.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.patsize([CI)I.13.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.43.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.83.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.in_set_2(C)Z.11.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.43.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makesub([C[C)I.7.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.104.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.getccl([C[C)Z.23.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.268.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.patsize([CI)I.32.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.225.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.in_set_2(C)Z.3.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.10.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.172.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.64.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.change([C[C[C)V.77.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.in_pat_set(C)Z.11.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.197.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.patsize([CI)I.88.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.71.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.277.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.354.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.stclose([CI)V.8.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.362.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.200.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.getccl([C[C)Z.15.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.261.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.231.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.patsize([CI)I.88.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.escSub([C)C.7.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.56.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.in_pat_set(C)Z.43.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.11.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.locate(C[CI)Z.20.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.getccl([C[C)Z.57.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.88.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.212.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.507.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makesub([C[C)I.13.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.173.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.in_pat_set(C)Z.3.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.146.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.32.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.96.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.escSub([C)C.66.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.491.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.stclose([CI)V.18.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.122.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.187.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makesub([C[C)I.34.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.458.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makesub([C[C)I.64.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.in_pat_set(C)Z.35.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.146.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.putsub([CII[C)V.20.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.151.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.escSub([C)C.7.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.change([C[C[C)V.33.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.escSub([C)C.50.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.getccl([C[C)Z.128.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.320.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.change([C[C[C)V.33.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.12.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.349.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.173.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.77.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.in_pat_set(C)Z.3.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.64.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.change([C[C[C)V.27.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.mainProcess(CCCCCCCCCCC)V.98.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makesub([C[C)I.109.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.521.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.320.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.78.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.35.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.182.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.76.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.change([C[C[C)V.9.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.227.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.escSub([C)C.26.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.305.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.189.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makesub([C[C)I.109.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.11.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.190.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.putsub([CII[C)V.7.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.esc([C)C.7.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.521.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.64.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.294.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.305.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.change([C[C[C)V.27.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.151.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.378.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.77.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.patsize([CI)I.46.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.98.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.isalnum(C)Z.3.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.132.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.241.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.change([C[C[C)V.51.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.isalnum(C)Z.37.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.patsize([CI)I.13.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.getccl([C[C)Z.57.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.8.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.isalnum(C)Z.17.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.458.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.patsize([CI)I.74.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.189.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.241.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.267.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.isalnum(C)Z.9.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.474.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.in_set_2(C)Z.3.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.404.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.507.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.patsize([CI)I.46.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.isalnum(C)Z.9.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.in_set_2(C)Z.19.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.182.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.349.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.isalnum(C)Z.23.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.248.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.in_pat_set(C)Z.51.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.51.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.83.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.patsize([CI)I.60.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makesub([C[C)I.7.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.190.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.68.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.in_pat_set(C)Z.43.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.esc([C)C.7.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makesub([C[C)I.122.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.patsize([CI)I.108.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.8.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.104.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.143.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.10.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.esc([C)C.66.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.getccl([C[C)Z.128.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.12.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.248.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.71.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.in_set_2(C)Z.19.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.315.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.20.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.20.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.putsub([CII[C)V.7.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.224.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.103.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.404.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.491.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makesub([C[C)I.34.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.getccl([C[C)Z.84.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.96.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.127.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.108.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.in_pat_set(C)Z.27.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.16.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.109.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.esc([C)C.50.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.in_set_2(C)Z.11.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.267.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.19.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.stclose([CI)V.8.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.197.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.patsize([CI)I.128.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.187.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.172.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.patsize([CI)I.128.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makesub([C[C)I.122.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.32.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.patsize([CI)I.108.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.22.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.esc([C)C.66.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.117.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makesub([C[C)I.96.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.88.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.in_pat_set(C)Z.35.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.474.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.32.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.225.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.206.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.isalnum(C)Z.23.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.27.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.change([C[C[C)V.51.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.122.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.isalnum(C)Z.17.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.isalnum(C)Z.31.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.98.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makesub([C[C)I.23.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.change([C[C[C)V.77.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.78.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.323.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.in_pat_set(C)Z.19.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.103.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.231.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.in_pat_set(C)Z.19.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.56.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.132.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.omatch([C[CI)Z.108.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.getccl([C[C)Z.23.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.117.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.378.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.294.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.354.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.22.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.200.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makesub([C[C)I.96.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.27.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.268.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.172.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.escSub([C)C.50.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.isalnum(C)Z.31.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.in_pat_set(C)Z.27.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.patsize([CI)I.60.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.patsize([CI)I.32.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.206.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makepat([C[C)I.109.NOT_TAKEN -----> true 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.135.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.makesub([C[C)I.23.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.112.TAKEN -----> false 
+tcgbenchmarks.replace.replace11.change([C[C[C)V.9.TAKEN -----> true 
+tcgbenchmarks.replace.replace11.dodash(C[C[C)V.68.NOT_TAKEN -----> false 
+tcgbenchmarks.replace.replace11.amatch([C[CI)I.127.NOT_TAKEN -----> true 
+
+
+====================================================== Method Sequences
+[mainProcess('?','?','&','a','a','2','c','2','a','&','a')]
+[mainProcess('?','[','&','a','a','2','c','2','a','&','a')]
+[mainProcess('?','%','&','a','a','2','c','2','a','&','a')]
+[mainProcess('?','*','&','a','a','2','c','2','a','&','a')]
+[mainProcess('?','$','&','a','a','2','c','2','a','&','a')]
+[mainProcess('?','2','&','a','a','2','c','2','a','&','a')]
+[mainProcess('?','@','&','a','a','2','c','2','a','&','a')]
+[mainProcess('[','^','&','a','a','2','c','2','a','&','a')]
+[mainProcess('[',' ','&','a','a','2','c','2','a','&','a')]
+[mainProcess('[','-','&','a','a','2','c','2','a','&','a')]
+[mainProcess('[',']','&','a','a','2','c','2','a','&','a')]
+[mainProcess('%','?','&','a','a','2','c','2','a','&','a')]
+[mainProcess('%','*','&','a','a','2','c','2','a','&','a')]
+[mainProcess('%','\u0000','&','a','a','2','c','2','a','&','a')]
+[mainProcess('*','?','&','a','a','2','c','2','a','&','a')]
+[mainProcess('*','*','&','a','a','2','c','2','a','&','a')]
+[mainProcess('$','?','&','a','a','2','c','2','a','&','a')]
+[mainProcess('c','*','&','a','a','2','c','2','a','&','a')]
+[mainProcess('@','n','&','a','a','2','c','2','a','&','a')]
+[mainProcess('@','t','&','a','a','2','c','2','a','&','a')]
+[mainProcess('@','c','&','a','a','2','c','2','a','&','a')]
+[mainProcess('\u0000','\u0000','&','a','a','2','c','2','a','&','a')]
+
+====================================================== JUnit 4.0 test class
+import static org.junit.Assert.*;
+import org.junit.Before;
+import org.junit.Test;
+
+public class tcgbenchmarks_replace_replace11Test {
+
+	private tcgbenchmarks.replace.replace11 tcgbenchmarks_replace_replace11;
+
+	@Before
+	public void setUp() throws Exception {
+		tcgbenchmarks_replace_replace11 = new tcgbenchmarks.replace.replace11();
+	}
+
+	@Test
+	public void test0() {
+		tcgbenchmarks_replace_replace11.mainProcess('?','?','&','a','a','2','c','2','a','&','a');
+	}
+
+	@Test
+	public void test1() {
+		tcgbenchmarks_replace_replace11.mainProcess('?','[','&','a','a','2','c','2','a','&','a');
+	}
+
+	@Test
+	public void test2() {
+		tcgbenchmarks_replace_replace11.mainProcess('?','%','&','a','a','2','c','2','a','&','a');
+	}
+
+	@Test
+	public void test3() {
+		tcgbenchmarks_replace_replace11.mainProcess('?','*','&','a','a','2','c','2','a','&','a');
+	}
+
+	@Test
+	public void test4() {
+		tcgbenchmarks_replace_replace11.mainProcess('?','$','&','a','a','2','c','2','a','&','a');
+	}
+
+	@Test
+	public void test5() {
+		tcgbenchmarks_replace_replace11.mainProcess('?','2','&','a','a','2','c','2','a','&','a');
+	}
+
+	@Test
+	public void test6() {
+		tcgbenchmarks_replace_replace11.mainProcess('?','@','&','a','a','2','c','2','a','&','a');
+	}
+
+	@Test
+	public void test7() {
+		tcgbenchmarks_replace_replace11.mainProcess('[','^','&','a','a','2','c','2','a','&','a');
+	}
+
+	@Test
+	public void test8() {
+		tcgbenchmarks_replace_replace11.mainProcess('[',' ','&','a','a','2','c','2','a','&','a');
+	}
+
+	@Test
+	public void test9() {
+		tcgbenchmarks_replace_replace11.mainProcess('[','-','&','a','a','2','c','2','a','&','a');
+	}
+
+	@Test
+	public void test10() {
+		tcgbenchmarks_replace_replace11.mainProcess('[',']','&','a','a','2','c','2','a','&','a');
+	}
+
+	@Test
+	public void test11() {
+		tcgbenchmarks_replace_replace11.mainProcess('%','?','&','a','a','2','c','2','a','&','a');
+	}
+
+	@Test
+	public void test12() {
+		tcgbenchmarks_replace_replace11.mainProcess('%','*','&','a','a','2','c','2','a','&','a');
+	}
+
+	@Test
+	public void test13() {
+		tcgbenchmarks_replace_replace11.mainProcess('%','\u0000','&','a','a','2','c','2','a','&','a');
+	}
+
+	@Test
+	public void test14() {
+		tcgbenchmarks_replace_replace11.mainProcess('*','?','&','a','a','2','c','2','a','&','a');
+	}
+
+	@Test
+	public void test15() {
+		tcgbenchmarks_replace_replace11.mainProcess('*','*','&','a','a','2','c','2','a','&','a');
+	}
+
+	@Test
+	public void test16() {
+		tcgbenchmarks_replace_replace11.mainProcess('$','?','&','a','a','2','c','2','a','&','a');
+	}
+
+	@Test
+	public void test17() {
+		tcgbenchmarks_replace_replace11.mainProcess('c','*','&','a','a','2','c','2','a','&','a');
+	}
+
+	@Test
+	public void test18() {
+		tcgbenchmarks_replace_replace11.mainProcess('@','n','&','a','a','2','c','2','a','&','a');
+	}
+
+	@Test
+	public void test19() {
+		tcgbenchmarks_replace_replace11.mainProcess('@','t','&','a','a','2','c','2','a','&','a');
+	}
+
+	@Test
+	public void test20() {
+		tcgbenchmarks_replace_replace11.mainProcess('@','c','&','a','a','2','c','2','a','&','a');
+	}
+
+	@Test
+	public void test21() {
+		tcgbenchmarks_replace_replace11.mainProcess('\u0000','\u0000','&','a','a','2','c','2','a','&','a');
+	}
+}
+
+====================================================== results
+no errors detected
+
+====================================================== statistics
+elapsed time:       00:00:12
+states:             new=562,visited=0,backtracked=562,end=90
+search:             maxDepth=22,constraints=0
+choice generators:  thread=1 (signal=0,lock=1,sharedRef=0,threadApi=0,reschedule=0), data=281
+heap:               new=492,released=1232,maxLive=353,gcCycles=371
+instructions:       74947
+max memory:         481MB
+loaded code:        classes=61,methods=1302
+
+====================================================== search finished: 1/3/22 2:09 PM
