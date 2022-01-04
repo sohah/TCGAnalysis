@@ -1,6 +1,7 @@
 import sys
 import os
 
+##generates the class extracted in the log directory, thus I manually move it to the right directory structure to compare the test cases using evo suite
 if len(sys.argv) != 1:
     print('wrong number of argument only pass the directory of the log files to extract the unit tests')
     exit(1)
