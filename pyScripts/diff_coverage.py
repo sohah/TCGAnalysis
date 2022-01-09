@@ -1,10 +1,7 @@
-import sys
+#!/usr/bin/env python3
 import os
 import pandas as pd
 
-if len(sys.argv) != 1:
-    print('wrong number of argument only pass the directory of the log files to extract the unit tests')
-    exit(1)
 
 index = 0
 

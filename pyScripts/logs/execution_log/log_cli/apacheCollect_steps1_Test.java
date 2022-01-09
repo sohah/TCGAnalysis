@@ -13,22 +13,42 @@ public class tcgbenchmarks_apachecli_CLITest {
 
 	@Test
 	public void test0() {
-		tcgbenchmarks_apachecli_cli.mainProcess('-','-','-','m','-','h','y','m',false);
+		tcgbenchmarks_apachecli_cli.mainProcess('-','-','\u0000','\u0000','-','h','y','m',false);
 	}
 
 	@Test
 	public void test1() {
-		tcgbenchmarks_apachecli_cli.mainProcess('-',' ','-','m','-','h','y','m',false);
+		tcgbenchmarks_apachecli_cli.mainProcess('-',' ','-','-','-','h','y','m',false);
 	}
 
 	@Test
 	public void test2() {
-		tcgbenchmarks_apachecli_cli.mainProcess('-','a','-','m','-','h','y','m',false);
+		tcgbenchmarks_apachecli_cli.mainProcess('-',' ','-',' ','-','h','y','m',false);
 	}
 
 	@Test
 	public void test3() {
-		tcgbenchmarks_apachecli_cli.mainProcess('-',',','-','m','-','h','y','m',false);
+		tcgbenchmarks_apachecli_cli.mainProcess('-',' ','-','a','-','h','y','m',false);
+	}
+
+	@Test
+	public void test4() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-',' ','-','b','-','h','y','m',false);
+	}
+
+	@Test
+	public void test5() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-',' ','-',',','-','h','y','m',false);
+	}
+
+	@Test
+	public void test6() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','b','\t','-','-','h','y','m',false);
+	}
+
+	@Test
+	public void test7() {
+		tcgbenchmarks_apachecli_cli.mainProcess('-','b','`','','-','h','y','m',false);
 	}
 }
 

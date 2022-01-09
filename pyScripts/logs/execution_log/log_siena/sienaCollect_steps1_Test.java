@@ -13,32 +13,32 @@ public class tcgbenchmarks_siena_SENPDriverTest {
 
 	@Test
 	public void test0() {
-		tcgbenchmarks_siena_senpdriver.mainProcess(11,11,11,4,5,5,7,8,9);
+		tcgbenchmarks_siena_senpdriver.mainProcess(11,11,11,11,5,5,7,8,9);
 	}
 
 	@Test
 	public void test1() {
-		tcgbenchmarks_siena_senpdriver.mainProcess(11,11,12,4,5,5,7,8,9);
+		tcgbenchmarks_siena_senpdriver.mainProcess(11,11,12,11,5,5,7,8,9);
 	}
 
 	@Test
 	public void test2() {
-		tcgbenchmarks_siena_senpdriver.mainProcess(11,11,13,4,5,5,7,8,9);
+		tcgbenchmarks_siena_senpdriver.mainProcess(11,11,13,11,5,5,7,8,9);
 	}
 
 	@Test
 	public void test3() {
-		tcgbenchmarks_siena_senpdriver.mainProcess(11,11,10,4,5,5,7,8,9);
+		tcgbenchmarks_siena_senpdriver.mainProcess(11,11,10,11,5,5,7,8,9);
 	}
 
 	@Test
 	public void test4() {
-		tcgbenchmarks_siena_senpdriver.mainProcess(11,11,-2147483648,4,5,5,7,8,9);
+		tcgbenchmarks_siena_senpdriver.mainProcess(11,11,-2147483648,11,5,5,7,8,9);
 	}
 
 	@Test
 	public void test5() {
-		tcgbenchmarks_siena_senpdriver.mainProcess(11,11,127,4,5,5,7,8,9);
+		tcgbenchmarks_siena_senpdriver.mainProcess(11,11,127,11,5,5,7,8,9);
 	}
 }
 

@@ -13,42 +13,37 @@ public class tcgbenchmarks_schedule2_3_Schedule2Test {
 
 	@Test
 	public void test0() {
-		tcgbenchmarks_schedule2_3_schedule2.launch(3,3,3,3,3,3,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648);
+		tcgbenchmarks_schedule2_3_schedule2.launch(3,3,3,3,3,2,5,3,2,5,3,2,5,3,2);
 	}
 
 	@Test
 	public void test1() {
-		tcgbenchmarks_schedule2_3_schedule2.launch(3,3,3,3,3,1,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648);
+		tcgbenchmarks_schedule2_3_schedule2.launch(3,3,3,3,1,2,5,3,2,5,3,2,5,3,2);
 	}
 
 	@Test
 	public void test2() {
-		tcgbenchmarks_schedule2_3_schedule2.launch(3,3,3,3,3,4,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648);
+		tcgbenchmarks_schedule2_3_schedule2.launch(3,3,3,3,4,2,5,3,2,5,3,2,5,3,2);
 	}
 
 	@Test
 	public void test3() {
-		tcgbenchmarks_schedule2_3_schedule2.launch(3,3,3,3,3,5,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648);
+		tcgbenchmarks_schedule2_3_schedule2.launch(3,3,3,3,5,2,5,3,2,5,3,2,5,3,2);
 	}
 
 	@Test
 	public void test4() {
-		tcgbenchmarks_schedule2_3_schedule2.launch(3,3,3,3,3,2,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648);
+		tcgbenchmarks_schedule2_3_schedule2.launch(3,3,3,3,6,2,5,3,2,5,3,2,5,3,2);
 	}
 
 	@Test
 	public void test5() {
-		tcgbenchmarks_schedule2_3_schedule2.launch(3,3,3,3,3,6,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648);
+		tcgbenchmarks_schedule2_3_schedule2.launch(3,3,3,3,-131074,2,5,3,2,5,3,2,5,3,2);
 	}
 
 	@Test
 	public void test6() {
-		tcgbenchmarks_schedule2_3_schedule2.launch(3,3,3,3,3,-131074,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648);
-	}
-
-	@Test
-	public void test7() {
-		tcgbenchmarks_schedule2_3_schedule2.launch(3,3,3,3,4,4,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648);
+		tcgbenchmarks_schedule2_3_schedule2.launch(3,3,3,1,4,2,5,3,2,5,3,2,5,3,2);
 	}
 }
 
