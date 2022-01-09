@@ -2,7 +2,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class tcgbenchmarks_replace_replace11Test {
+ public class replaceJR_Collect_mode5_steps1_Test{
 
 	private tcgbenchmarks.replace.replace11 tcgbenchmarks_replace_replace11;
 

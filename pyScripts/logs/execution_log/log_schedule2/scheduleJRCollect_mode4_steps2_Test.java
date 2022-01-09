@@ -2,7 +2,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class tcgbenchmarks_schedule2_3_Schedule2Test {
+ public class scheduleJRCollect_mode4_steps2_Test{
 
 	private tcgbenchmarks.schedule2_3.Schedule2 tcgbenchmarks_schedule2_3_schedule2;
 

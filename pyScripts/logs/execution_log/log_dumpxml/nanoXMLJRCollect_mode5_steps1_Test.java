@@ -2,7 +2,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class tcgbenchmarks_nanoxmlTCG_DumpXMLTest {
+ public class nanoXMLJRCollect_mode5_steps1_Test{
 
 	private tcgbenchmarks.nanoxmlTCG.DumpXML tcgbenchmarks_nanoxmltcg_dumpxml;
 

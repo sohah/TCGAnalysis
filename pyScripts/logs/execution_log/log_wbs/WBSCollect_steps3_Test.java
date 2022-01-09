@@ -2,7 +2,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class tcgbenchmarks_wbs_WBSTest {
+ public class WBSCollect_steps3_Test{
 
 	private tcgbenchmarks.wbs.WBS tcgbenchmarks_wbs_wbs;
 

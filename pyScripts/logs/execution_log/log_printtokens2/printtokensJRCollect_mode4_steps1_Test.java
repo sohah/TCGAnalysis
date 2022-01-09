@@ -2,7 +2,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class tcgbenchmarks_printtokens2_3_printTokens2Test {
+ public class printtokensJRCollect_mode4_steps1_Test{
 
 	private tcgbenchmarks.printtokens2_3.printTokens2 tcgbenchmarks_printtokens2_3_printtokens2;
 

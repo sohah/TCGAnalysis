@@ -2,7 +2,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class tcgbenchmarks_tcas_tcasTest {
+ public class TCAS_JR_Collect_mode2_steps1_Test{
 
 	private tcgbenchmarks.tcas.tcas tcgbenchmarks_tcas_tcas;
 

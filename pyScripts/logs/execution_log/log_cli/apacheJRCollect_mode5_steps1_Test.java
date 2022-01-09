@@ -2,7 +2,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class tcgbenchmarks_apachecli_CLITest {
+ public class apacheJRCollect_mode5_steps1_Test{
 
 	private tcgbenchmarks.apachecli.CLI tcgbenchmarks_apachecli_cli;
 

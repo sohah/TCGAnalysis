@@ -2,7 +2,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class tcgbenchmarks_siena_SENPDriverTest {
+ public class sienaJRCollect_mode4_steps1_Test{
 
 	private tcgbenchmarks.siena.SENPDriver tcgbenchmarks_siena_senpdriver;
 
