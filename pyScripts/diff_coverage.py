@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import numpy as np
 import os
 import pandas as pd
 
@@ -24,7 +25,12 @@ for benchmark_log_dir in os.listdir(execution_log_dir):
                     obligation_value_series = obligation_value[obligation_value.columns[0]].index.sort_values()
                     content_df_series = content_df[content_df.columns[0]].index.sort_values()
                     if not obligation_value_series.equals(content_df_series):
-                        print('size of obligation or values are not the same for ', f, 'aborting.')
+                        print('size of obligation or values are not the same for ', f, 'printing unmatch and aborting.\n--->first<----')
+                        for name in obligation_value_series:
+                            print(name)
+                        print ('--->second<----')
+                        for name in content_df_series:
+                            print(name)
                         exit(1)
                     else:
                         print('match for ', f.name)

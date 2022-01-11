@@ -1,6 +1,0 @@
-bench, time,staticAnalysisTime,dynTime,npaths,solverCount,totalSolverTime,parseTime,cleanupTime,DistinctVeriRegionNum,DistinctSpfRegionNum,ConcreteRegionNum,FIELDREFERNCEINSTRUCTION,SPFCASEINSTRUCTION,MISSINGMETHODSUMMARY,OTHER,hgOrdRegionInstance,regionCount,SuccInstantiations,FailedInstantiations,ConcreteInstNum,FIELDREFERNCEINSTRUCTION,SPFCASEINSTRUCTION,MISSINGMETHODSUMMARY,OTHER,interestingRegionCount,numMethodSummaries,maxBranchDepth,maxExecPathCount,avgExecPathCount,staticPhaseEx,instPhaseEx,unknownPhaseEx, unitTests
-printtokensCollect_steps1,5779,0,5779,26,378,184,118,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0.0,0,0,0,25
-printtokensJRCollect.mode2_steps1,13391,3725,9666,25,437,201,114,0,2,9,0,0,0,0,9,0,11,2,9,0,0,0,0,9,12106,2741,10,19,3.1219512195121952,43,9,0,25
-printtokensJRCollect.mode3_steps1,13599,3312,10287,25,437,276,155,0,2,9,0,0,0,0,9,0,11,2,9,0,0,0,0,9,12106,2741,10,19,3.1219512195121952,43,9,0,25
-printtokensJRCollect.mode4_steps1,18799,4667,14132,25,437,881,726,0,2,9,0,0,0,0,9,0,11,2,9,0,0,0,0,9,12106,2741,10,19,3.1219512195121952,43,9,0,25
-printtokensJRCollect.mode5_steps1,19810,4265,15545,23,412,383,244,0,4,3,0,0,0,0,3,0,7,16,3,0,0,0,0,3,15730,3556,10,19,3.0952380952380953,53,3,0,24
