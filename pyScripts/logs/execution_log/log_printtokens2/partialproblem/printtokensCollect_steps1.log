@@ -1,0 +1,1834 @@
+symbolic.min_int=-2147483648
+symbolic.min_long=-9223372036854775808
+symbolic.min_short=-32768
+symbolic.min_byte=-128
+symbolic.min_char=0
+symbolic.max_int=2147483647
+symbolic.max_long=9223372036854775807
+symbolic.max_short=32767
+symbolic.max_byte=127
+symbolic.max_char=65535
+symbolic.min_double=4.9E-324
+symbolic.max_double=1.7976931348623157E308
+* Warning: either invalid or no veritestingMode specified.
+* Warning: set veritestingMode to 1 to use vanilla SPF with VeritestingListener
+* Warning: set veritestingMode to 2 to use veritesting
+* Warning: set veritestingMode to 3 to use veritesting with higher order regions
+* Warning: set veritestingMode to 4 to use veritesting with higher order regions and SPFCases
+* Warning: resetting veritestingMode to 0 (aka use vanilla SPF)
+JavaPathfinder core system v8.0 (rev e734381a6e606354034111dc855be9a8e454ce71) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+tcgbenchmarks.printtokens2_3.printTokens2.main()
+
+====================================================== search started: 1/10/22 3:06 PM
+---- CoverageMode = SPF, solver = z3bitvector, benchmark= printTokens2, STEPS 1
+|-|-|-|-|-|-|-|-|-|-|-|-finished obligation collection|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
+eof.
+threadTerminated: 1
+identifier, "".
+threadTerminated: 2
+identifier, "".
+threadTerminated: 3
+lparen.
+identifier, "".
+threadTerminated: 4
+rparen.
+identifier, "".
+threadTerminated: 5
+lsquare.
+identifier, "".
+threadTerminated: 6
+rsquare.
+identifier, "".
+threadTerminated: 7
+quote.
+identifier, "".
+threadTerminated: 8
+bquote.
+identifier, "".
+threadTerminated: 9
+comma.
+identifier, "".
+threadTerminated: 10
+error, "".
+threadTerminated: 11
+threadTerminated: 12
+identifier, "".
+threadTerminated: 13
+identifier, "".
+threadTerminated: 14
+identifier, "".
+threadTerminated: 15
+identifier, "".
+threadTerminated: 16
+identifier, "".
+threadTerminated: 17
+error, "".
+threadTerminated: 18
+identifier, "".
+threadTerminated: 19
+identifier, "".
+threadTerminated: 20
+error, "".
+threadTerminated: 21
+error, "".
+threadTerminated: 22
+error, "".
+threadTerminated: 23
+error, "".
+threadTerminated: 24
+character, "".
+threadTerminated: 25
+error, "".
+threadTerminated: 26
+eof.
+identifier, "".
+threadTerminated: 27
+identifier, "".
+threadTerminated: 28
+identifier, "".
+threadTerminated: 29
+lparen.
+identifier, "".
+threadTerminated: 30
+rparen.
+identifier, "".
+threadTerminated: 31
+lsquare.
+identifier, "".
+threadTerminated: 32
+rsquare.
+identifier, "".
+threadTerminated: 33
+quote.
+identifier, "".
+threadTerminated: 34
+bquote.
+identifier, "".
+threadTerminated: 35
+comma.
+identifier, "".
+threadTerminated: 36
+error, "".
+threadTerminated: 37
+threadTerminated: 38
+identifier, "".
+threadTerminated: 39
+identifier, "".
+threadTerminated: 40
+identifier, "".
+threadTerminated: 41
+identifier, "".
+threadTerminated: 42
+identifier, "".
+threadTerminated: 43
+error, "".
+threadTerminated: 44
+identifier, "".
+threadTerminated: 45
+identifier, "".
+threadTerminated: 46
+error, "".
+threadTerminated: 47
+error, "".
+threadTerminated: 48
+error, "".
+threadTerminated: 49
+error, "".
+threadTerminated: 50
+character, "".
+threadTerminated: 51
+error, "".
+threadTerminated: 52
+eof.
+identifier, "".
+threadTerminated: 53
+identifier, "".
+threadTerminated: 54
+identifier, "".
+threadTerminated: 55
+lparen.
+identifier, "".
+threadTerminated: 56
+rparen.
+identifier, "".
+threadTerminated: 57
+lsquare.
+identifier, "".
+threadTerminated: 58
+rsquare.
+identifier, "".
+threadTerminated: 59
+quote.
+identifier, "".
+threadTerminated: 60
+bquote.
+identifier, "".
+threadTerminated: 61
+comma.
+identifier, "".
+threadTerminated: 62
+error, "".
+threadTerminated: 63
+threadTerminated: 64
+identifier, "".
+threadTerminated: 65
+identifier, "".
+threadTerminated: 66
+identifier, "".
+threadTerminated: 67
+identifier, "".
+threadTerminated: 68
+identifier, "".
+threadTerminated: 69
+error, "".
+threadTerminated: 70
+identifier, "".
+threadTerminated: 71
+identifier, "".
+threadTerminated: 72
+error, "".
+threadTerminated: 73
+error, "".
+threadTerminated: 74
+error, "".
+threadTerminated: 75
+error, "".
+threadTerminated: 76
+character, "".
+threadTerminated: 77
+error, "".
+threadTerminated: 78
+lparen.
+threadTerminated: 79
+identifier, "".
+threadTerminated: 80
+identifier, "".
+threadTerminated: 81
+lparen.
+identifier, "".
+threadTerminated: 82
+rparen.
+identifier, "".
+threadTerminated: 83
+lsquare.
+identifier, "".
+threadTerminated: 84
+rsquare.
+identifier, "".
+threadTerminated: 85
+quote.
+identifier, "".
+threadTerminated: 86
+bquote.
+identifier, "".
+threadTerminated: 87
+comma.
+identifier, "".
+threadTerminated: 88
+error, "".
+threadTerminated: 89
+threadTerminated: 90
+identifier, "".
+threadTerminated: 91
+identifier, "".
+threadTerminated: 92
+identifier, "".
+threadTerminated: 93
+identifier, "".
+threadTerminated: 94
+identifier, "".
+threadTerminated: 95
+error, "".
+threadTerminated: 96
+identifier, "".
+threadTerminated: 97
+identifier, "".
+threadTerminated: 98
+error, "".
+threadTerminated: 99
+error, "".
+threadTerminated: 100
+error, "".
+threadTerminated: 101
+error, "".
+threadTerminated: 102
+character, "".
+threadTerminated: 103
+error, "".
+threadTerminated: 104
+rparen.
+threadTerminated: 105
+identifier, "".
+threadTerminated: 106
+identifier, "".
+threadTerminated: 107
+lparen.
+identifier, "".
+threadTerminated: 108
+rparen.
+identifier, "".
+threadTerminated: 109
+lsquare.
+identifier, "".
+threadTerminated: 110
+rsquare.
+identifier, "".
+threadTerminated: 111
+quote.
+identifier, "".
+threadTerminated: 112
+bquote.
+identifier, "".
+threadTerminated: 113
+comma.
+identifier, "".
+threadTerminated: 114
+error, "".
+threadTerminated: 115
+threadTerminated: 116
+identifier, "".
+threadTerminated: 117
+identifier, "".
+threadTerminated: 118
+identifier, "".
+threadTerminated: 119
+identifier, "".
+threadTerminated: 120
+identifier, "".
+threadTerminated: 121
+error, "".
+threadTerminated: 122
+identifier, "".
+threadTerminated: 123
+identifier, "".
+threadTerminated: 124
+error, "".
+threadTerminated: 125
+error, "".
+threadTerminated: 126
+error, "".
+threadTerminated: 127
+error, "".
+threadTerminated: 128
+character, "".
+threadTerminated: 129
+error, "".
+threadTerminated: 130
+lsquare.
+threadTerminated: 131
+identifier, "".
+threadTerminated: 132
+identifier, "".
+threadTerminated: 133
+lparen.
+identifier, "".
+threadTerminated: 134
+rparen.
+identifier, "".
+threadTerminated: 135
+lsquare.
+identifier, "".
+threadTerminated: 136
+rsquare.
+identifier, "".
+threadTerminated: 137
+quote.
+identifier, "".
+threadTerminated: 138
+bquote.
+identifier, "".
+threadTerminated: 139
+comma.
+identifier, "".
+threadTerminated: 140
+error, "".
+threadTerminated: 141
+threadTerminated: 142
+identifier, "".
+threadTerminated: 143
+identifier, "".
+threadTerminated: 144
+identifier, "".
+threadTerminated: 145
+identifier, "".
+threadTerminated: 146
+identifier, "".
+threadTerminated: 147
+error, "".
+threadTerminated: 148
+identifier, "".
+threadTerminated: 149
+identifier, "".
+threadTerminated: 150
+error, "".
+threadTerminated: 151
+error, "".
+threadTerminated: 152
+error, "".
+threadTerminated: 153
+error, "".
+threadTerminated: 154
+character, "".
+threadTerminated: 155
+error, "".
+threadTerminated: 156
+rsquare.
+threadTerminated: 157
+identifier, "".
+threadTerminated: 158
+identifier, "".
+threadTerminated: 159
+lparen.
+identifier, "".
+threadTerminated: 160
+rparen.
+identifier, "".
+threadTerminated: 161
+lsquare.
+identifier, "".
+threadTerminated: 162
+rsquare.
+identifier, "".
+threadTerminated: 163
+quote.
+identifier, "".
+threadTerminated: 164
+bquote.
+identifier, "".
+threadTerminated: 165
+comma.
+identifier, "".
+threadTerminated: 166
+error, "".
+threadTerminated: 167
+threadTerminated: 168
+identifier, "".
+threadTerminated: 169
+identifier, "".
+threadTerminated: 170
+identifier, "".
+threadTerminated: 171
+identifier, "".
+threadTerminated: 172
+identifier, "".
+threadTerminated: 173
+error, "".
+threadTerminated: 174
+identifier, "".
+threadTerminated: 175
+identifier, "".
+threadTerminated: 176
+error, "".
+threadTerminated: 177
+error, "".
+threadTerminated: 178
+error, "".
+threadTerminated: 179
+error, "".
+threadTerminated: 180
+character, "".
+threadTerminated: 181
+error, "".
+threadTerminated: 182
+quote.
+threadTerminated: 183
+identifier, "".
+threadTerminated: 184
+identifier, "".
+threadTerminated: 185
+lparen.
+identifier, "".
+threadTerminated: 186
+rparen.
+identifier, "".
+threadTerminated: 187
+lsquare.
+identifier, "".
+threadTerminated: 188
+rsquare.
+identifier, "".
+threadTerminated: 189
+quote.
+identifier, "".
+threadTerminated: 190
+bquote.
+identifier, "".
+threadTerminated: 191
+comma.
+identifier, "".
+threadTerminated: 192
+error, "".
+threadTerminated: 193
+threadTerminated: 194
+identifier, "".
+threadTerminated: 195
+identifier, "".
+threadTerminated: 196
+identifier, "".
+threadTerminated: 197
+identifier, "".
+threadTerminated: 198
+identifier, "".
+threadTerminated: 199
+error, "".
+threadTerminated: 200
+identifier, "".
+threadTerminated: 201
+identifier, "".
+threadTerminated: 202
+error, "".
+threadTerminated: 203
+error, "".
+threadTerminated: 204
+error, "".
+threadTerminated: 205
+error, "".
+threadTerminated: 206
+character, "".
+threadTerminated: 207
+error, "".
+threadTerminated: 208
+bquote.
+threadTerminated: 209
+identifier, "".
+threadTerminated: 210
+identifier, "".
+threadTerminated: 211
+lparen.
+identifier, "".
+threadTerminated: 212
+rparen.
+identifier, "".
+threadTerminated: 213
+lsquare.
+identifier, "".
+threadTerminated: 214
+rsquare.
+identifier, "".
+threadTerminated: 215
+quote.
+identifier, "".
+threadTerminated: 216
+bquote.
+identifier, "".
+threadTerminated: 217
+comma.
+identifier, "".
+threadTerminated: 218
+error, "".
+threadTerminated: 219
+threadTerminated: 220
+identifier, "".
+threadTerminated: 221
+identifier, "".
+threadTerminated: 222
+identifier, "".
+threadTerminated: 223
+identifier, "".
+threadTerminated: 224
+identifier, "".
+threadTerminated: 225
+error, "".
+threadTerminated: 226
+identifier, "".
+threadTerminated: 227
+identifier, "".
+threadTerminated: 228
+error, "".
+threadTerminated: 229
+error, "".
+threadTerminated: 230
+error, "".
+threadTerminated: 231
+error, "".
+threadTerminated: 232
+character, "".
+threadTerminated: 233
+error, "".
+threadTerminated: 234
+comma.
+threadTerminated: 235
+identifier, "".
+threadTerminated: 236
+identifier, "".
+threadTerminated: 237
+lparen.
+identifier, "".
+threadTerminated: 238
+rparen.
+identifier, "".
+threadTerminated: 239
+lsquare.
+identifier, "".
+threadTerminated: 240
+rsquare.
+identifier, "".
+threadTerminated: 241
+quote.
+identifier, "".
+threadTerminated: 242
+bquote.
+identifier, "".
+threadTerminated: 243
+comma.
+identifier, "".
+threadTerminated: 244
+error, "".
+threadTerminated: 245
+threadTerminated: 246
+identifier, "".
+threadTerminated: 247
+identifier, "".
+threadTerminated: 248
+identifier, "".
+threadTerminated: 249
+identifier, "".
+threadTerminated: 250
+identifier, "".
+threadTerminated: 251
+error, "".
+threadTerminated: 252
+identifier, "".
+threadTerminated: 253
+identifier, "".
+threadTerminated: 254
+error, "".
+threadTerminated: 255
+error, "".
+threadTerminated: 256
+error, "".
+threadTerminated: 257
+error, "".
+threadTerminated: 258
+character, "".
+threadTerminated: 259
+error, "".
+threadTerminated: 260
+error, "".
+threadTerminated: 261
+string,.
+identifier, "".
+threadTerminated: 262
+error, "".
+identifier, "".
+threadTerminated: 263
+error, "".
+threadTerminated: 264
+threadTerminated: 265
+identifier, "".
+threadTerminated: 266
+threadTerminated: 267
+identifier, "".
+threadTerminated: 268
+identifier, "".
+threadTerminated: 269
+identifier, "".
+threadTerminated: 270
+identifier, "".
+threadTerminated: 271
+identifier, "".
+threadTerminated: 272
+error, "".
+threadTerminated: 273
+identifier, "".
+threadTerminated: 274
+identifier, "".
+threadTerminated: 275
+error, "".
+threadTerminated: 276
+error, "".
+threadTerminated: 277
+numeric,.
+threadTerminated: 278
+error, "".
+threadTerminated: 279
+error, "".
+threadTerminated: 280
+error, "".
+threadTerminated: 281
+identifier, "".
+lparen.
+identifier, "".
+threadTerminated: 282
+identifier, "".
+lparen.
+identifier, "".
+threadTerminated: 283
+identifier, "".
+lparen.
+identifier, "".
+threadTerminated: 284
+identifier, "".
+lparen.
+identifier, "".
+threadTerminated: 285
+identifier, "".
+lparen.
+identifier, "".
+threadTerminated: 286
+error, "".
+lparen.
+identifier, "".
+threadTerminated: 287
+identifier, "".
+lparen.
+identifier, "".
+threadTerminated: 288
+identifier, "".
+lparen.
+identifier, "".
+threadTerminated: 289
+error, "".
+lparen.
+identifier, "".
+threadTerminated: 290
+error, "".
+lparen.
+identifier, "".
+threadTerminated: 291
+numeric,.
+lparen.
+identifier, "".
+threadTerminated: 292
+error, "".
+lparen.
+identifier, "".
+threadTerminated: 293
+error, "".
+lparen.
+identifier, "".
+threadTerminated: 294
+error, "".
+lparen.
+identifier, "".
+threadTerminated: 295
+identifier, "".
+rparen.
+identifier, "".
+threadTerminated: 296
+identifier, "".
+rparen.
+identifier, "".
+threadTerminated: 297
+identifier, "".
+rparen.
+identifier, "".
+threadTerminated: 298
+identifier, "".
+rparen.
+identifier, "".
+threadTerminated: 299
+identifier, "".
+rparen.
+identifier, "".
+threadTerminated: 300
+error, "".
+rparen.
+identifier, "".
+threadTerminated: 301
+identifier, "".
+rparen.
+identifier, "".
+threadTerminated: 302
+identifier, "".
+rparen.
+identifier, "".
+threadTerminated: 303
+error, "".
+rparen.
+identifier, "".
+threadTerminated: 304
+error, "".
+rparen.
+identifier, "".
+threadTerminated: 305
+numeric,.
+rparen.
+identifier, "".
+threadTerminated: 306
+error, "".
+rparen.
+identifier, "".
+threadTerminated: 307
+error, "".
+rparen.
+identifier, "".
+threadTerminated: 308
+error, "".
+rparen.
+identifier, "".
+threadTerminated: 309
+identifier, "".
+lsquare.
+identifier, "".
+threadTerminated: 310
+identifier, "".
+lsquare.
+identifier, "".
+threadTerminated: 311
+identifier, "".
+lsquare.
+identifier, "".
+threadTerminated: 312
+identifier, "".
+lsquare.
+identifier, "".
+threadTerminated: 313
+identifier, "".
+lsquare.
+identifier, "".
+threadTerminated: 314
+error, "".
+lsquare.
+identifier, "".
+threadTerminated: 315
+identifier, "".
+lsquare.
+identifier, "".
+threadTerminated: 316
+identifier, "".
+lsquare.
+identifier, "".
+threadTerminated: 317
+error, "".
+lsquare.
+identifier, "".
+threadTerminated: 318
+error, "".
+lsquare.
+identifier, "".
+threadTerminated: 319
+numeric,.
+lsquare.
+identifier, "".
+threadTerminated: 320
+error, "".
+lsquare.
+identifier, "".
+threadTerminated: 321
+error, "".
+lsquare.
+identifier, "".
+threadTerminated: 322
+error, "".
+lsquare.
+identifier, "".
+threadTerminated: 323
+identifier, "".
+rsquare.
+identifier, "".
+threadTerminated: 324
+identifier, "".
+rsquare.
+identifier, "".
+threadTerminated: 325
+identifier, "".
+rsquare.
+identifier, "".
+threadTerminated: 326
+identifier, "".
+rsquare.
+identifier, "".
+threadTerminated: 327
+identifier, "".
+rsquare.
+identifier, "".
+threadTerminated: 328
+error, "".
+rsquare.
+identifier, "".
+threadTerminated: 329
+identifier, "".
+rsquare.
+identifier, "".
+threadTerminated: 330
+identifier, "".
+rsquare.
+identifier, "".
+threadTerminated: 331
+error, "".
+rsquare.
+identifier, "".
+threadTerminated: 332
+error, "".
+rsquare.
+identifier, "".
+threadTerminated: 333
+numeric,.
+rsquare.
+identifier, "".
+threadTerminated: 334
+error, "".
+rsquare.
+identifier, "".
+threadTerminated: 335
+error, "".
+rsquare.
+identifier, "".
+threadTerminated: 336
+error, "".
+rsquare.
+identifier, "".
+threadTerminated: 337
+identifier, "".
+quote.
+identifier, "".
+threadTerminated: 338
+identifier, "".
+quote.
+identifier, "".
+threadTerminated: 339
+identifier, "".
+quote.
+identifier, "".
+threadTerminated: 340
+identifier, "".
+quote.
+identifier, "".
+threadTerminated: 341
+identifier, "".
+quote.
+identifier, "".
+threadTerminated: 342
+error, "".
+quote.
+identifier, "".
+threadTerminated: 343
+identifier, "".
+quote.
+identifier, "".
+threadTerminated: 344
+identifier, "".
+quote.
+identifier, "".
+threadTerminated: 345
+error, "".
+quote.
+identifier, "".
+threadTerminated: 346
+error, "".
+quote.
+identifier, "".
+threadTerminated: 347
+numeric,.
+quote.
+identifier, "".
+threadTerminated: 348
+error, "".
+quote.
+identifier, "".
+threadTerminated: 349
+error, "".
+quote.
+identifier, "".
+threadTerminated: 350
+error, "".
+quote.
+identifier, "".
+threadTerminated: 351
+identifier, "".
+bquote.
+identifier, "".
+threadTerminated: 352
+identifier, "".
+bquote.
+identifier, "".
+threadTerminated: 353
+identifier, "".
+bquote.
+identifier, "".
+threadTerminated: 354
+identifier, "".
+bquote.
+identifier, "".
+threadTerminated: 355
+identifier, "".
+bquote.
+identifier, "".
+threadTerminated: 356
+error, "".
+bquote.
+identifier, "".
+threadTerminated: 357
+identifier, "".
+bquote.
+identifier, "".
+threadTerminated: 358
+identifier, "".
+bquote.
+identifier, "".
+threadTerminated: 359
+error, "".
+bquote.
+identifier, "".
+threadTerminated: 360
+error, "".
+bquote.
+identifier, "".
+threadTerminated: 361
+numeric,.
+bquote.
+identifier, "".
+threadTerminated: 362
+error, "".
+bquote.
+identifier, "".
+threadTerminated: 363
+error, "".
+bquote.
+identifier, "".
+threadTerminated: 364
+error, "".
+bquote.
+identifier, "".
+threadTerminated: 365
+identifier, "".
+comma.
+identifier, "".
+threadTerminated: 366
+identifier, "".
+comma.
+identifier, "".
+threadTerminated: 367
+identifier, "".
+comma.
+identifier, "".
+threadTerminated: 368
+identifier, "".
+comma.
+identifier, "".
+threadTerminated: 369
+identifier, "".
+comma.
+identifier, "".
+threadTerminated: 370
+error, "".
+comma.
+identifier, "".
+threadTerminated: 371
+identifier, "".
+comma.
+identifier, "".
+threadTerminated: 372
+identifier, "".
+comma.
+identifier, "".
+threadTerminated: 373
+error, "".
+comma.
+identifier, "".
+threadTerminated: 374
+error, "".
+comma.
+identifier, "".
+threadTerminated: 375
+numeric,.
+comma.
+identifier, "".
+threadTerminated: 376
+error, "".
+comma.
+identifier, "".
+threadTerminated: 377
+error, "".
+comma.
+identifier, "".
+threadTerminated: 378
+error, "".
+comma.
+identifier, "".
+threadTerminated: 379
+identifier, "".
+identifier, "".
+threadTerminated: 380
+identifier, "".
+identifier, "".
+threadTerminated: 381
+identifier, "".
+identifier, "".
+threadTerminated: 382
+identifier, "".
+identifier, "".
+threadTerminated: 383
+identifier, "".
+identifier, "".
+threadTerminated: 384
+error, "".
+identifier, "".
+threadTerminated: 385
+identifier, "".
+identifier, "".
+threadTerminated: 386
+identifier, "".
+identifier, "".
+threadTerminated: 387
+error, "".
+identifier, "".
+threadTerminated: 388
+error, "".
+identifier, "".
+threadTerminated: 389
+numeric,.
+identifier, "".
+threadTerminated: 390
+error, "".
+identifier, "".
+threadTerminated: 391
+error, "".
+identifier, "".
+threadTerminated: 392
+error, "".
+identifier, "".
+threadTerminated: 393
+identifier, "".
+identifier, "".
+threadTerminated: 394
+identifier, "".
+identifier, "".
+threadTerminated: 395
+identifier, "".
+identifier, "".
+threadTerminated: 396
+identifier, "".
+identifier, "".
+threadTerminated: 397
+identifier, "".
+identifier, "".
+threadTerminated: 398
+error, "".
+identifier, "".
+threadTerminated: 399
+identifier, "".
+identifier, "".
+threadTerminated: 400
+identifier, "".
+identifier, "".
+threadTerminated: 401
+error, "".
+identifier, "".
+threadTerminated: 402
+error, "".
+identifier, "".
+threadTerminated: 403
+numeric,.
+identifier, "".
+threadTerminated: 404
+error, "".
+identifier, "".
+threadTerminated: 405
+error, "".
+identifier, "".
+threadTerminated: 406
+error, "".
+identifier, "".
+threadTerminated: 407
+identifier, "".
+threadTerminated: 408
+identifier, "".
+threadTerminated: 409
+identifier, "".
+threadTerminated: 410
+identifier, "".
+threadTerminated: 411
+identifier, "".
+threadTerminated: 412
+error, "".
+threadTerminated: 413
+identifier, "".
+threadTerminated: 414
+identifier, "".
+threadTerminated: 415
+error, "".
+threadTerminated: 416
+error, "".
+threadTerminated: 417
+numeric,.
+threadTerminated: 418
+error, "".
+threadTerminated: 419
+error, "".
+threadTerminated: 420
+error, "".
+threadTerminated: 421
+identifier, "".
+threadTerminated: 422
+identifier, "".
+threadTerminated: 423
+identifier, "".
+threadTerminated: 424
+error, "".
+threadTerminated: 425
+error, "".
+threadTerminated: 426
+identifier, "".
+threadTerminated: 427
+error, "".
+threadTerminated: 428
+error, "".
+threadTerminated: 429
+keyword, "".
+threadTerminated: 430
+identifier, "".
+threadTerminated: 431
+identifier, "".
+threadTerminated: 432
+error, "".
+threadTerminated: 433
+error, "".
+threadTerminated: 434
+identifier, "".
+threadTerminated: 435
+error, "".
+threadTerminated: 436
+error, "".
+threadTerminated: 437
+keyword, "".
+threadTerminated: 438
+identifier, "".
+threadTerminated: 439
+identifier, "".
+threadTerminated: 440
+error, "".
+threadTerminated: 441
+error, "".
+threadTerminated: 442
+identifier, "".
+threadTerminated: 443
+error, "".
+threadTerminated: 444
+error, "".
+threadTerminated: 445
+identifier, "".
+threadTerminated: 446
+identifier, "".
+threadTerminated: 447
+identifier, "".
+threadTerminated: 448
+error, "".
+threadTerminated: 449
+error, "".
+threadTerminated: 450
+identifier, "".
+threadTerminated: 451
+error, "".
+threadTerminated: 452
+error, "".
+threadTerminated: 453
+identifier, "".
+threadTerminated: 454
+identifier, "".
+threadTerminated: 455
+identifier, "".
+threadTerminated: 456
+error, "".
+threadTerminated: 457
+error, "".
+threadTerminated: 458
+identifier, "".
+threadTerminated: 459
+error, "".
+threadTerminated: 460
+error, "".
+threadTerminated: 461
+keyword, "".
+threadTerminated: 462
+error, "".
+threadTerminated: 463
+identifier, "".
+threadTerminated: 464
+identifier, "".
+threadTerminated: 465
+error, "".
+threadTerminated: 466
+error, "".
+threadTerminated: 467
+identifier, "".
+threadTerminated: 468
+error, "".
+threadTerminated: 469
+error, "".
+threadTerminated: 470
+identifier, "".
+threadTerminated: 471
+identifier, "".
+threadTerminated: 472
+error, "".
+threadTerminated: 473
+error, "".
+threadTerminated: 474
+identifier, "".
+threadTerminated: 475
+error, "".
+threadTerminated: 476
+error, "".
+threadTerminated: 477
+error, "".
+threadTerminated: 478
+error, "".
+threadTerminated: 479
+error, "".
+threadTerminated: 480
+error, "".
+threadTerminated: 481
+error, "".
+threadTerminated: 482
+error, "".
+threadTerminated: 483
+character, "".
+threadTerminated: 484
+character, "".
+threadTerminated: 485
+error, "".
+threadTerminated: 486
+error, "".
+threadTerminated: 487
+error, "".
+threadTerminated: 488
+error, "".
+threadTerminated: 489
+
+====================================================== VeritestingListener report:
+Encountered Veritesting Regions in veriRegions (i.e., VeriTestingMain.veriRegions size) = 0
+
+/************************ Printing Exception Statistics *****************
+Static Analysis exceptions count = 0
+Instantiation Time exceptions count = 0
+Unknown phases exception count = 0
+
+
+/************************ Printing Time Decomposition Statistics *****************
+static analysis time = 0 msec
+Veritesting Dyn Time = 144245 msec
+Veritesting fix-point Time = 0 msec
+GoTo rewrite instances = 0
+
+/************************ Printing Solver Statistics *****************
+Total Solver Queries Count = 10659
+Total Solver Time = 140739 msec
+Total Solver Parse Time = 4496 msec
+Region Summary Parse Time = 0 msec
+Total Solver Clean up Time = 545 msec
+PCSatSolverCount = 0
+PCSatSolverTime = 0 msec
+Constant Propagation Time for PC sat. checks = 0
+Array SPF Case count = 0
+If-removed count = 0
+
+/************************ Printing Region Statistics *****************
+Number of Distinct Veritested Regions = 0
+Number of Distinct Un-Veritested Symbolic Regions = 0
+Number of Distinct Failed Regions for Field Reference = 0
+Number of Distinct Failed Regions for SPFCases = 0
+Number of Distinct Failed Regions for missing method summaries = 0
+Number of Distinct Failed Regions for Other Reasons = 0
+Number of High Order Regions Used = 0
+
+/************************ Printing Instantiation Statistics *****************
+Number of successful instantiations = 0
+Total Number of unsuccessful instantiations = 0
+Number of failed instantiations due to Field Reference = 0
+Number of failed instantiations due to SPFCases = 0
+Number of failed instantiations due to missing method summaries = 0
+Number of failed instantiations due to Other Reasons = 0
+
+
+Number of Veritested Regions Instances = 0
+Printing keys of regions that were instantiated at least once
+Finished printing keys of regions that were instantiated at least once
+
+Metrics Vector:
+144245,0,144245,489,10659,140739,4496,545,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0.0,0,0,0
+
+====================================================== Branch Coverage report:
+Obligation -----> Coverage:
+tcgbenchmarks.printtokens2_3.printTokens2.is_str_constant([C)Z.7.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.25.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.5.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.43.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.isdigit(C)Z.3.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.39.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.65.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.93.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_eof_token([C)Z.3.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.18.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.62.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.85.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.77.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_char_constant([C)Z.5.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.15.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.173.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.273.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.151.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_char_constant([C)Z.18.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.267.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.93.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.17.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.112.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.133.TAKEN -----> false 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.65.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.117.NOT_TAKEN -----> false 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.273.TAKEN -----> false 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.101.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.260.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.54.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.isalpha(C)Z.9.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.84.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.129.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.69.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.84.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.109.NOT_TAKEN -----> false 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.7.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.62.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.17.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.45.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.57.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.83.NOT_TAKEN -----> false 
+tcgbenchmarks.printtokens2_3.printTokens2.is_comment([C)Z.5.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.81.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_str_constant([C)Z.21.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.26.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.83.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_num_constant([C)Z.18.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.43.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.25.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.55.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.295.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_identifier([C)Z.52.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.185.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.260.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_num_constant([C)Z.12.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_comment([C)Z.5.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.55.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.isalpha(C)Z.23.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.25.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.75.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.token_stream.read()C.9.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.48.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.125.NOT_TAKEN -----> false 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.96.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.31.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.28.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_char_constant([C)Z.18.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.129.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.83.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.isdigit(C)Z.9.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_num_constant([C)Z.33.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.133.NOT_TAKEN -----> false 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.5.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_num_constant([C)Z.33.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.49.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_eof_token([C)Z.3.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.154.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.100.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.69.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.143.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.104.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.25.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.18.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.5.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.83.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.5.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.28.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.mainProcess(CCCCCCCC)V.68.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.173.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.48.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.142.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.109.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.49.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.69.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.24.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.57.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_identifier([C)Z.33.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.75.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.55.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.186.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.54.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.isalpha(C)Z.23.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.isdigit(C)Z.9.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.token_stream.read()C.9.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.54.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.295.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_char_constant([C)Z.5.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.54.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.289.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.isalpha(C)Z.3.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.60.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.15.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.35.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.55.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.67.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.13.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.96.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.35.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.21.NOT_TAKEN -----> false 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.39.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.isalpha(C)Z.9.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.21.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.43.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.112.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.17.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.77.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.117.TAKEN -----> false 
+tcgbenchmarks.printtokens2_3.printTokens2.is_str_constant([C)Z.7.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_identifier([C)Z.33.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.26.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.31.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.39.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_identifier([C)Z.18.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_identifier([C)Z.18.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.45.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.5.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.5.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.6.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.67.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.151.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_str_constant([C)Z.13.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.69.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_num_constant([C)Z.12.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.186.TAKEN -----> false 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.244.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.isalpha(C)Z.3.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.token_stream.EOFStream()Z.9.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.13.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.41.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.85.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.7.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.104.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.223.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.mainProcess(CCCCCCCC)V.68.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.60.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.24.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.93.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.101.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.73.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.226.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_identifier([C)Z.12.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_str_constant([C)Z.13.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.41.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.31.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_num_constant([C)Z.18.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.43.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_identifier([C)Z.12.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.154.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.39.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.isalpha(C)Z.17.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.125.TAKEN -----> false 
+tcgbenchmarks.printtokens2_3.printTokens2.isalpha(C)Z.17.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.73.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.289.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.244.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.31.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.223.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.isdigit(C)Z.3.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.65.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.17.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.226.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_identifier([C)Z.52.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.142.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_str_constant([C)Z.21.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.185.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.6.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.81.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.143.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.267.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.144.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.93.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.100.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.144.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.65.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.token_stream.EOFStream()Z.9.NOT_TAKEN -----> true 
+
+
+====================================================== Method Sequences
+[mainProcess('\u0000','\u0000','c','d','e','f','g','h')]
+[mainProcess('\u0000',' ','c','d','e','f','g','h')]
+[mainProcess('\u0000','\n','c','d','e','f','g','h')]
+[mainProcess('\u0000','(','c','d','e','f','g','h')]
+[mainProcess('\u0000',')','c','d','e','f','g','h')]
+[mainProcess('\u0000','[','c','d','e','f','g','h')]
+[mainProcess('\u0000',']','c','d','e','f','g','h')]
+[mainProcess('\u0000','\'','c','d','e','f','g','h')]
+[mainProcess('\u0000','`','c','d','e','f','g','h')]
+[mainProcess('\u0000',',','c','d','e','f','g','h')]
+[mainProcess('\u0000','"','c','d','e','f','g','h')]
+[mainProcess('\u0000',';','c','d','e','f','g','h')]
+[mainProcess('\u0000','a','c','d','e','f','g','h')]
+[mainProcess('\u0000','o','c','d','e','f','g','h')]
+[mainProcess('\u0000','i','c','d','e','f','g','h')]
+[mainProcess('\u0000','x','c','d','e','f','g','h')]
+[mainProcess('\u0000','l','c','d','e','f','g','h')]
+[mainProcess('\u0000','=','c','d','e','f','g','h')]
+[mainProcess('\u0000','C','c','d','e','f','g','h')]
+[mainProcess('\u0000','','c','d','e','f','g','h')]
+[mainProcess('\u0000','_','c','d','e','f','g','h')]
+[mainProcess('\u0000','0','c','d','e','f','g','h')]
+[mainProcess('\u0000','#','c','d','e','f','g','h')]
+[mainProcess(' ',' ','c','d','e','f','g','h')]
+[mainProcess(' ','\n','c','d','e','f','g','h')]
+[mainProcess('"','"','c','d','e','f','g','h')]
+[mainProcess('"','\n','c','d','e','f','g','h')]
+[mainProcess(';','\n','c','d','e','f','g','h')]
+[mainProcess('0','\u0000','c','d','e','f','g','h')]
+[mainProcess('#','\u0000','c','d','e','f','g','h')]
+[mainProcess('a','(','c','d','e','f','g','h')]
+[mainProcess('a',' ','c','d','e','f','g','h')]
+[mainProcess('a','\n','c','d','e','f','g','h')]
+[mainProcess('a',';','c','d','e','f','g','h')]
+[mainProcess('a','n','c','d','e','f','g','h')]
+[mainProcess('a','{','c','d','e','f','g','h')]
+[mainProcess('a','0','c','d','e','f','g','h')]
+[mainProcess('o','r','c','d','e','f','g','h')]
+[mainProcess('i','f','c','d','e','f','g','h')]
+[mainProcess('x','o','c','d','e','f','g','h')]
+[mainProcess('l','a','c','d','e','f','g','h')]
+[mainProcess('=','>','c','d','e','f','g','h')]
+[mainProcess('0','0','c','d','e','f','g','h')]
+
+====================================================== JUnit 4.0 test class
+/*****IMPORTANT:If this is a static class, ensure to write a state resetting function and invoke it where necessary*******/
+import static org.junit.Assert.*;
+import org.junit.Before;
+import org.junit.Test;
+
+public class tcgbenchmarks_printtokens2_3_printTokens2Test {
+
+	private tcgbenchmarks.printtokens2_3.printTokens2 tcgbenchmarks_printtokens2_3_printtokens2;
+
+	@Before
+	public void setUp() throws Exception {
+		tcgbenchmarks_printtokens2_3_printtokens2 = new tcgbenchmarks.printtokens2_3.printTokens2();
+	}
+
+	@Test
+	public void test0() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','\u0000','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test1() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000',' ','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test2() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','\n','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test3() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','(','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test4() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000',')','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test5() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','[','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test6() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000',']','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test7() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','\'','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test8() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','`','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test9() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000',',','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test10() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','"','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test11() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000',';','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test12() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','a','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test13() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','o','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test14() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','i','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test15() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','x','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test16() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','l','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test17() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','=','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test18() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','C','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test19() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test20() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','_','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test21() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','0','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test22() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','#','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test23() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess(' ',' ','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test24() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess(' ','\n','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test25() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('"','"','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test26() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('"','\n','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test27() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess(';','\n','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test28() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('0','\u0000','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test29() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('#','\u0000','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test30() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('a','(','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test31() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('a',' ','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test32() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('a','\n','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test33() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('a',';','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test34() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('a','n','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test35() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('a','{','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test36() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('a','0','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test37() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('o','r','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test38() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('i','f','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test39() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('x','o','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test40() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('l','a','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test41() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('=','>','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test42() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('0','0','c','d','e','f','g','h');
+	}
+}
+
+====================================================== results
+no errors detected
+
+====================================================== statistics
+elapsed time:       00:02:24
+states:             new=10618,visited=0,backtracked=10618,end=489
+search:             maxDepth=92,constraints=0
+choice generators:  thread=1 (signal=0,lock=1,sharedRef=0,threadApi=0,reschedule=0), data=5309
+heap:               new=13423,released=10178,maxLive=393,gcCycles=5023
+instructions:       864737
+max memory:         481MB
+loaded code:        classes=72,methods=1386
+
+====================================================== search finished: 1/10/22 3:08 PM
