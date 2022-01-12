@@ -11,38 +11,38 @@ for benchmark_log_dir in os.listdir(execution_log_dir):
         with open(os.path.join(execution_log_dir, benchmark_log_dir, benchmark_log_file), 'r') as f:
             content_df = pd.read_csv(f)
             file_name = f.name
-            if 'ThreadStat_' in file_name:
-                # content_dfs.append(content_df[content_df.columns[1]])
+            if '_ExecStat_' in file_name:
+                # content_dfs.append(content_df[content_df.columns[0]])
                 mode = ''
                 if '0' in file_name:
                     mode = 'SPF'
-                    spf_np = content_df[content_df.columns[1]].values
-                    # print('spf found, printing column[1]')
-                    # print(content_df[content_df.columns[1]])
+                    spf_np = content_df[content_df.columns[0]].values
+                    # print('spf found, printing column[0]')
+                    # print(content_df[content_df.columns[0]])
                     # print('end')
                 elif '2' in file_name:
                     mode = 'mode2'
-                    jr_mode2 = content_df[content_df.columns[1]].values
-                    # print('mode2 found, printing column[1]')
-                    # print(content_df[content_df.columns[1]])
+                    jr_mode2 = content_df[content_df.columns[0]].values
+                    # print('mode2 found, printing column[0]')
+                    # print(content_df[content_df.columns[0]])
                     # print('end')
                 elif '3' in file_name:
                     mode = 'mode3'
-                    jr_mode3 = content_df[content_df.columns[1]].values
-                    # print('mode3 found, printing column[1]')
-                    # print(content_df[content_df.columns[1]])
+                    jr_mode3 = content_df[content_df.columns[0]].values
+                    # print('mode3 found, printing column[0]')
+                    # print(content_df[content_df.columns[0]])
                     # print('end')
                 elif '4' in file_name:
                     mode = 'mode4'
-                    jr_mode4 = content_df[content_df.columns[1]].values
-                    # print('mode4 found, printing column[1]')
-                    # print(content_df[content_df.columns[1]])
+                    jr_mode4 = content_df[content_df.columns[0]].values
+                    # print('mode4 found, printing column[0]')
+                    # print(content_df[content_df.columns[0]])
                     # print('end')
                 elif '5' in file_name:
                     mode = 'mode5'
-                    jr_mode5 = content_df[content_df.columns[1]].values
-                    # print('mode5 found, printing column[1]')
-                    # print(content_df[content_df.columns[1]])
+                    jr_mode5 = content_df[content_df.columns[0]].values
+                    # print('mode5 found, printing column[0]')
+                    # print(content_df[content_df.columns[0]])
                     # print('end')
                 else:
                     print('error wrong files.aborting')
@@ -55,7 +55,7 @@ for benchmark_log_dir in os.listdir(execution_log_dir):
     # print(df_columns)
     print(','.join(df_columns))
 
-    output_file = str(benchmark_log_dir) + '_combined_coverage_per_thread.cvs'
+    output_file = str(benchmark_log_dir) + '_combined_exec_stats.cvs'
 
     if(spf_np.size == 0 or jr_mode2.size == 0 or jr_mode3.size == 0 or jr_mode4.size == 0 or jr_mode5.size == 0):
         print('one run is missing. failing.')
