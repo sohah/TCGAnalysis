@@ -2,6 +2,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Arrays;
 
 /**
  * grep -A 1 'Metrics Vector:' WBS_JR_Collect.mode3_steps7.log | grep -v 'Metrics Vector' | cat grep 'void test' WBS_JR_Collect.mode3_steps7.log
@@ -31,7 +32,9 @@ public class CollectPerfStats {
         String resultFile = preparePerfLogFile(resultsDir, benchmark);
         String logFile = isPartialProblem ? parentLogDir + "logs/log_" + benchmark + "/partialproblem" : parentLogDir + "logs/log_" + benchmark;
         Path[] coverageStates = Files.list(Paths.get(logFile)).toArray(Path[]::new);
+        Arrays.sort(coverageStates);
         for (Path file : coverageStates) {
+            System.out.println("filename is" + file.toString());
             String logFileName = file.toString();
 //            if (!logFileName.contains("Perf"))
             new CollectPerfStats(logFileName, resultFile);

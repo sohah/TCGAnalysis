@@ -1,0 +1,4387 @@
+symbolic.min_int=-2147483648
+symbolic.min_long=-9223372036854775808
+symbolic.min_short=-32768
+symbolic.min_byte=-128
+symbolic.min_char=0
+symbolic.max_int=2147483647
+symbolic.max_long=9223372036854775807
+symbolic.max_short=32767
+symbolic.max_byte=127
+symbolic.max_char=65535
+symbolic.min_double=4.9E-324
+symbolic.max_double=1.7976931348623157E308
+JavaPathfinder core system v8.0 (rev e734381a6e606354034111dc855be9a8e454ce71) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+tcgbenchmarks.printtokens2_3.printTokens2.main()
+
+====================================================== search started: 1/14/22 10:47 AM
+---- CoverageMode = JR, solver = z3bitvector, benchmark= printTokens2, STEPS 1
+|-|-|-|-|-|-|-|-|-|-|-|-finished obligation collection|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
+^_^ running jitAnalysis ^_^
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.token_stream.read()C#9
+if ((! (> w5 0 ) )) {
+   return 6
+} else {
+   skip; 
+}
+
+
+!!!!!!!! Aborting Veritesting !!!!!!!!!!!! 
+Unsupported class: gov.nasa.jpf.symbc.veritesting.ast.def.ReturnInstruction value: 
+ return 0 seen in NoSkipVisitor
+
+eof.
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.token_stream.EOFStream()Z#9
+if ((! (> w5 0 ) )) {
+   return 7
+} else {
+   skip; 
+}
+
+
+!!!!!!!! Aborting Veritesting !!!!!!!!!!!! 
+Unsupported class: gov.nasa.jpf.symbc.veritesting.ast.def.ReturnInstruction value: 
+ return 1 seen in NoSkipVisitor
+
+threadTerminated: 1
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+identifier, "".
+threadTerminated: 2
+
+The solution is {i0_1_SYMINT=0, i1_2_SYMINT=32, get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C_54_NOT_TAKEN.1.5.3=0, get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C_54_NOT_TAKEN.1.3.3=0, w15$3=1, w18$3=32, get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C_43_NOT_TAKEN.1.3.3=1}
+
+The solution is {i0_1_SYMINT=0, i1_2_SYMINT=10, get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C_54_NOT_TAKEN.1.5.3=1, get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C_54_NOT_TAKEN.1.3.3=1, w15$3=1, w18$3=10, get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C_43_NOT_TAKEN.1.3.3=0}
+lparen.
+identifier, "".
+threadTerminated: 3
+rparen.
+identifier, "".
+threadTerminated: 4
+lsquare.
+identifier, "".
+threadTerminated: 5
+rsquare.
+identifier, "".
+threadTerminated: 6
+quote.
+identifier, "".
+threadTerminated: 7
+bquote.
+identifier, "".
+threadTerminated: 8
+comma.
+identifier, "".
+threadTerminated: 9
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z#25
+if ((! (!= w1 1 ) )) {
+   if ((! (!= w2 34 ) )) {
+      return 7
+   } else {
+      skip; 
+   }
+   if ((! (!= w2 10 ) )) {
+      return 7
+   } else {
+      skip; 
+   }
+   return 6
+} else {
+   skip; 
+}
+
+
+!!!!!!!! Aborting Veritesting !!!!!!!!!!!! 
+Unsupported class: gov.nasa.jpf.symbc.veritesting.ast.def.ReturnInstruction value: 
+ return 0 seen in NoSkipVisitor
+
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.isalpha(C)Z#3
+if ((! (< w1 65 ) )) {
+   if ((! (> w1 90 ) )) {
+      return 5
+   } else {
+      skip; 
+   }
+   if ((! (< w1 97 ) )) {
+      if ((! (> w1 122 ) )) {
+         return 5
+      } else {
+         skip; 
+      }
+      return 8
+   } else {
+      skip; 
+   }
+   return 8
+} else {
+   skip; 
+}
+
+
+!!!!!!!! Aborting Veritesting !!!!!!!!!!!! 
+Unsupported class: gov.nasa.jpf.symbc.veritesting.ast.def.ReturnInstruction value: 
+ return 1 seen in NoSkipVisitor
+
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.isdigit(C)Z#3
+if ((! (< w1 48 ) )) {
+   if ((! (> w1 57 ) )) {
+      return 5
+   } else {
+      skip; 
+   }
+   return 6
+} else {
+   skip; 
+}
+
+
+!!!!!!!! Aborting Veritesting !!!!!!!!!!!! 
+Unsupported class: gov.nasa.jpf.symbc.veritesting.ast.def.ReturnInstruction value: 
+ return 1 seen in NoSkipVisitor
+
+error, "".
+threadTerminated: 10
+
+The solution is {w30$4=1, get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C_154_NOT_TAKEN.1.5.4=0, i0_1_SYMINT=0, i1_2_SYMINT=34, get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C_54_NOT_TAKEN.1.5.3=0, get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C_154_NOT_TAKEN.1.3.4=0, get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C_54_NOT_TAKEN.1.3.3=0, w15$3=0, w18$3=34, get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C_43_NOT_TAKEN.1.3.3=0, get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C_142_NOT_TAKEN.1.3.4=1}
+The solution is {}
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z#48
+if ((! (!= w1 2 ) )) {
+   if ((! (!= w2 10 ) )) {
+      return 7
+   } else {
+      skip; 
+   }
+   return 6
+} else {
+   skip; 
+}
+
+
+!!!!!!!! Aborting Veritesting !!!!!!!!!!!! 
+Unsupported class: gov.nasa.jpf.symbc.veritesting.ast.def.ReturnInstruction value: 
+ return 0 seen in NoSkipVisitor
+
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.isdigit(C)Z#9
+if ((! (> w1 57 ) )) {
+   return 5
+} else {
+   skip; 
+}
+
+
+!!!!!!!! Aborting Veritesting !!!!!!!!!!!! 
+Unsupported class: gov.nasa.jpf.symbc.veritesting.ast.def.ReturnInstruction value: 
+ return 1 seen in NoSkipVisitor
+
+threadTerminated: 11
+
+The solution is {w30$4=2, get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C_154_NOT_TAKEN.1.5.4=1, i0_1_SYMINT=0, i1_2_SYMINT=59, get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C_54_NOT_TAKEN.1.5.3=0, get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C_154_NOT_TAKEN.1.3.4=1, get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C_54_NOT_TAKEN.1.3.3=0, w15$3=0, w18$3=59, get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C_43_NOT_TAKEN.1.3.3=0, get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C_142_NOT_TAKEN.1.3.4=0}
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.isalpha(C)Z#9
+if ((! (> w1 90 ) )) {
+   return 5
+} else {
+   skip; 
+}
+
+
+!!!!!!!! Aborting Veritesting !!!!!!!!!!!! 
+Unsupported class: gov.nasa.jpf.symbc.veritesting.ast.def.ReturnInstruction value: 
+ return 1 seen in NoSkipVisitor
+
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.isalpha(C)Z#17
+if ((! (< w1 97 ) )) {
+   if ((! (> w1 122 ) )) {
+      return 5
+   } else {
+      skip; 
+   }
+   return 8
+} else {
+   skip; 
+}
+
+
+!!!!!!!! Aborting Veritesting !!!!!!!!!!!! 
+Unsupported class: gov.nasa.jpf.symbc.veritesting.ast.def.ReturnInstruction value: 
+ return 1 seen in NoSkipVisitor
+
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.isalpha(C)Z#23
+if ((! (> w1 122 ) )) {
+   return 5
+} else {
+   skip; 
+}
+
+
+!!!!!!!! Aborting Veritesting !!!!!!!!!!!! 
+Unsupported class: gov.nasa.jpf.symbc.veritesting.ast.def.ReturnInstruction value: 
+ return 1 seen in NoSkipVisitor
+
+identifier, "".
+threadTerminated: 12
+identifier, "".
+threadTerminated: 13
+identifier, "".
+threadTerminated: 14
+identifier, "".
+threadTerminated: 15
+identifier, "".
+threadTerminated: 16
+error, "".
+threadTerminated: 17
+identifier, "".
+threadTerminated: 18
+identifier, "".
+threadTerminated: 19
+error, "".
+threadTerminated: 20
+error, "".
+threadTerminated: 21
+error, "".
+threadTerminated: 22
+error, "".
+threadTerminated: 23
+character, "".
+threadTerminated: 24
+error, "".
+threadTerminated: 25
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+eof.
+identifier, "".
+threadTerminated: 26
+identifier, "".
+threadTerminated: 27
+identifier, "".
+threadTerminated: 28
+lparen.
+identifier, "".
+threadTerminated: 29
+rparen.
+identifier, "".
+threadTerminated: 30
+lsquare.
+identifier, "".
+threadTerminated: 31
+rsquare.
+identifier, "".
+threadTerminated: 32
+quote.
+identifier, "".
+threadTerminated: 33
+bquote.
+identifier, "".
+threadTerminated: 34
+comma.
+identifier, "".
+threadTerminated: 35
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+error, "".
+threadTerminated: 36
+threadTerminated: 37
+identifier, "".
+threadTerminated: 38
+identifier, "".
+threadTerminated: 39
+identifier, "".
+threadTerminated: 40
+identifier, "".
+threadTerminated: 41
+identifier, "".
+threadTerminated: 42
+error, "".
+threadTerminated: 43
+identifier, "".
+threadTerminated: 44
+identifier, "".
+threadTerminated: 45
+error, "".
+threadTerminated: 46
+error, "".
+threadTerminated: 47
+error, "".
+threadTerminated: 48
+error, "".
+threadTerminated: 49
+character, "".
+threadTerminated: 50
+error, "".
+threadTerminated: 51
+lparen.
+threadTerminated: 52
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+identifier, "".
+threadTerminated: 53
+lparen.
+identifier, "".
+threadTerminated: 54
+rparen.
+identifier, "".
+threadTerminated: 55
+lsquare.
+identifier, "".
+threadTerminated: 56
+rsquare.
+identifier, "".
+threadTerminated: 57
+quote.
+identifier, "".
+threadTerminated: 58
+bquote.
+identifier, "".
+threadTerminated: 59
+comma.
+identifier, "".
+threadTerminated: 60
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+error, "".
+threadTerminated: 61
+threadTerminated: 62
+identifier, "".
+threadTerminated: 63
+identifier, "".
+threadTerminated: 64
+identifier, "".
+threadTerminated: 65
+identifier, "".
+threadTerminated: 66
+identifier, "".
+threadTerminated: 67
+error, "".
+threadTerminated: 68
+identifier, "".
+threadTerminated: 69
+identifier, "".
+threadTerminated: 70
+error, "".
+threadTerminated: 71
+error, "".
+threadTerminated: 72
+error, "".
+threadTerminated: 73
+error, "".
+threadTerminated: 74
+character, "".
+threadTerminated: 75
+error, "".
+threadTerminated: 76
+rparen.
+threadTerminated: 77
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+identifier, "".
+threadTerminated: 78
+lparen.
+identifier, "".
+threadTerminated: 79
+rparen.
+identifier, "".
+threadTerminated: 80
+lsquare.
+identifier, "".
+threadTerminated: 81
+rsquare.
+identifier, "".
+threadTerminated: 82
+quote.
+identifier, "".
+threadTerminated: 83
+bquote.
+identifier, "".
+threadTerminated: 84
+comma.
+identifier, "".
+threadTerminated: 85
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+error, "".
+threadTerminated: 86
+threadTerminated: 87
+identifier, "".
+threadTerminated: 88
+identifier, "".
+threadTerminated: 89
+identifier, "".
+threadTerminated: 90
+identifier, "".
+threadTerminated: 91
+identifier, "".
+threadTerminated: 92
+error, "".
+threadTerminated: 93
+identifier, "".
+threadTerminated: 94
+identifier, "".
+threadTerminated: 95
+error, "".
+threadTerminated: 96
+error, "".
+threadTerminated: 97
+error, "".
+threadTerminated: 98
+error, "".
+threadTerminated: 99
+character, "".
+threadTerminated: 100
+error, "".
+threadTerminated: 101
+lsquare.
+threadTerminated: 102
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+identifier, "".
+threadTerminated: 103
+lparen.
+identifier, "".
+threadTerminated: 104
+rparen.
+identifier, "".
+threadTerminated: 105
+lsquare.
+identifier, "".
+threadTerminated: 106
+rsquare.
+identifier, "".
+threadTerminated: 107
+quote.
+identifier, "".
+threadTerminated: 108
+bquote.
+identifier, "".
+threadTerminated: 109
+comma.
+identifier, "".
+threadTerminated: 110
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+error, "".
+threadTerminated: 111
+threadTerminated: 112
+identifier, "".
+threadTerminated: 113
+identifier, "".
+threadTerminated: 114
+identifier, "".
+threadTerminated: 115
+identifier, "".
+threadTerminated: 116
+identifier, "".
+threadTerminated: 117
+error, "".
+threadTerminated: 118
+identifier, "".
+threadTerminated: 119
+identifier, "".
+threadTerminated: 120
+error, "".
+threadTerminated: 121
+error, "".
+threadTerminated: 122
+error, "".
+threadTerminated: 123
+error, "".
+threadTerminated: 124
+character, "".
+threadTerminated: 125
+error, "".
+threadTerminated: 126
+rsquare.
+threadTerminated: 127
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+identifier, "".
+threadTerminated: 128
+lparen.
+identifier, "".
+threadTerminated: 129
+rparen.
+identifier, "".
+threadTerminated: 130
+lsquare.
+identifier, "".
+threadTerminated: 131
+rsquare.
+identifier, "".
+threadTerminated: 132
+quote.
+identifier, "".
+threadTerminated: 133
+bquote.
+identifier, "".
+threadTerminated: 134
+comma.
+identifier, "".
+threadTerminated: 135
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+error, "".
+threadTerminated: 136
+threadTerminated: 137
+identifier, "".
+threadTerminated: 138
+identifier, "".
+threadTerminated: 139
+identifier, "".
+threadTerminated: 140
+identifier, "".
+threadTerminated: 141
+identifier, "".
+threadTerminated: 142
+error, "".
+threadTerminated: 143
+identifier, "".
+threadTerminated: 144
+identifier, "".
+threadTerminated: 145
+error, "".
+threadTerminated: 146
+error, "".
+threadTerminated: 147
+error, "".
+threadTerminated: 148
+error, "".
+threadTerminated: 149
+character, "".
+threadTerminated: 150
+error, "".
+threadTerminated: 151
+quote.
+threadTerminated: 152
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+identifier, "".
+threadTerminated: 153
+lparen.
+identifier, "".
+threadTerminated: 154
+rparen.
+identifier, "".
+threadTerminated: 155
+lsquare.
+identifier, "".
+threadTerminated: 156
+rsquare.
+identifier, "".
+threadTerminated: 157
+quote.
+identifier, "".
+threadTerminated: 158
+bquote.
+identifier, "".
+threadTerminated: 159
+comma.
+identifier, "".
+threadTerminated: 160
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+error, "".
+threadTerminated: 161
+threadTerminated: 162
+identifier, "".
+threadTerminated: 163
+identifier, "".
+threadTerminated: 164
+identifier, "".
+threadTerminated: 165
+identifier, "".
+threadTerminated: 166
+identifier, "".
+threadTerminated: 167
+error, "".
+threadTerminated: 168
+identifier, "".
+threadTerminated: 169
+identifier, "".
+threadTerminated: 170
+error, "".
+threadTerminated: 171
+error, "".
+threadTerminated: 172
+error, "".
+threadTerminated: 173
+error, "".
+threadTerminated: 174
+character, "".
+threadTerminated: 175
+error, "".
+threadTerminated: 176
+bquote.
+threadTerminated: 177
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+identifier, "".
+threadTerminated: 178
+lparen.
+identifier, "".
+threadTerminated: 179
+rparen.
+identifier, "".
+threadTerminated: 180
+lsquare.
+identifier, "".
+threadTerminated: 181
+rsquare.
+identifier, "".
+threadTerminated: 182
+quote.
+identifier, "".
+threadTerminated: 183
+bquote.
+identifier, "".
+threadTerminated: 184
+comma.
+identifier, "".
+threadTerminated: 185
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+error, "".
+threadTerminated: 186
+threadTerminated: 187
+identifier, "".
+threadTerminated: 188
+identifier, "".
+threadTerminated: 189
+identifier, "".
+threadTerminated: 190
+identifier, "".
+threadTerminated: 191
+identifier, "".
+threadTerminated: 192
+error, "".
+threadTerminated: 193
+identifier, "".
+threadTerminated: 194
+identifier, "".
+threadTerminated: 195
+error, "".
+threadTerminated: 196
+error, "".
+threadTerminated: 197
+error, "".
+threadTerminated: 198
+error, "".
+threadTerminated: 199
+character, "".
+threadTerminated: 200
+error, "".
+threadTerminated: 201
+comma.
+threadTerminated: 202
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+identifier, "".
+threadTerminated: 203
+lparen.
+identifier, "".
+threadTerminated: 204
+rparen.
+identifier, "".
+threadTerminated: 205
+lsquare.
+identifier, "".
+threadTerminated: 206
+rsquare.
+identifier, "".
+threadTerminated: 207
+quote.
+identifier, "".
+threadTerminated: 208
+bquote.
+identifier, "".
+threadTerminated: 209
+comma.
+identifier, "".
+threadTerminated: 210
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+error, "".
+threadTerminated: 211
+threadTerminated: 212
+identifier, "".
+threadTerminated: 213
+identifier, "".
+threadTerminated: 214
+identifier, "".
+threadTerminated: 215
+identifier, "".
+threadTerminated: 216
+identifier, "".
+threadTerminated: 217
+error, "".
+threadTerminated: 218
+identifier, "".
+threadTerminated: 219
+identifier, "".
+threadTerminated: 220
+error, "".
+threadTerminated: 221
+error, "".
+threadTerminated: 222
+error, "".
+threadTerminated: 223
+error, "".
+threadTerminated: 224
+character, "".
+threadTerminated: 225
+error, "".
+threadTerminated: 226
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+identifier, "".
+threadTerminated: 227
+identifier, "".
+threadTerminated: 228
+identifier, "".
+threadTerminated: 229
+identifier, "".
+threadTerminated: 230
+identifier, "".
+threadTerminated: 231
+error, "".
+threadTerminated: 232
+identifier, "".
+threadTerminated: 233
+identifier, "".
+threadTerminated: 234
+error, "".
+threadTerminated: 235
+error, "".
+threadTerminated: 236
+numeric,.
+threadTerminated: 237
+threadTerminated: 238
+error, "".
+threadTerminated: 239
+error, "".
+threadTerminated: 240
+error, "".
+threadTerminated: 241
+error, "".
+threadTerminated: 242
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z#31
+if ((! (!= w2 34 ) )) {
+   return 7
+} else {
+   skip; 
+}
+
+
+!!!!!!!! Aborting Veritesting !!!!!!!!!!!! 
+Unsupported class: gov.nasa.jpf.symbc.veritesting.ast.def.ReturnInstruction value: 
+ return 1 seen in NoSkipVisitor
+
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#260
+if ((! (!= w30 1 ) )) {
+   w54 := (+ w43 1 ); 
+   if ((! (> w54 80 ) )) {
+      55 = getstatic < Application, Ltcgbenchmarks/printtokens2_3/printTokens2, buffer, <Primordial,[C> >
+      w55[w54:<Primordial,C>] = w41
+   } else {
+      skip; 
+   }
+   56 = getstatic < Application, Ltcgbenchmarks/printtokens2_3/printTokens2, buffer, <Primordial,[C> >
+   return 56
+} else {
+   skip; 
+}
+
+
+!!!!!!!! Aborting Veritesting !!!!!!!!!!!! 
+Unsupported class: gov.nasa.jpf.symbc.veritesting.ast.def.ReturnInstruction value: 
+ return 351 seen in NoSkipVisitor
+
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.is_str_constant([C)Z#21
+w8 = w1[w10:<Primordial,C>]
+if ((! (!= w8 34 ) )) {
+   return 3
+} else {
+   skip; 
+}
+
+
+!!!!!!!! Aborting Veritesting !!!!!!!!!!!! 
+Unsupported class: gov.nasa.jpf.symbc.veritesting.ast.def.ReturnInstruction value: 
+ return 1 seen in NoSkipVisitor
+
+string,.
+identifier, "".
+threadTerminated: 243
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z#39
+if ((! (!= w2 10 ) )) {
+   return 7
+} else {
+   skip; 
+}
+
+
+!!!!!!!! Aborting Veritesting !!!!!!!!!!!! 
+Unsupported class: gov.nasa.jpf.symbc.veritesting.ast.def.ReturnInstruction value: 
+ return 1 seen in NoSkipVisitor
+
+error, "".
+identifier, "".
+threadTerminated: 244
+error, "".
+threadTerminated: 245
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z#54
+if ((! (!= w2 10 ) )) {
+   return 7
+} else {
+   skip; 
+}
+
+
+!!!!!!!! Aborting Veritesting !!!!!!!!!!!! 
+Unsupported class: gov.nasa.jpf.symbc.veritesting.ast.def.ReturnInstruction value: 
+ return 1 seen in NoSkipVisitor
+
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#289
+if ((! (!= w30 0 ) )) {
+   if ((! (!= w41 59 ) )) {
+      58 = invokestatic < Application, Ltcgbenchmarks/printtokens2_3/printTokens2, unget_char(CLtcgbenchmarks/printtokens2_3/token_stream;)C > 41,1 @300 exception:57
+      59 = getstatic < Application, Ltcgbenchmarks/printtokens2_3/printTokens2, buffer, <Primordial,[C> >
+      return 59
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+
+
+!!!!!!!! Aborting Veritesting !!!!!!!!!!!! 
+Cannot summarize invoke in 
+[] = invoke < Application, Ljava/io/PushbackReader, unread(I)V >[373, i1_2_SYMINT&65535]
+
+identifier, "".
+threadTerminated: 246
+threadTerminated: 247
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lparen.
+identifier, "".
+threadTerminated: 248
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lparen.
+identifier, "".
+threadTerminated: 249
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lparen.
+identifier, "".
+threadTerminated: 250
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lparen.
+identifier, "".
+threadTerminated: 251
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lparen.
+identifier, "".
+threadTerminated: 252
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lparen.
+identifier, "".
+threadTerminated: 253
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lparen.
+identifier, "".
+threadTerminated: 254
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lparen.
+identifier, "".
+threadTerminated: 255
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lparen.
+identifier, "".
+threadTerminated: 256
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lparen.
+identifier, "".
+threadTerminated: 257
+numeric,.
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lparen.
+identifier, "".
+threadTerminated: 258
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lparen.
+identifier, "".
+threadTerminated: 259
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lparen.
+identifier, "".
+threadTerminated: 260
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lparen.
+identifier, "".
+threadTerminated: 261
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rparen.
+identifier, "".
+threadTerminated: 262
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rparen.
+identifier, "".
+threadTerminated: 263
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rparen.
+identifier, "".
+threadTerminated: 264
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rparen.
+identifier, "".
+threadTerminated: 265
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rparen.
+identifier, "".
+threadTerminated: 266
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rparen.
+identifier, "".
+threadTerminated: 267
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rparen.
+identifier, "".
+threadTerminated: 268
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rparen.
+identifier, "".
+threadTerminated: 269
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rparen.
+identifier, "".
+threadTerminated: 270
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rparen.
+identifier, "".
+threadTerminated: 271
+numeric,.
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rparen.
+identifier, "".
+threadTerminated: 272
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rparen.
+identifier, "".
+threadTerminated: 273
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rparen.
+identifier, "".
+threadTerminated: 274
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rparen.
+identifier, "".
+threadTerminated: 275
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lsquare.
+identifier, "".
+threadTerminated: 276
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lsquare.
+identifier, "".
+threadTerminated: 277
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lsquare.
+identifier, "".
+threadTerminated: 278
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lsquare.
+identifier, "".
+threadTerminated: 279
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lsquare.
+identifier, "".
+threadTerminated: 280
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lsquare.
+identifier, "".
+threadTerminated: 281
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lsquare.
+identifier, "".
+threadTerminated: 282
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lsquare.
+identifier, "".
+threadTerminated: 283
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lsquare.
+identifier, "".
+threadTerminated: 284
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lsquare.
+identifier, "".
+threadTerminated: 285
+numeric,.
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lsquare.
+identifier, "".
+threadTerminated: 286
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lsquare.
+identifier, "".
+threadTerminated: 287
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lsquare.
+identifier, "".
+threadTerminated: 288
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+lsquare.
+identifier, "".
+threadTerminated: 289
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rsquare.
+identifier, "".
+threadTerminated: 290
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rsquare.
+identifier, "".
+threadTerminated: 291
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rsquare.
+identifier, "".
+threadTerminated: 292
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rsquare.
+identifier, "".
+threadTerminated: 293
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rsquare.
+identifier, "".
+threadTerminated: 294
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rsquare.
+identifier, "".
+threadTerminated: 295
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rsquare.
+identifier, "".
+threadTerminated: 296
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rsquare.
+identifier, "".
+threadTerminated: 297
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rsquare.
+identifier, "".
+threadTerminated: 298
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rsquare.
+identifier, "".
+threadTerminated: 299
+numeric,.
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rsquare.
+identifier, "".
+threadTerminated: 300
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rsquare.
+identifier, "".
+threadTerminated: 301
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rsquare.
+identifier, "".
+threadTerminated: 302
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+rsquare.
+identifier, "".
+threadTerminated: 303
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+quote.
+identifier, "".
+threadTerminated: 304
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+quote.
+identifier, "".
+threadTerminated: 305
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+quote.
+identifier, "".
+threadTerminated: 306
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+quote.
+identifier, "".
+threadTerminated: 307
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+quote.
+identifier, "".
+threadTerminated: 308
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+quote.
+identifier, "".
+threadTerminated: 309
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+quote.
+identifier, "".
+threadTerminated: 310
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+quote.
+identifier, "".
+threadTerminated: 311
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+quote.
+identifier, "".
+threadTerminated: 312
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+quote.
+identifier, "".
+threadTerminated: 313
+numeric,.
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+quote.
+identifier, "".
+threadTerminated: 314
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+quote.
+identifier, "".
+threadTerminated: 315
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+quote.
+identifier, "".
+threadTerminated: 316
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+quote.
+identifier, "".
+threadTerminated: 317
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+bquote.
+identifier, "".
+threadTerminated: 318
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+bquote.
+identifier, "".
+threadTerminated: 319
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+bquote.
+identifier, "".
+threadTerminated: 320
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+bquote.
+identifier, "".
+threadTerminated: 321
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+bquote.
+identifier, "".
+threadTerminated: 322
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+bquote.
+identifier, "".
+threadTerminated: 323
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+bquote.
+identifier, "".
+threadTerminated: 324
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+bquote.
+identifier, "".
+threadTerminated: 325
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+bquote.
+identifier, "".
+threadTerminated: 326
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+bquote.
+identifier, "".
+threadTerminated: 327
+numeric,.
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+bquote.
+identifier, "".
+threadTerminated: 328
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+bquote.
+identifier, "".
+threadTerminated: 329
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+bquote.
+identifier, "".
+threadTerminated: 330
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+bquote.
+identifier, "".
+threadTerminated: 331
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+comma.
+identifier, "".
+threadTerminated: 332
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+comma.
+identifier, "".
+threadTerminated: 333
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+comma.
+identifier, "".
+threadTerminated: 334
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+comma.
+identifier, "".
+threadTerminated: 335
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+comma.
+identifier, "".
+threadTerminated: 336
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+comma.
+identifier, "".
+threadTerminated: 337
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+comma.
+identifier, "".
+threadTerminated: 338
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+comma.
+identifier, "".
+threadTerminated: 339
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+comma.
+identifier, "".
+threadTerminated: 340
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+comma.
+identifier, "".
+threadTerminated: 341
+numeric,.
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+comma.
+identifier, "".
+threadTerminated: 342
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+comma.
+identifier, "".
+threadTerminated: 343
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+comma.
+identifier, "".
+threadTerminated: 344
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+comma.
+identifier, "".
+threadTerminated: 345
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z#77
+if ((! (!= w2 32 ) )) {
+   return 7
+} else {
+   skip; 
+}
+
+
+!!!!!!!! Aborting Veritesting !!!!!!!!!!!! 
+Unsupported class: gov.nasa.jpf.symbc.veritesting.ast.def.ReturnInstruction value: 
+ return 1 seen in NoSkipVisitor
+
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#295
+if ((! (!= w41 59 ) )) {
+   58 = invokestatic < Application, Ltcgbenchmarks/printtokens2_3/printTokens2, unget_char(CLtcgbenchmarks/printtokens2_3/token_stream;)C > 41,1 @300 exception:57
+   59 = getstatic < Application, Ltcgbenchmarks/printtokens2_3/printTokens2, buffer, <Primordial,[C> >
+   return 59
+} else {
+   skip; 
+}
+
+
+!!!!!!!! Aborting Veritesting !!!!!!!!!!!! 
+Cannot summarize invoke in 
+[] = invoke < Application, Ljava/io/PushbackReader, unread(I)V >[373, i1_2_SYMINT&65535]
+
+identifier, "".
+identifier, "".
+threadTerminated: 346
+identifier, "".
+identifier, "".
+threadTerminated: 347
+identifier, "".
+identifier, "".
+threadTerminated: 348
+identifier, "".
+identifier, "".
+threadTerminated: 349
+identifier, "".
+identifier, "".
+threadTerminated: 350
+error, "".
+identifier, "".
+threadTerminated: 351
+identifier, "".
+identifier, "".
+threadTerminated: 352
+identifier, "".
+identifier, "".
+threadTerminated: 353
+error, "".
+identifier, "".
+threadTerminated: 354
+error, "".
+identifier, "".
+threadTerminated: 355
+numeric,.
+identifier, "".
+threadTerminated: 356
+error, "".
+identifier, "".
+threadTerminated: 357
+error, "".
+identifier, "".
+threadTerminated: 358
+error, "".
+identifier, "".
+threadTerminated: 359
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z#85
+if ((! (!= w2 10 ) )) {
+   return 7
+} else {
+   skip; 
+}
+
+
+!!!!!!!! Aborting Veritesting !!!!!!!!!!!! 
+Unsupported class: gov.nasa.jpf.symbc.veritesting.ast.def.ReturnInstruction value: 
+ return 1 seen in NoSkipVisitor
+
+identifier, "".
+identifier, "".
+threadTerminated: 360
+identifier, "".
+identifier, "".
+threadTerminated: 361
+identifier, "".
+identifier, "".
+threadTerminated: 362
+identifier, "".
+identifier, "".
+threadTerminated: 363
+identifier, "".
+identifier, "".
+threadTerminated: 364
+error, "".
+identifier, "".
+threadTerminated: 365
+identifier, "".
+identifier, "".
+threadTerminated: 366
+identifier, "".
+identifier, "".
+threadTerminated: 367
+error, "".
+identifier, "".
+threadTerminated: 368
+error, "".
+identifier, "".
+threadTerminated: 369
+numeric,.
+identifier, "".
+threadTerminated: 370
+error, "".
+identifier, "".
+threadTerminated: 371
+error, "".
+identifier, "".
+threadTerminated: 372
+error, "".
+identifier, "".
+threadTerminated: 373
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z#93
+if ((! (!= w2 59 ) )) {
+   return 7
+} else {
+   skip; 
+}
+
+
+!!!!!!!! Aborting Veritesting !!!!!!!!!!!! 
+Unsupported class: gov.nasa.jpf.symbc.veritesting.ast.def.ReturnInstruction value: 
+ return 1 seen in NoSkipVisitor
+
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+threadTerminated: 374
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+threadTerminated: 375
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+threadTerminated: 376
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+threadTerminated: 377
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+threadTerminated: 378
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+threadTerminated: 379
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+threadTerminated: 380
+identifier, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+threadTerminated: 381
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+threadTerminated: 382
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+threadTerminated: 383
+numeric,.
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+threadTerminated: 384
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+threadTerminated: 385
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+threadTerminated: 386
+error, "".
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+if ((!= w12 32 )) {
+   if ((! (!= w12 10 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+} else {
+   skip; 
+}
+w18 := (Gamma w12!=32 (Gamma !(w12!=10) w12 w12) w12); 
+w15 := (Gamma w12!=32 (Gamma !(w12!=10) 1 0) 1); 
+
+
+------------- Region was successfully veritested --------------- 
+
+---------- STARTING Transformations for conditional region: tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+if ((! (!= w18 34 ) )) {
+   skip; 
+} else {
+   if ((! (!= w18 59 ) )) {
+      skip; 
+   } else {
+      skip; 
+   }
+}
+w30 := (Gamma !(w18!=34) 1 (Gamma !(w18!=59) 2 0)); 
+
+
+------------- Region was successfully veritested --------------- 
+threadTerminated: 387
+identifier, "".
+threadTerminated: 388
+identifier, "".
+threadTerminated: 389
+identifier, "".
+threadTerminated: 390
+error, "".
+threadTerminated: 391
+error, "".
+threadTerminated: 392
+identifier, "".
+threadTerminated: 393
+error, "".
+threadTerminated: 394
+error, "".
+threadTerminated: 395
+keyword, "".
+threadTerminated: 396
+identifier, "".
+threadTerminated: 397
+identifier, "".
+threadTerminated: 398
+error, "".
+threadTerminated: 399
+error, "".
+threadTerminated: 400
+identifier, "".
+threadTerminated: 401
+error, "".
+threadTerminated: 402
+error, "".
+threadTerminated: 403
+keyword, "".
+threadTerminated: 404
+identifier, "".
+threadTerminated: 405
+identifier, "".
+threadTerminated: 406
+error, "".
+threadTerminated: 407
+error, "".
+threadTerminated: 408
+identifier, "".
+threadTerminated: 409
+error, "".
+threadTerminated: 410
+error, "".
+threadTerminated: 411
+identifier, "".
+threadTerminated: 412
+identifier, "".
+threadTerminated: 413
+identifier, "".
+threadTerminated: 414
+error, "".
+threadTerminated: 415
+error, "".
+threadTerminated: 416
+identifier, "".
+threadTerminated: 417
+error, "".
+threadTerminated: 418
+error, "".
+threadTerminated: 419
+identifier, "".
+threadTerminated: 420
+identifier, "".
+threadTerminated: 421
+identifier, "".
+threadTerminated: 422
+error, "".
+threadTerminated: 423
+error, "".
+threadTerminated: 424
+identifier, "".
+threadTerminated: 425
+error, "".
+threadTerminated: 426
+error, "".
+threadTerminated: 427
+keyword, "".
+threadTerminated: 428
+error, "".
+threadTerminated: 429
+identifier, "".
+threadTerminated: 430
+identifier, "".
+threadTerminated: 431
+error, "".
+threadTerminated: 432
+error, "".
+threadTerminated: 433
+identifier, "".
+threadTerminated: 434
+error, "".
+threadTerminated: 435
+error, "".
+threadTerminated: 436
+identifier, "".
+threadTerminated: 437
+identifier, "".
+threadTerminated: 438
+error, "".
+threadTerminated: 439
+error, "".
+threadTerminated: 440
+identifier, "".
+threadTerminated: 441
+error, "".
+threadTerminated: 442
+error, "".
+threadTerminated: 443
+error, "".
+threadTerminated: 444
+error, "".
+threadTerminated: 445
+error, "".
+threadTerminated: 446
+error, "".
+threadTerminated: 447
+error, "".
+threadTerminated: 448
+error, "".
+threadTerminated: 449
+character, "".
+threadTerminated: 450
+character, "".
+threadTerminated: 451
+error, "".
+threadTerminated: 452
+error, "".
+threadTerminated: 453
+error, "".
+threadTerminated: 454
+error, "".
+threadTerminated: 455
+
+====================================================== VeritestingListener report:
+Encountered Veritesting Regions in veriRegions (i.e., VeriTestingMain.veriRegions size) = 48
+
+/************************ Printing Exception Statistics *****************
+Static Analysis exceptions count = 54
+Instantiation Time exceptions count = 18
+Unknown phases exception count = 0
+FindStructuredBlockEndNode: mal-formed region: (15, StaticAnalysisPhase)
+Unsupported class: gov.nasa.jpf.symbc.veritesting.ast.def.ReturnInstruction value: 
+ return 351 seen in NoSkipVisitor: (1, InstantiationPhase)
+Unsupported class: gov.nasa.jpf.symbc.veritesting.ast.def.ReturnInstruction value: 
+ return 0 seen in NoSkipVisitor: (3, InstantiationPhase)
+Unsupported class: gov.nasa.jpf.symbc.veritesting.ast.def.ReturnInstruction value: 
+ return 1 seen in NoSkipVisitor: (14, InstantiationPhase)
+region contains condition that cannot be instantiated: (34, StaticAnalysisPhase)
+Untranslatable instruction in SSAToStatIVisitor: (5, StaticAnalysisPhase)
+
+
+/************************ Printing Time Decomposition Statistics *****************
+static analysis time = 1939 msec
+Veritesting Dyn Time = 274356 msec
+Veritesting fix-point Time = 0 msec
+GoTo rewrite instances = 0
+
+/************************ Printing Solver Statistics *****************
+Total Solver Queries Count = 10798
+Total Solver Time = 267796 msec
+Total Solver Parse Time = 10969 msec
+Region Summary Parse Time = 0 msec
+Total Solver Clean up Time = 747 msec
+PCSatSolverCount = 0
+PCSatSolverTime = 0 msec
+Constant Propagation Time for PC sat. checks = 0
+Array SPF Case count = 2
+If-removed count = 6
+
+/************************ Printing Region Statistics *****************
+Number of Distinct Veritested Regions = 2
+Number of Distinct Un-Veritested Symbolic Regions = 20
+Number of Distinct Failed Regions for Field Reference = 0
+Number of Distinct Failed Regions for SPFCases = 0
+Number of Distinct Failed Regions for missing method summaries = 2
+Number of Distinct Failed Regions for Other Reasons = 18
+Number of High Order Regions Used = 0
+
+/************************ Printing Instantiation Statistics *****************
+Number of successful instantiations = 145
+Total Number of unsuccessful instantiations = 20
+Number of failed instantiations due to Field Reference = 0
+Number of failed instantiations due to SPFCases = 0
+Number of failed instantiations due to missing method summaries = 2
+Number of failed instantiations due to Other Reasons = 18
+
+
+Number of Veritested Regions Instances = 145
+Printing keys of regions that were instantiated at least once
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#142
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C#43
+Finished printing keys of regions that were instantiated at least once
+
+Metrics Vector:
+276295,1939,274356,455,10798,267796,10969,747,2,20,0,0,0,2,18,0,22,145,20,0,0,0,2,18,514645,137485,10,19,2.936170212765957,54,18,0
+
+====================================================== Branch Coverage report:
+Obligation -----> Coverage:
+tcgbenchmarks.printtokens2_3.printTokens2.is_str_constant([C)Z.7.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.25.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.5.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.43.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.isdigit(C)Z.3.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.39.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.65.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.93.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_eof_token([C)Z.3.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.18.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.62.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.85.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.77.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_char_constant([C)Z.5.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.15.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.173.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.273.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.151.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_char_constant([C)Z.18.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.267.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.93.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.17.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.112.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.133.TAKEN -----> false 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.65.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.117.NOT_TAKEN -----> false 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.273.TAKEN -----> false 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.101.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.260.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.54.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.isalpha(C)Z.9.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.84.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.129.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.69.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.84.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.109.NOT_TAKEN -----> false 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.7.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.62.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.17.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.45.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.57.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.83.NOT_TAKEN -----> false 
+tcgbenchmarks.printtokens2_3.printTokens2.is_comment([C)Z.5.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.81.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_str_constant([C)Z.21.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.26.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.83.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_num_constant([C)Z.18.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.43.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.25.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.55.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.295.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_identifier([C)Z.52.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.185.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.260.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_num_constant([C)Z.12.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_comment([C)Z.5.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.55.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.isalpha(C)Z.23.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.25.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.75.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.token_stream.read()C.9.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.48.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.125.NOT_TAKEN -----> false 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.96.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.31.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.28.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_char_constant([C)Z.18.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.129.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.83.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.isdigit(C)Z.9.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_num_constant([C)Z.33.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.133.NOT_TAKEN -----> false 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.5.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_num_constant([C)Z.33.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.49.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_eof_token([C)Z.3.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.154.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.100.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.69.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.143.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.104.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.25.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.18.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.5.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.83.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.5.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.28.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.mainProcess(CCCCCCCC)V.68.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.173.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.48.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.142.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.109.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.49.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.69.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.24.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.57.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_identifier([C)Z.33.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.75.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.55.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.186.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.54.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.isalpha(C)Z.23.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.isdigit(C)Z.9.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.token_stream.read()C.9.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.54.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.295.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_char_constant([C)Z.5.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.54.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.289.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.isalpha(C)Z.3.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.60.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.15.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.35.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.55.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.67.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.13.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.96.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.35.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.21.NOT_TAKEN -----> false 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.39.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.isalpha(C)Z.9.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.21.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.43.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.112.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.17.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.77.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.117.TAKEN -----> false 
+tcgbenchmarks.printtokens2_3.printTokens2.is_str_constant([C)Z.7.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_identifier([C)Z.33.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.26.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.31.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.39.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_identifier([C)Z.18.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_identifier([C)Z.18.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.45.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.5.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.5.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.6.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.67.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.151.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_str_constant([C)Z.13.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.69.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_num_constant([C)Z.12.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.186.TAKEN -----> false 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.244.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.isalpha(C)Z.3.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.token_stream.EOFStream()Z.9.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.13.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.41.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.85.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.7.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.104.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.223.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.mainProcess(CCCCCCCC)V.68.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.60.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.24.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.93.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.101.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.73.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.226.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_identifier([C)Z.12.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_str_constant([C)Z.13.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.41.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.31.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_num_constant([C)Z.18.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.43.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_identifier([C)Z.12.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.154.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.39.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.isalpha(C)Z.17.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.125.TAKEN -----> false 
+tcgbenchmarks.printtokens2_3.printTokens2.isalpha(C)Z.17.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.73.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.289.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.244.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_token_end(IC)Z.31.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.223.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.isdigit(C)Z.3.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.65.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.17.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.226.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_identifier([C)Z.52.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.get_token(Ltcgbenchmarks/printtokens2_3/token_stream;)[C.142.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_str_constant([C)Z.21.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.185.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.token_type([C)I.6.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.81.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.143.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.267.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.144.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_keyword([C)Z.93.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_spec_symbol([C)V.100.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.print_token([C)V.144.NOT_TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.printTokens2.is_spec_symbol([C)Z.65.TAKEN -----> true 
+tcgbenchmarks.printtokens2_3.token_stream.EOFStream()Z.9.NOT_TAKEN -----> true 
+
+
+====================================================== Method Sequences
+[mainProcess('\u0000','\u0000','c','d','e','f','g','h')]
+[mainProcess('\u0000',' ','c','d','e','f','g','h')]
+[mainProcess('\u0000','\n','c','d','e','f','g','h')]
+[mainProcess('\u0000','(','c','d','e','f','g','h')]
+[mainProcess('\u0000',')','c','d','e','f','g','h')]
+[mainProcess('\u0000','[','c','d','e','f','g','h')]
+[mainProcess('\u0000',']','c','d','e','f','g','h')]
+[mainProcess('\u0000','\'','c','d','e','f','g','h')]
+[mainProcess('\u0000','`','c','d','e','f','g','h')]
+[mainProcess('\u0000',',','c','d','e','f','g','h')]
+[mainProcess('\u0000','"','c','d','e','f','g','h')]
+[mainProcess('\u0000',';','c','d','e','f','g','h')]
+[mainProcess('\u0000','a','c','d','e','f','g','h')]
+[mainProcess('\u0000','o','c','d','e','f','g','h')]
+[mainProcess('\u0000','i','c','d','e','f','g','h')]
+[mainProcess('\u0000','x','c','d','e','f','g','h')]
+[mainProcess('\u0000','l','c','d','e','f','g','h')]
+[mainProcess('\u0000','=','c','d','e','f','g','h')]
+[mainProcess('\u0000','B','c','d','e','f','g','h')]
+[mainProcess('\u0000','聱','c','d','e','f','g','h')]
+[mainProcess('\u0000','\\','c','d','e','f','g','h')]
+[mainProcess('\u0000','0','c','d','e','f','g','h')]
+[mainProcess('\u0000','#','c','d','e','f','g','h')]
+[mainProcess(' ',' ','c','d','e','f','g','h')]
+[mainProcess(' ','\n','c','d','e','f','g','h')]
+[mainProcess('0','\u0000','c','d','e','f','g','h')]
+[mainProcess('#','\u0000','c','d','e','f','g','h')]
+[mainProcess('"','"','c','d','e','f','g','h')]
+[mainProcess('"','\n','c','d','e','f','g','h')]
+[mainProcess(';','\n','c','d','e','f','g','h')]
+[mainProcess('a','(','c','d','e','f','g','h')]
+[mainProcess('a',' ','c','d','e','f','g','h')]
+[mainProcess('a','\n','c','d','e','f','g','h')]
+[mainProcess('a',';','c','d','e','f','g','h')]
+[mainProcess('a','n','c','d','e','f','g','h')]
+[mainProcess('a','','c','d','e','f','g','h')]
+[mainProcess('a','0','c','d','e','f','g','h')]
+[mainProcess('o','r','c','d','e','f','g','h')]
+[mainProcess('i','f','c','d','e','f','g','h')]
+[mainProcess('x','o','c','d','e','f','g','h')]
+[mainProcess('l','a','c','d','e','f','g','h')]
+[mainProcess('=','>','c','d','e','f','g','h')]
+[mainProcess('0','0','c','d','e','f','g','h')]
+
+====================================================== JUnit 4.0 test class
+/*****IMPORTANT:If this is a static class, ensure to write a state resetting function and invoke it where necessary*******/
+import static org.junit.Assert.*;
+import org.junit.Before;
+import org.junit.Test;
+
+public class tcgbenchmarks_printtokens2_3_printTokens2Test {
+
+	private tcgbenchmarks.printtokens2_3.printTokens2 tcgbenchmarks_printtokens2_3_printtokens2;
+
+	@Before
+	public void setUp() throws Exception {
+		tcgbenchmarks_printtokens2_3_printtokens2 = new tcgbenchmarks.printtokens2_3.printTokens2();
+	}
+
+	@Test
+	public void test0() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','\u0000','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test1() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000',' ','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test2() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','\n','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test3() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','(','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test4() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000',')','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test5() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','[','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test6() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000',']','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test7() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','\'','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test8() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','`','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test9() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000',',','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test10() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','"','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test11() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000',';','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test12() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','a','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test13() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','o','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test14() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','i','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test15() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','x','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test16() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','l','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test17() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','=','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test18() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','B','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test19() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','聱','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test20() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','\\','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test21() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','0','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test22() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('\u0000','#','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test23() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess(' ',' ','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test24() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess(' ','\n','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test25() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('0','\u0000','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test26() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('#','\u0000','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test27() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('"','"','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test28() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('"','\n','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test29() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess(';','\n','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test30() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('a','(','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test31() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('a',' ','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test32() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('a','\n','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test33() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('a',';','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test34() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('a','n','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test35() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('a','','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test36() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('a','0','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test37() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('o','r','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test38() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('i','f','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test39() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('x','o','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test40() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('l','a','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test41() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('=','>','c','d','e','f','g','h');
+	}
+
+	@Test
+	public void test42() {
+		tcgbenchmarks_printtokens2_3_printtokens2.mainProcess('0','0','c','d','e','f','g','h');
+	}
+}
+
+====================================================== results
+no errors detected
+
+====================================================== statistics
+elapsed time:       00:04:36
+states:             new=10757,visited=0,backtracked=10757,end=455
+search:             maxDepth=103,constraints=0
+choice generators:  thread=1 (signal=0,lock=1,sharedRef=0,threadApi=0,reschedule=0), data=5379
+heap:               new=12522,released=9474,maxLive=394,gcCycles=5024
+instructions:       817356
+max memory:         1535MB
+loaded code:        classes=72,methods=1386
+
+====================================================== search finished: 1/14/22 10:51 AM

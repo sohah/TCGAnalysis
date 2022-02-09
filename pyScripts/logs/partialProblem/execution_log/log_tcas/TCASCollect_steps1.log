@@ -1,0 +1,768 @@
+symbolic.min_int=-2147483648
+symbolic.min_long=-9223372036854775808
+symbolic.min_short=-32768
+symbolic.min_byte=-128
+symbolic.min_char=0
+symbolic.max_int=2147483647
+symbolic.max_long=9223372036854775807
+symbolic.max_short=32767
+symbolic.max_byte=127
+symbolic.max_char=65535
+symbolic.min_double=4.9E-324
+symbolic.max_double=1.7976931348623157E308
+* Warning: either invalid or no veritestingMode specified.
+* Warning: set veritestingMode to 1 to use vanilla SPF with VeritestingListener
+* Warning: set veritestingMode to 2 to use veritesting
+* Warning: set veritestingMode to 3 to use veritesting with higher order regions
+* Warning: set veritestingMode to 4 to use veritesting with higher order regions and SPFCases
+* Warning: resetting veritestingMode to 0 (aka use vanilla SPF)
+JavaPathfinder core system v8.0 (rev e734381a6e606354034111dc855be9a8e454ce71) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+tcgbenchmarks.tcas.tcas.main()
+
+====================================================== search started: 1/14/22 11:56 AM
+---- CoverageMode = SPF, solver = z3bitvector, benchmark= tcas, STEPS 1
+|-|-|-|-|-|-|-|-|-|-|-|-finished obligation collection|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
+threadTerminated: 1
+threadTerminated: 2
+threadTerminated: 3
+threadTerminated: 4
+threadTerminated: 5
+threadTerminated: 6
+threadTerminated: 7
+threadTerminated: 8
+threadTerminated: 9
+threadTerminated: 10
+threadTerminated: 11
+threadTerminated: 12
+threadTerminated: 13
+threadTerminated: 14
+threadTerminated: 15
+threadTerminated: 16
+threadTerminated: 17
+threadTerminated: 18
+threadTerminated: 19
+threadTerminated: 20
+threadTerminated: 21
+threadTerminated: 22
+threadTerminated: 23
+threadTerminated: 24
+threadTerminated: 25
+threadTerminated: 26
+threadTerminated: 27
+threadTerminated: 28
+threadTerminated: 29
+threadTerminated: 30
+threadTerminated: 31
+threadTerminated: 32
+threadTerminated: 33
+threadTerminated: 34
+threadTerminated: 35
+threadTerminated: 36
+threadTerminated: 37
+threadTerminated: 38
+threadTerminated: 39
+threadTerminated: 40
+threadTerminated: 41
+threadTerminated: 42
+threadTerminated: 43
+threadTerminated: 44
+threadTerminated: 45
+threadTerminated: 46
+threadTerminated: 47
+threadTerminated: 48
+threadTerminated: 49
+threadTerminated: 50
+threadTerminated: 51
+threadTerminated: 52
+threadTerminated: 53
+threadTerminated: 54
+threadTerminated: 55
+threadTerminated: 56
+threadTerminated: 57
+threadTerminated: 58
+threadTerminated: 59
+threadTerminated: 60
+threadTerminated: 61
+threadTerminated: 62
+threadTerminated: 63
+threadTerminated: 64
+threadTerminated: 65
+threadTerminated: 66
+threadTerminated: 67
+threadTerminated: 68
+threadTerminated: 69
+threadTerminated: 70
+threadTerminated: 71
+threadTerminated: 72
+threadTerminated: 73
+threadTerminated: 74
+threadTerminated: 75
+threadTerminated: 76
+threadTerminated: 77
+threadTerminated: 78
+threadTerminated: 79
+threadTerminated: 80
+threadTerminated: 81
+threadTerminated: 82
+threadTerminated: 83
+threadTerminated: 84
+threadTerminated: 85
+threadTerminated: 86
+threadTerminated: 87
+threadTerminated: 88
+threadTerminated: 89
+threadTerminated: 90
+threadTerminated: 91
+threadTerminated: 92
+threadTerminated: 93
+threadTerminated: 94
+threadTerminated: 95
+threadTerminated: 96
+threadTerminated: 97
+threadTerminated: 98
+threadTerminated: 99
+threadTerminated: 100
+threadTerminated: 101
+threadTerminated: 102
+threadTerminated: 103
+threadTerminated: 104
+threadTerminated: 105
+threadTerminated: 106
+threadTerminated: 107
+threadTerminated: 108
+threadTerminated: 109
+threadTerminated: 110
+threadTerminated: 111
+threadTerminated: 112
+threadTerminated: 113
+threadTerminated: 114
+threadTerminated: 115
+threadTerminated: 116
+threadTerminated: 117
+threadTerminated: 118
+threadTerminated: 119
+threadTerminated: 120
+threadTerminated: 121
+threadTerminated: 122
+threadTerminated: 123
+threadTerminated: 124
+threadTerminated: 125
+threadTerminated: 126
+threadTerminated: 127
+threadTerminated: 128
+threadTerminated: 129
+threadTerminated: 130
+threadTerminated: 131
+threadTerminated: 132
+threadTerminated: 133
+threadTerminated: 134
+threadTerminated: 135
+threadTerminated: 136
+threadTerminated: 137
+threadTerminated: 138
+threadTerminated: 139
+threadTerminated: 140
+threadTerminated: 141
+threadTerminated: 142
+threadTerminated: 143
+threadTerminated: 144
+threadTerminated: 145
+threadTerminated: 146
+threadTerminated: 147
+threadTerminated: 148
+threadTerminated: 149
+threadTerminated: 150
+threadTerminated: 151
+threadTerminated: 152
+threadTerminated: 153
+threadTerminated: 154
+threadTerminated: 155
+threadTerminated: 156
+threadTerminated: 157
+threadTerminated: 158
+threadTerminated: 159
+threadTerminated: 160
+threadTerminated: 161
+threadTerminated: 162
+threadTerminated: 163
+threadTerminated: 164
+threadTerminated: 165
+threadTerminated: 166
+threadTerminated: 167
+threadTerminated: 168
+threadTerminated: 169
+threadTerminated: 170
+threadTerminated: 171
+threadTerminated: 172
+threadTerminated: 173
+threadTerminated: 174
+threadTerminated: 175
+threadTerminated: 176
+threadTerminated: 177
+threadTerminated: 178
+threadTerminated: 179
+threadTerminated: 180
+threadTerminated: 181
+threadTerminated: 182
+threadTerminated: 183
+threadTerminated: 184
+threadTerminated: 185
+threadTerminated: 186
+threadTerminated: 187
+threadTerminated: 188
+threadTerminated: 189
+threadTerminated: 190
+threadTerminated: 191
+threadTerminated: 192
+threadTerminated: 193
+threadTerminated: 194
+threadTerminated: 195
+threadTerminated: 196
+threadTerminated: 197
+threadTerminated: 198
+threadTerminated: 199
+threadTerminated: 200
+threadTerminated: 201
+threadTerminated: 202
+threadTerminated: 203
+threadTerminated: 204
+threadTerminated: 205
+threadTerminated: 206
+threadTerminated: 207
+threadTerminated: 208
+threadTerminated: 209
+threadTerminated: 210
+threadTerminated: 211
+threadTerminated: 212
+threadTerminated: 213
+threadTerminated: 214
+threadTerminated: 215
+threadTerminated: 216
+threadTerminated: 217
+threadTerminated: 218
+threadTerminated: 219
+threadTerminated: 220
+threadTerminated: 221
+threadTerminated: 222
+threadTerminated: 223
+threadTerminated: 224
+threadTerminated: 225
+threadTerminated: 226
+threadTerminated: 227
+threadTerminated: 228
+threadTerminated: 229
+threadTerminated: 230
+threadTerminated: 231
+threadTerminated: 232
+threadTerminated: 233
+threadTerminated: 234
+threadTerminated: 235
+threadTerminated: 236
+threadTerminated: 237
+threadTerminated: 238
+threadTerminated: 239
+threadTerminated: 240
+threadTerminated: 241
+threadTerminated: 242
+threadTerminated: 243
+threadTerminated: 244
+threadTerminated: 245
+threadTerminated: 246
+threadTerminated: 247
+threadTerminated: 248
+threadTerminated: 249
+threadTerminated: 250
+threadTerminated: 251
+threadTerminated: 252
+threadTerminated: 253
+threadTerminated: 254
+threadTerminated: 255
+threadTerminated: 256
+threadTerminated: 257
+threadTerminated: 258
+threadTerminated: 259
+threadTerminated: 260
+threadTerminated: 261
+threadTerminated: 262
+threadTerminated: 263
+threadTerminated: 264
+threadTerminated: 265
+threadTerminated: 266
+threadTerminated: 267
+threadTerminated: 268
+threadTerminated: 269
+threadTerminated: 270
+threadTerminated: 271
+threadTerminated: 272
+threadTerminated: 273
+threadTerminated: 274
+threadTerminated: 275
+threadTerminated: 276
+threadTerminated: 277
+threadTerminated: 278
+threadTerminated: 279
+threadTerminated: 280
+threadTerminated: 281
+threadTerminated: 282
+threadTerminated: 283
+threadTerminated: 284
+threadTerminated: 285
+threadTerminated: 286
+threadTerminated: 287
+threadTerminated: 288
+threadTerminated: 289
+threadTerminated: 290
+threadTerminated: 291
+threadTerminated: 292
+threadTerminated: 293
+threadTerminated: 294
+threadTerminated: 295
+threadTerminated: 296
+threadTerminated: 297
+threadTerminated: 298
+threadTerminated: 299
+threadTerminated: 300
+threadTerminated: 301
+threadTerminated: 302
+threadTerminated: 303
+threadTerminated: 304
+threadTerminated: 305
+threadTerminated: 306
+threadTerminated: 307
+threadTerminated: 308
+threadTerminated: 309
+threadTerminated: 310
+threadTerminated: 311
+threadTerminated: 312
+threadTerminated: 313
+threadTerminated: 314
+threadTerminated: 315
+threadTerminated: 316
+threadTerminated: 317
+threadTerminated: 318
+threadTerminated: 319
+threadTerminated: 320
+threadTerminated: 321
+threadTerminated: 322
+threadTerminated: 323
+threadTerminated: 324
+threadTerminated: 325
+threadTerminated: 326
+threadTerminated: 327
+threadTerminated: 328
+threadTerminated: 329
+threadTerminated: 330
+threadTerminated: 331
+threadTerminated: 332
+threadTerminated: 333
+threadTerminated: 334
+threadTerminated: 335
+threadTerminated: 336
+threadTerminated: 337
+threadTerminated: 338
+threadTerminated: 339
+threadTerminated: 340
+threadTerminated: 341
+threadTerminated: 342
+threadTerminated: 343
+threadTerminated: 344
+threadTerminated: 345
+threadTerminated: 346
+threadTerminated: 347
+threadTerminated: 348
+threadTerminated: 349
+threadTerminated: 350
+threadTerminated: 351
+threadTerminated: 352
+threadTerminated: 353
+threadTerminated: 354
+threadTerminated: 355
+threadTerminated: 356
+threadTerminated: 357
+threadTerminated: 358
+threadTerminated: 359
+threadTerminated: 360
+threadTerminated: 361
+threadTerminated: 362
+threadTerminated: 363
+threadTerminated: 364
+threadTerminated: 365
+threadTerminated: 366
+threadTerminated: 367
+threadTerminated: 368
+threadTerminated: 369
+threadTerminated: 370
+threadTerminated: 371
+threadTerminated: 372
+threadTerminated: 373
+threadTerminated: 374
+threadTerminated: 375
+threadTerminated: 376
+threadTerminated: 377
+threadTerminated: 378
+threadTerminated: 379
+threadTerminated: 380
+threadTerminated: 381
+threadTerminated: 382
+threadTerminated: 383
+threadTerminated: 384
+threadTerminated: 385
+threadTerminated: 386
+threadTerminated: 387
+threadTerminated: 388
+threadTerminated: 389
+threadTerminated: 390
+threadTerminated: 391
+threadTerminated: 392
+threadTerminated: 393
+threadTerminated: 394
+threadTerminated: 395
+threadTerminated: 396
+threadTerminated: 397
+threadTerminated: 398
+threadTerminated: 399
+threadTerminated: 400
+threadTerminated: 401
+threadTerminated: 402
+threadTerminated: 403
+threadTerminated: 404
+threadTerminated: 405
+threadTerminated: 406
+threadTerminated: 407
+threadTerminated: 408
+threadTerminated: 409
+threadTerminated: 410
+threadTerminated: 411
+threadTerminated: 412
+threadTerminated: 413
+threadTerminated: 414
+threadTerminated: 415
+threadTerminated: 416
+
+====================================================== VeritestingListener report:
+Encountered Veritesting Regions in veriRegions (i.e., VeriTestingMain.veriRegions size) = 0
+
+/************************ Printing Exception Statistics *****************
+Static Analysis exceptions count = 0
+Instantiation Time exceptions count = 0
+Unknown phases exception count = 0
+
+
+/************************ Printing Time Decomposition Statistics *****************
+static analysis time = 0 msec
+Veritesting Dyn Time = 70990 msec
+Veritesting fix-point Time = 0 msec
+GoTo rewrite instances = 0
+
+/************************ Printing Solver Statistics *****************
+Total Solver Queries Count = 4597
+Total Solver Time = 68451 msec
+Total Solver Parse Time = 1122 msec
+Region Summary Parse Time = 0 msec
+Total Solver Clean up Time = 157 msec
+PCSatSolverCount = 0
+PCSatSolverTime = 0 msec
+Constant Propagation Time for PC sat. checks = 0
+Array SPF Case count = 0
+If-removed count = 0
+
+/************************ Printing Region Statistics *****************
+Number of Distinct Veritested Regions = 0
+Number of Distinct Un-Veritested Symbolic Regions = 0
+Number of Distinct Failed Regions for Field Reference = 0
+Number of Distinct Failed Regions for SPFCases = 0
+Number of Distinct Failed Regions for missing method summaries = 0
+Number of Distinct Failed Regions for Other Reasons = 0
+Number of High Order Regions Used = 0
+
+/************************ Printing Instantiation Statistics *****************
+Number of successful instantiations = 0
+Total Number of unsuccessful instantiations = 0
+Number of failed instantiations due to Field Reference = 0
+Number of failed instantiations due to SPFCases = 0
+Number of failed instantiations due to missing method summaries = 0
+Number of failed instantiations due to Other Reasons = 0
+
+
+Number of Veritested Regions Instances = 0
+Printing keys of regions that were instantiated at least once
+Finished printing keys of regions that were instantiated at least once
+
+Metrics Vector:
+70990,0,70990,416,4597,68451,1122,157,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0.0,0,0,0
+
+====================================================== Branch Coverage report:
+Obligation -----> Coverage:
+tcgbenchmarks.tcas.tcas.alt_assign()I.53.NOT_TAKEN -----> false 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Climb()Z.56.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_sep_test()I.46.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.41.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Descend()Z.19.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.181.NOT_TAKEN -----> false 
+tcgbenchmarks.tcas.tcas.alt_sep_test()I.52.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_sep_test()I.31.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Descend()Z.51.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_sep_test()I.22.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Climb()Z.19.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.ALIM()I.14.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.mainProcess(IIIIIIIIIIII)V.23.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Descend()Z.36.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.ALIM()I.3.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.mainProcess(IIIIIIIIIIII)V.8.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Descend()Z.19.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Descend()Z.8.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.125.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_sep_test()I.58.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Own_Above_Threat()Z.8.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_assign()I.43.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_sep_test()I.67.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_sep_test()I.22.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Climb()Z.43.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Climb()Z.66.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Climb()Z.43.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Descend()Z.70.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Climb()Z.56.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.ALIM()I.14.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.97.NOT_TAKEN -----> false 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.153.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Descend()Z.51.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Descend()Z.76.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_sep_test()I.37.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.237.NOT_TAKEN -----> false 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.265.NOT_TAKEN -----> false 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.13.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_sep_test()I.13.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_assign()I.33.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.97.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Descend()Z.36.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.69.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.41.NOT_TAKEN -----> false 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Climb()Z.30.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.237.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Own_Below_Threat()Z.8.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Descend()Z.45.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Descend()Z.45.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.209.NOT_TAKEN -----> false 
+tcgbenchmarks.tcas.tcas.alt_sep_test()I.73.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_assign()I.19.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.181.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.ALIM()I.3.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_assign()I.11.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Descend()Z.76.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Climb()Z.8.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_assign()I.71.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_sep_test()I.46.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_sep_test()I.13.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_sep_test()I.31.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.69.NOT_TAKEN -----> false 
+tcgbenchmarks.tcas.tcas.alt_sep_test()I.58.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_assign()I.11.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_assign()I.33.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.299.NOT_TAKEN -----> false 
+tcgbenchmarks.tcas.tcas.Inhibit_Biased_Climb()I.3.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Climb()Z.66.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Own_Above_Threat()Z.8.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.292.TAKEN -----> false 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.292.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_assign()I.49.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.125.NOT_TAKEN -----> false 
+tcgbenchmarks.tcas.tcas.ALIM()I.25.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.265.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.153.NOT_TAKEN -----> false 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.209.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_sep_test()I.37.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_sep_test()I.52.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_assign()I.71.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_assign()I.43.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Climb()Z.8.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.13.TAKEN -----> false 
+tcgbenchmarks.tcas.tcas.alt_assign()I.49.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_assign()I.19.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.main([Ljava/lang/String;)V.299.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Descend()Z.70.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_sep_test()I.67.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Climb()Z.30.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Inhibit_Biased_Climb()I.3.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Own_Below_Threat()Z.8.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.ALIM()I.25.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Descend()Z.8.NOT_TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.mainProcess(IIIIIIIIIIII)V.8.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.mainProcess(IIIIIIIIIIII)V.23.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_sep_test()I.73.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.alt_assign()I.53.TAKEN -----> true 
+tcgbenchmarks.tcas.tcas.Non_Crossing_Biased_Climb()Z.19.TAKEN -----> true 
+
+
+====================================================== Method Sequences
+[sym1(-2147483648,0,0,-2147483648,-2147483648,-2147483648,0,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648)]
+[sym1(-2147483648,0,0,-2147483648,-2147483648,-2147483648,1,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648)]
+[sym1(-2147483648,0,0,-2147483648,-2147483648,-2147483648,2,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648)]
+[sym1(-2147483648,0,0,-2147483648,-2147483648,-2147483648,-2,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648)]
+[sym1(-2147483648,0,-1,-2147483648,-2147483648,-2147483648,0,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648)]
+[sym1(301,-1,0,-2147483648,600,-2147483648,0,-2147483648,-2147483648,-2147483648,1,-2147483648)]
+[sym1(512,-1,0,-2147483648,600,-2147483647,0,285,384,-2147483648,-2,1)]
+[sym1(832,-1,0,-2147483648,600,-2147483647,0,285,384,-2147483648,-2,1)]
+[sym1(512,-1,0,-2147483648,600,-2147483648,0,285,384,-2147483648,-2,1)]
+[sym1(381,-1,0,-2147483648,600,-2147483647,0,349,448,-2147483648,-2,1)]
+[sym1(893,-1,0,-2147483648,600,2147483647,0,349,448,-2147483648,-2,1)]
+[sym1(894,-1,0,-2147483648,600,-2147483648,0,349,448,-2147483648,-2,1)]
+[sym1(381,-1,0,-2147483647,600,-2147483648,0,384,484,-2147483648,-2,1)]
+[sym1(382,-1,0,-2147483647,600,-2147483648,0,400,500,-2147483648,-2,1)]
+[sym1(382,-1,0,-2147483648,600,-2147483648,0,400,500,-2147483648,-2,1)]
+[sym1(893,-1,0,-2147483647,600,-2147483648,0,384,484,-2147483648,-2,1)]
+[sym1(893,-1,0,2147475456,600,-2147475457,0,2147483548,-2147483648,-2147483648,-2,1)]
+[sym1(893,-1,0,-2147483648,600,-2147483648,0,2147483548,-2147483648,-2147483648,-2,1)]
+[sym1(512,-1,0,-2147483648,600,-2147483647,0,385,384,-2147483648,-2,0)]
+[sym1(300,-1,0,-2147483648,600,-2147483648,0,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648)]
+[sym1(-2147483648,-1,0,-2147483648,601,-2147483648,0,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648)]
+[sym1(512,-1,-1,-2147483648,600,-2147483647,0,285,384,0,1,1)]
+[sym1(301,-1,-1,-2147483648,600,-2147483648,0,-2147483648,-2147483648,-1,1,-2147483648)]
+
+====================================================== JUnit 4.0 test class
+/*****IMPORTANT:If this is a static class, ensure to write a state resetting function and invoke it where necessary*******/
+import static org.junit.Assert.*;
+import org.junit.Before;
+import org.junit.Test;
+
+public class tcgbenchmarks_tcas_tcasTest {
+
+	private tcgbenchmarks.tcas.tcas tcgbenchmarks_tcas_tcas;
+
+	@Before
+	public void setUp() throws Exception {
+		tcgbenchmarks_tcas_tcas = new tcgbenchmarks.tcas.tcas();
+	}
+
+	@Test
+	public void test0() {
+		tcgbenchmarks_tcas_tcas.sym1(-2147483648,0,0,-2147483648,-2147483648,-2147483648,0,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648);
+	}
+
+	@Test
+	public void test1() {
+		tcgbenchmarks_tcas_tcas.sym1(-2147483648,0,0,-2147483648,-2147483648,-2147483648,1,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648);
+	}
+
+	@Test
+	public void test2() {
+		tcgbenchmarks_tcas_tcas.sym1(-2147483648,0,0,-2147483648,-2147483648,-2147483648,2,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648);
+	}
+
+	@Test
+	public void test3() {
+		tcgbenchmarks_tcas_tcas.sym1(-2147483648,0,0,-2147483648,-2147483648,-2147483648,-2,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648);
+	}
+
+	@Test
+	public void test4() {
+		tcgbenchmarks_tcas_tcas.sym1(-2147483648,0,-1,-2147483648,-2147483648,-2147483648,0,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648);
+	}
+
+	@Test
+	public void test5() {
+		tcgbenchmarks_tcas_tcas.sym1(301,-1,0,-2147483648,600,-2147483648,0,-2147483648,-2147483648,-2147483648,1,-2147483648);
+	}
+
+	@Test
+	public void test6() {
+		tcgbenchmarks_tcas_tcas.sym1(512,-1,0,-2147483648,600,-2147483647,0,285,384,-2147483648,-2,1);
+	}
+
+	@Test
+	public void test7() {
+		tcgbenchmarks_tcas_tcas.sym1(832,-1,0,-2147483648,600,-2147483647,0,285,384,-2147483648,-2,1);
+	}
+
+	@Test
+	public void test8() {
+		tcgbenchmarks_tcas_tcas.sym1(512,-1,0,-2147483648,600,-2147483648,0,285,384,-2147483648,-2,1);
+	}
+
+	@Test
+	public void test9() {
+		tcgbenchmarks_tcas_tcas.sym1(381,-1,0,-2147483648,600,-2147483647,0,349,448,-2147483648,-2,1);
+	}
+
+	@Test
+	public void test10() {
+		tcgbenchmarks_tcas_tcas.sym1(893,-1,0,-2147483648,600,2147483647,0,349,448,-2147483648,-2,1);
+	}
+
+	@Test
+	public void test11() {
+		tcgbenchmarks_tcas_tcas.sym1(894,-1,0,-2147483648,600,-2147483648,0,349,448,-2147483648,-2,1);
+	}
+
+	@Test
+	public void test12() {
+		tcgbenchmarks_tcas_tcas.sym1(381,-1,0,-2147483647,600,-2147483648,0,384,484,-2147483648,-2,1);
+	}
+
+	@Test
+	public void test13() {
+		tcgbenchmarks_tcas_tcas.sym1(382,-1,0,-2147483647,600,-2147483648,0,400,500,-2147483648,-2,1);
+	}
+
+	@Test
+	public void test14() {
+		tcgbenchmarks_tcas_tcas.sym1(382,-1,0,-2147483648,600,-2147483648,0,400,500,-2147483648,-2,1);
+	}
+
+	@Test
+	public void test15() {
+		tcgbenchmarks_tcas_tcas.sym1(893,-1,0,-2147483647,600,-2147483648,0,384,484,-2147483648,-2,1);
+	}
+
+	@Test
+	public void test16() {
+		tcgbenchmarks_tcas_tcas.sym1(893,-1,0,2147475456,600,-2147475457,0,2147483548,-2147483648,-2147483648,-2,1);
+	}
+
+	@Test
+	public void test17() {
+		tcgbenchmarks_tcas_tcas.sym1(893,-1,0,-2147483648,600,-2147483648,0,2147483548,-2147483648,-2147483648,-2,1);
+	}
+
+	@Test
+	public void test18() {
+		tcgbenchmarks_tcas_tcas.sym1(512,-1,0,-2147483648,600,-2147483647,0,385,384,-2147483648,-2,0);
+	}
+
+	@Test
+	public void test19() {
+		tcgbenchmarks_tcas_tcas.sym1(300,-1,0,-2147483648,600,-2147483648,0,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648);
+	}
+
+	@Test
+	public void test20() {
+		tcgbenchmarks_tcas_tcas.sym1(-2147483648,-1,0,-2147483648,601,-2147483648,0,-2147483648,-2147483648,-2147483648,-2147483648,-2147483648);
+	}
+
+	@Test
+	public void test21() {
+		tcgbenchmarks_tcas_tcas.sym1(512,-1,-1,-2147483648,600,-2147483647,0,285,384,0,1,1);
+	}
+
+	@Test
+	public void test22() {
+		tcgbenchmarks_tcas_tcas.sym1(301,-1,-1,-2147483648,600,-2147483648,0,-2147483648,-2147483648,-1,1,-2147483648);
+	}
+}
+
+====================================================== results
+no errors detected
+
+====================================================== statistics
+elapsed time:       00:01:11
+states:             new=4576,visited=0,backtracked=4576,end=416
+search:             maxDepth=28,constraints=0
+choice generators:  thread=1 (signal=0,lock=1,sharedRef=0,threadApi=0,reschedule=0), data=2288
+heap:               new=354,released=3748,maxLive=350,gcCycles=417
+instructions:       44536
+max memory:         486MB
+loaded code:        classes=61,methods=1305
+
+====================================================== search finished: 1/14/22 11:57 AM

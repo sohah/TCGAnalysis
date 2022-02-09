@@ -1,4 +1,0 @@
-ThreadNum , NewOblgCount
-1,84
-2,1
-3,0
